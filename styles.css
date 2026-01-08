@@ -27,6 +27,7 @@ h1 {
 }
 
 .tagline {
+  max-width: 520px;
   color: #94a3b8;
   font-size: 0.95rem;
   text-transform: uppercase;
@@ -41,8 +42,10 @@ h1 {
 }
 
 .intro {
+  max-width: 520px;
+  margin: 0 auto;
   font-size: 1rem;
-  line-height: 1.6;
+  line-height: 1.8;
   color: #cbd5f5;
 }
 
