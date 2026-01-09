@@ -6,8 +6,8 @@
 
 body {
   min-height: 100vh;
-  background: #0f172a; /*deep slate*/
-  color: #e5e7eb;      /*soft white*/
+  background: #0f172a;
+  color: #e5e7eb;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   display: flex;
   align-items: flex-start;
@@ -65,7 +65,7 @@ body {
 
 .infos {
   display: flex;
-  flex-direction: column;   /* 👈 vertical */
+  flex-direction: column;
   gap: 0.6rem;
   margin-top: 0.75rem;
 }
@@ -118,7 +118,7 @@ h1 {
 .divider {
   width: 60px;
   height: 2px;
-  background: #38bdf8; /* accent */
+  background: #38bdf8;
   margin: 1.5rem auto;
 }
 
