@@ -63,6 +63,36 @@ body {
   display: inline-block;
 }
 
+.infos {
+  display: flex;
+  flex-direction: column;   /* 👈 vertical */
+  gap: 0.6rem;
+  margin-top: 0.75rem;
+}
+
+.info {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.45rem 0.7rem;
+  border-radius: 10px;
+  color: #cbd5f5;
+  text-decoration: none;
+  font-size: 0.9rem;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  width: fit-content;
+}
+.info:hover {
+  color: #38bdf8;
+  border-color: rgba(56, 189, 248, 0.4);
+}
+.info .icon {
+  width: 18px;
+  height: 18px;
+  opacity: 0.85;
+}
+
 .status {
   margin-top: 1rem;
   font-size: 0.85rem;
