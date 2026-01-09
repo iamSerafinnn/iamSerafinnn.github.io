@@ -96,11 +96,18 @@ body {
   max-width: 520px;
 }
 .intro-block .divider {
-  margin: 0 0 1rem 0; /* left aligned */
+  width: 60px;
+  height: 2px;
+  background: #38bdf8;
+  margin: 1.5rem auto;
 }
 .intro1,
 .intro2 {
+  max-width: 520px;
   margin: 0;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #cbd5f5;
 }
 
 .status {
