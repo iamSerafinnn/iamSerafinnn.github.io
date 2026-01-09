@@ -91,6 +91,18 @@ body {
   opacity: 0.85;
 }
 
+.intro-block {
+  margin-top: 1.25rem;
+  max-width: 520px;
+}
+.intro-block .divider {
+  margin: 0 0 1rem 0; /* left aligned */
+}
+.intro1,
+.intro2 {
+  margin: 0;
+}
+
 .status {
   margin-top: 1rem;
   font-size: 0.85rem;
@@ -113,7 +125,7 @@ h1 {
   margin-top: 0.35rem;
 }
 
-.divider {
+/* .divider {
   width: 60px;
   height: 2px;
   background: #38bdf8;
@@ -133,7 +145,7 @@ h1 {
   font-size: 1rem;
   line-height: 1.8;
   color: #cbd5f5;
-}
+} */
 
 .cards {
   margin-top: 2rem;
