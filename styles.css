@@ -56,6 +56,12 @@ body {
 .social:hover {
   border-color: rgba(255, 255, 255, 0.25);
 }
+.icon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  display: inline-block;
+}
 
 .status {
   margin-top: 1rem;
