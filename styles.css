@@ -22,16 +22,16 @@ body {
 
 .hero {
   display: grid;
-  grid-template-columns: 1fr 340px;
-  align-items: start;
-  /* align-items: center; */
+  grid-template-columns: 1fr auto;
+  align-items: center;
   gap: 1.25rem;
   /* justify-content: flex-start; */
 }
 .hero-media{
   display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 0.75rem;
-  align-content: start;
+  align-content: center;
 }
 .side-img{
   width: 100%;
