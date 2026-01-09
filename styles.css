@@ -24,7 +24,7 @@ body {
   display: flex;
   align-items: center;
   gap: 1.25rem;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 .hero-text {
   flex: 1;
@@ -121,7 +121,7 @@ h1 {
   width: 60px;
   height: 2px;
   background: #38bdf8;
-  margin: 0 0 1rem 0;
+  margin: 1.5rem auto;
 }
 .intro1,
 .intro2{
