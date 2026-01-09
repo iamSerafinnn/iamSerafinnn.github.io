@@ -225,7 +225,8 @@ h1 {
 @media (max-width: 650px) {
   .cards { grid-template-columns: 1fr; }
   .card { height: auto; max-height: 360px; }
-  .hero {grid-template-columns: 1fr;}
-  .hero-media {display: none;}
-  .side-img {display: none;}
+  .hero-media,
+  .hero-media * ,
+  img.side-img {display: none !important;}
+  .hero {grid-template-columns: 1fr !important;}
 }
