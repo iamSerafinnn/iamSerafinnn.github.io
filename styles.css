@@ -22,7 +22,7 @@ body {
 
 .hero {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 340px;
   align-items: start;
   /* align-items: center; */
   gap: 1.25rem;
