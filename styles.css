@@ -34,7 +34,7 @@ body {
   justify-content: flex-start;
 }
 .side-img{
-  width: 140%;
+  width: 180%;
   height: 400px;
   object-fit: cover;
   border-radius: 16px;
