@@ -113,7 +113,27 @@ h1 {
   margin-top: 0.35rem;
 }
 
-.divider {
+.intros{
+  margin-top: 1rem;
+  max-width: 520px;
+}
+.intros .divider{
+  width: 60px;
+  height: 2px;
+  background: #38bdf8;
+  margin: 0 0 1rem 0;
+}
+.intro1,
+.intro2{
+  max-width: 520px;
+  margin: 0;
+  color: #cbd5f5;
+  line-height: 1.8;
+}
+.intro1{ margin-bottom: 0.35rem; }
+
+
+/* .divider {
   width: 60px;
   height: 2px;
   background: #38bdf8;
@@ -133,7 +153,7 @@ h1 {
   font-size: 1rem;
   line-height: 1.8;
   color: #cbd5f5;
-}
+} */
 
 .cards {
   margin-top: 2rem;
