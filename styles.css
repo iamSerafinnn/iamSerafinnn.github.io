@@ -17,7 +17,7 @@ body {
 .container {
   text-align: center;
   padding: 2rem;
-  max-width: min(1100px, 100%);
+  max-width: min(1200px, 100%;
 }
 
 .status {
@@ -66,12 +66,9 @@ h1 {
 .cards {
   margin-top: 2rem;
   display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: minmax(320px, 1fr);
+  grid-template-columns: repeat(3, minmax(280px, 1fr));
   gap: 1rem;
-  overflow-x: auto;
-  padding-bottom: 0.5rem;
-  scroll-snap-type: x mandatory;
+  align-items: start;
 }
 
 .card {
@@ -81,6 +78,10 @@ h1 {
   padding: 1.25rem;
   text-align: left;
   scroll-snap-align: start;
+  height: 320px;
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+  padding-right: 1rem;
 }
 
 .card h2 {
@@ -105,4 +106,12 @@ h1 {
 }
 .card li:first-child {
   border-top: none;
+}
+
+@media (max-width: 1000px) {
+  .cards { grid-template-columns: repeat(2, minmax(260px, 1fr)); }
+}
+@media (max-width: 650px) {
+  .cards { grid-template-columns: 1fr; }
+  .card { height: auto; max-height: 360px; }
 }
