@@ -31,6 +31,14 @@ body {
   min-width: 0;
 }
 
+.profile{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.profile h1{
+  margin: 0;
+}
 .avatar {
   width: 96px;
   height: 96px;
