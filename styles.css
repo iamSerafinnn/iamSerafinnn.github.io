@@ -15,9 +15,46 @@ body {
 }
 
 .container {
-  text-align: center;
+  text-align: left;
   padding: 2rem;
   max-width: min(1200px, 100%);
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  justify-content: space-between;
+}
+.hero-text {
+  flex: 1;
+}
+
+.avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 999px;
+  object-fit: cover;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.socials {
+  margin-top: 0.75rem;
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+.social {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 0.9rem;
+  padding: 0.4rem 0.65rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+}
+.social:hover {
+  border-color: rgba(255, 255, 255, 0.25);
 }
 
 .status {
@@ -128,4 +165,8 @@ h1 {
 @media (max-width: 650px) {
   .cards { grid-template-columns: 1fr; }
   .card { height: auto; max-height: 360px; }
+  .hero {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
