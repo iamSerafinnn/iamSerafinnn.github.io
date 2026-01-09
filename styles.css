@@ -25,7 +25,7 @@ body {
   grid-template-columns: 1fr auto;
   align-items: center;
   gap: 1.25rem;
-  /* justify-content: flex-start; */
+  justify-content: flex-start;
 }
 .hero-media{
   display: grid;
