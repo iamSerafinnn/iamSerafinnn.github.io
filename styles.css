@@ -81,6 +81,15 @@ h1 {
   padding: 0;
   text-align: left;
 }
+.card h2 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+.card p {
+  color: #94a3b8;
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+}
 
 .card-head {
   position: sticky;
@@ -96,24 +105,15 @@ h1 {
   font-size: 0.95rem;
   color: #94a3b8;
 }
+.card-head h2 {
+  color: #f3f4f6;
+}
 
 .card-body {
   padding: 0.9rem 1.25rem 1.25rem;
   list-style: none;
   margin: 0;
 }
-
-.card h2 {
-  font-size: 1.1rem;
-  margin-bottom: 0.5rem;
-}
-
-.card p {
-  color: #94a3b8;
-  margin-bottom: 0.75rem;
-  line-height: 1.5;
-}
-
 .card-body li {
   padding: 0.35rem 0;
   border-top: 1px solid rgba(255, 255, 255, 0.06);
