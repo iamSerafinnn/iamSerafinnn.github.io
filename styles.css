@@ -22,14 +22,14 @@ body {
 
 .hero {
   display: grid;
-  grid-template-columns: 1fr 520px;
+  grid-template-columns: 1.1fr 1.9fr;
   align-items: center;
-  gap: 1.25rem;
+  gap: 2rem;
 }
 .hero-media{
   display: flex;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+  grid-template-columns: repeat(5, minmax(120px, 1fr));
+  gap: 1rem;
   align-items: center;
   justify-content: flex-start;
 }
