@@ -28,13 +28,13 @@ body {
 }
 .hero-media{
   display: flex;
-  grid-template-columns: repeat(5, minmax(120px, 1fr));
+  grid-template-columns: repeat(5, minmax(140px, 1fr));
   gap: 1rem;
   align-items: center;
   justify-content: flex-start;
 }
 .side-img{
-  width: 180%;
+  width: 140%;
   height: 400px;
   object-fit: cover;
   border-radius: 16px;
