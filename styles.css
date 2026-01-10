@@ -105,35 +105,6 @@ body {
 }
 /*__________________________________________________________________*/
 
-/* Skills */
-/*__________________________________________________________________*/
-.skills {
-  margin: 2.5rem 0;
-}
-.skills-card {
-  height: 320px;
-}
-.skills-scroll {
-  overflow-y: auto;
-  padding-right: 0.5rem;
-  scrollbar-gutter: stable;
-}
-.skills-highlights {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.skills-highlights li {
-  padding: 0.5rem 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.06);
-  color: #cbd5f5;
-  line-height: 1.6;
-}
-.skills-highlights li:first-child {
-  border-top: none;
-}
-/*__________________________________________________________________*/
-
 /* Socials */
 /*__________________________________________________________________*/
 .socials {
