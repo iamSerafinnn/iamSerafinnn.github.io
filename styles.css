@@ -167,17 +167,22 @@ body {
 
 /* Section Divider */
 /*__________________________________________________________________*/
-.section-divider {
+.section-divider-thin {
   width: 100%;
-  height: 2px;
+  height: 1px;
   margin: 2rem 0;
-  background: #38bdf8;
-  /* background: linear-gradient(
+  background: linear-gradient(
     to right,
     transparent,
     rgba(255,255,255,0.15),
     transparent
-  ); */
+  );
+}
+.section-divider-wide {
+  width: 100%;
+  height: 2px;
+  margin: 2rem 0;
+  background: #38bdf8;
 }
 /*__________________________________________________________________*/
 
