@@ -221,6 +221,14 @@ body {
 .edu-mini li:first-child{
   border-top: none;
 }
+.edu-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 999px;
+  object-fit: cover;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  flex-shrink: 0;
+}
 /*__________________________________________________________________*/
 
 /* Name */
