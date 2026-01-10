@@ -378,19 +378,6 @@ h1 {
 
 /* Media (For Mobile) */
 /*__________________________________________________________________*/
-/* @media (max-width: 1000px) {
-  .cards { grid-template-columns: repeat(2, minmax(260px, 1fr)); }
-} */
-/* @media (max-width: 650px) {
-  .cards { grid-template-columns: 1fr; }
-  .card { height: auto; max-height: 360px; }
-  .hero-media,
-  .hero-media * ,
-  img.side-img {display: none !important;}
-  .hero {grid-template-columns: 1fr !important;}
-  .edu-grid{grid-template-columns: 1fr;}
-} */
-
 html, body {
   width: 100%;
   overflow-x: hidden;
@@ -416,7 +403,8 @@ html, body {
            padding: 0.35rem 0.55rem;}
   .cards { grid-template-columns: 1fr; }
   .card {height: auto;
-         max-height: none;}
+         max-height: 360px;
+         grid-template-columns: 1fr;}
   .about {grid-template-columns: 1fr;
           gap: 1.25rem;}
   .bio-img {max-width: 100%;
