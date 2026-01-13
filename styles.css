@@ -256,7 +256,7 @@ body {
 }
 .skills-scroll {
   margin-top: 0.5rem;
-  max-height: 100px;
+  max-height: 160px;
   overflow-y: auto;
   padding-right: 0.5rem;
   scrollbar-gutter: stable;
@@ -274,6 +274,8 @@ body {
 .edu-certs {
   display: flex;
   align-items: center;
+  width: 64px;
+  height: 64px;
   gap: 0.9rem;
   margin-top: 1rem;
   flex-wrap: wrap;
