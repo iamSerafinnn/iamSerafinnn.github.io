@@ -271,6 +271,13 @@ body {
 .skills-scroll::-webkit-scrollbar-track {
   background: transparent;
 }
+.edu-certs {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
 /*__________________________________________________________________*/
 
 /* Organizations */
