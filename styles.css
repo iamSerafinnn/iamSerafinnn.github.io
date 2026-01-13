@@ -327,6 +327,12 @@ body {
   line-height: 1.6;
   color: #cbd5f5;
 }
+.orgs,
+.teams {
+  margin-top: 2.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 /*__________________________________________________________________*/
 
 /* Name */
