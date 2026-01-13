@@ -538,5 +538,24 @@ html, body {
             aspect-ratio: 4 / 5;}
   .reel-tile {width: 240px;
               height: 150px;}
+  .orgs .org-grid,
+  .teams .org-grid {display: grid;
+                    grid-auto-flow: column;
+                    grid-auto-columns: minmax(260px, 85%);
+                    grid-template-columns: unset;
+                    gap: 1rem;
+                    overflow-x: auto;
+                    overflow-y: hidden;
+                    -webkit-overflow-scrolling: touch;
+                    scroll-snap-type: x mandatory;
+                    padding: 0.25rem 1.25rem 0.75rem;
+                    margin: 0 -1.25rem;}
+  .orgs .org-card,
+  .teams .org-card {scroll-snap-align: start;}
+  .orgs .org-grid::-webkit-scrollbar,
+  .teams .org-grid::-webkit-scrollbar {height: 0;}
+  .org-header {gap: 0.65rem;}
+  .org-avatar {width: 44px;
+               height: 44px;}
 }
 /*__________________________________________________________________*/
