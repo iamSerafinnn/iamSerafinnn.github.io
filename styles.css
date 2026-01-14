@@ -409,7 +409,7 @@ h1 {
   margin-bottom: 0.5rem;
 }
 .card p {
-  color: #0f172a;
+  color: #cbd5f5;
   margin-bottom: 0.75rem;
   line-height: 1.5;
 }
@@ -506,6 +506,114 @@ h1 {
 /*__________________________________________________________________*/
 
 
+
+
+/* Project Toggle (Notable Projects Card) */
+/*__________________________________________________________________*/
+.toggle-card {
+  border: 0;
+}
+.toggle-card summary {
+  list-style: none;
+}
+.toggle-card summary::-webkit-details-marker {
+  display: none;
+}
+.toggle-card-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  cursor: pointer;
+
+  color: #cbd5f5;
+  padding: 0.35rem 0;
+}
+/* optional: subtle hover */
+.toggle-card-summary:hover {
+  color: #f3f4f6;
+}
+.toggle-card-content {
+  margin-top: 0.6rem;
+  padding: 0.75rem 0.75rem 0.9rem;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+.toggle-card-title {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #f3f4f6;
+}
+.toggle-card-date {
+  margin: 0.25rem 0 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #94a3b8;
+}
+.toggle-card-bullets {
+  margin: 0;
+  padding-left: 1.1rem;
+  color: #cbd5f5;
+  line-height: 1.6;
+  font-size: 0.9rem;
+}
+.toggle-card-bullets li {
+  border-top: none;
+  padding: 0.2rem 0;
+}
+.toggle-card-skills {
+  margin-top: 0.85rem;
+}
+.skills-label {
+  display: block;
+  margin-bottom: 0.45rem;
+  font-size: 0.85rem;
+  color: #94a3b8;
+}
+.toggle-card-skills .skills-scroll {
+  margin-top: 0;
+  max-height: none;
+  overflow-x: auto;
+  overflow-y: hidden;
+  display: flex;
+  gap: 0.5rem;
+  padding-bottom: 0.25rem;
+  padding-right: 0;
+}
+.toggle-card-skills .skills-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+.toggle-card-skills .skills-scroll::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.2);
+  border-radius: 999px;
+}
+.skill-pill {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  font-size: 0.8rem;
+  color: #e5e7eb;
+  padding: 0.35rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(15,23,42,0.55);
+}
+.toggle-card-photos {
+  margin-top: 0.9rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+.toggle-card-photos img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.12);
+}
+/*__________________________________________________________________*/
+
+
 /* Media (For Mobile) */
 /*__________________________________________________________________*/
 html, body {
@@ -564,6 +672,6 @@ html, body {
                height: 44px;}
   .reel-tile {max-width: 100%;
               border-radius: 14px;}
-  
+  .toggle-card-photos {grid-template-columns: 1fr;}
 }
 /*__________________________________________________________________*/
