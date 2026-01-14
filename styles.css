@@ -598,7 +598,7 @@ h1 {
 .toggle-card-photos {
   margin-top: 0.9rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 0.75rem;
 }
 .toggle-card-photos img {
@@ -669,6 +669,6 @@ html, body {
                height: 44px;}
   .reel-tile {max-width: 100%;
               border-radius: 14px;}
-  .toggle-card-photos {grid-template-columns: 1fr;}
+  .toggle-card-photos {grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));}
 }
 /*__________________________________________________________________*/
