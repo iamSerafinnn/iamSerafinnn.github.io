@@ -506,9 +506,7 @@ h1 {
 /*__________________________________________________________________*/
 
 
-
-
-/* Project Toggle (Notable Projects Card) */
+/* Toggle Cards */
 /*__________________________________________________________________*/
 .toggle-card {
   border: 0;
@@ -529,7 +527,6 @@ h1 {
   color: #cbd5f5;
   padding: 0.35rem 0;
 }
-/* optional: subtle hover */
 .toggle-card-summary:hover {
   color: #f3f4f6;
 }
