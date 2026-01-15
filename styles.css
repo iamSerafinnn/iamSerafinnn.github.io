@@ -184,6 +184,31 @@ body {
   margin: 2rem 0;
   background: #38bdf8;
 }
+.section-divider-accent {
+  width: 100%;
+  height: 3px;
+  margin: 1.5rem 0;
+  border-radius: 999px;
+  background: linear-gradient(
+    90deg,
+    #22c55e,
+    #38bdf8,
+    #22c55e
+  );
+  opacity: 0.85;
+}
+.section-divider-dotted {
+  width: 100%;
+  margin: 1.25rem 0;
+  border-top: 1px dashed rgba(255, 255, 255, 0.35);
+}
+.section-divider-title {
+  width: 64px;
+  height: 3px;
+  margin: 0.5rem 0 1.25rem;
+  border-radius: 4px;
+  background: #38bdf8;
+}
 /*__________________________________________________________________*/
 
 /* Website Status */
@@ -390,7 +415,7 @@ h1 {
 .cards {
   margin-top: 2rem;
   display: grid;
-  grid-template-columns: repeat(3, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1rem;
   align-items: start;
 }
@@ -598,15 +623,30 @@ h1 {
 .toggle-card-photos {
   margin-top: 0.9rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(120px, 130px));
   gap: 0.75rem;
+  justify-content: start;
 }
 .toggle-card-photos img {
   width: 100%;
-  aspect-ratio: 16 / 9;
+  max-width: 320px;
+  aspect-ratio: 4 / 3;
   object-fit: cover;
-  border-radius: 12px;
+  border-radius: 8px;
   border: 1px solid rgba(255,255,255,0.12);
+}
+.toggle-card-location {
+  margin-top: 0.15rem;
+  font-size: 0.85rem;
+  color: rgba(203, 213, 225, 0.85);
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+.toggle-card-location::before {
+  content: "📍";
+  font-size: 0.85rem;
+  opacity: 0.8;
 }
 /*__________________________________________________________________*/
 
@@ -618,9 +658,9 @@ html, body {
   overflow-x: hidden;
 }
 @media (max-width: 650px) {
-  .hero-media,
+  /* .hero-media,
   .hero-media * ,
-  img.side-img {display: none !important;}
+  img.side-img {display: none !important;} */
   .hero {grid-template-columns: 1fr !important;}
   .edu-grid{grid-template-columns: 1fr;}
   .container {padding: 1.25rem;}
