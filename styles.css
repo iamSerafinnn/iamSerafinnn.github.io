@@ -318,6 +318,17 @@ body {
   margin-bottom: 1.25rem;
   color: #f3f4f6;
 }
+.section-grid {display: grid;
+               grid-template-columns: 1fr 1fr;
+               gap: 3rem;
+               align-items: start;
+              }
+.section-col {min-width: 0;}
+.side-title {
+  margin: 0;
+  text-align: right;
+  opacity: 0.85;
+}
 .org-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -654,6 +665,15 @@ h1 {
 /*__________________________________________________________________*/
 
 
+/* Programming Languages */
+/*__________________________________________________________________*/
+.programming {margin-top: 2rem;}
+.skill-group {margin-bottom: 1rem;}
+.skill-pills {display: flex;
+              flex-wrap: wrap;
+              gap: 0.5rem;}
+/*__________________________________________________________________*/
+
 /* Media (For Mobile) */
 /*__________________________________________________________________*/
 html, body {
@@ -726,5 +746,6 @@ html, body {
   .reel-tile {max-width: 100%;
               border-radius: 14px;}
   .toggle-card-photos {grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));}
+  .section-grid {grid-template-columns: 1fr;}
 }
 /*__________________________________________________________________*/
