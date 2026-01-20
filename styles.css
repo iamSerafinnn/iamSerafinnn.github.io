@@ -759,7 +759,8 @@ html, body {
                        height: 65vh;
                        border-radius: 14px;}
   .toggle-card-photos embed {height: 65vh; 
-                            border-radius: 14px;}
+                            border-radius: 14px;
+                            max-width: 100%;}
   .section-grid {grid-template-columns: 1fr;}
   .reel-tile{max-width: 100%;
              border-radius: 14px;}
