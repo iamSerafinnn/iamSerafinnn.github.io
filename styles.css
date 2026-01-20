@@ -737,8 +737,7 @@ html, body {
             height: auto;
             aspect-ratio: 4 / 5;}
   .reel-tile {width: 240px;
-              height: 150px;}
-  
+              height: 300px;}
   .orgs .org-grid,
   .teams .org-grid {display: grid;
                     grid-auto-flow: column;
