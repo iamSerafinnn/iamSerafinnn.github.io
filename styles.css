@@ -502,7 +502,7 @@ h1 {
 .reel-tile {
   position: relative;
   width: 100%;
-  max-width: 720px;
+  max-width: 900px;
   aspect-ratio: 16 / 9;
   border-radius: 18px;
   overflow: hidden;
@@ -511,7 +511,7 @@ h1 {
 }
 .reel-tile.video-large {
   width: 100%;
-  max-width: 900px;
+  max-width: 720px;
   margin: 1.5rem 0;
   object-fit: cover;
   display: block;
@@ -736,8 +736,6 @@ html, body {
   .bio-img {max-width: 100%;
             height: auto;
             aspect-ratio: 4 / 5;}
-  .reel-tile {width: 240px;
-              height: 300px;}
   .orgs .org-grid,
   .teams .org-grid {display: grid;
                     grid-auto-flow: column;
@@ -757,9 +755,14 @@ html, body {
   .org-header {gap: 0.65rem;}
   .org-avatar {width: 44px;
                height: 44px;}
-  .reel-tile {max-width: 100%;
-              border-radius: 14px;}
-  .toggle-card-photos {grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));}
+  .toggle-card-photos {grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+                       height: 65vh;
+                       border-radius: 14px;}
   .section-grid {grid-template-columns: 1fr;}
+  .reel-tile{max-width: 100%;
+             border-radius: 14px;}
+  .reel-overlay{padding: 0.75rem 0.9rem;}
+  .reel-overlay h3{font-size: 0.95rem;}
+  .reel-overlay span{font-size: 0.8rem; }
 }
 /*__________________________________________________________________*/
