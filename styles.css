@@ -756,9 +756,10 @@ html, body {
   .org-avatar {width: 44px;
                height: 44px;}
   .toggle-card-photos {grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-                       height: 65vh;
                        border-radius: 14px;}
-  .toggle-card-photos embed {max-width: 100%;}
+  .toggle-card-photos embed {grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+                             border-radius: 14px;
+                             max-width: 100%;}
   .section-grid {grid-template-columns: 1fr;}
   .reel-tile{max-width: 100%;
              border-radius: 14px;}
