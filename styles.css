@@ -759,10 +759,10 @@ html, body {
                        border-radius: 14px;}
   .toggle-card-photos embed {grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
                              border-radius: 14px;
-                             max-width: 120px;}
+                             max-width: 160px;}
   .toggle-card-photos iframe {grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
                              border-radius: 14px;
-                             max-width: 120px;}
+                             max-width: 1600px;}
   .section-grid {grid-template-columns: 1fr;}
   .reel-tile{max-width: 100%;
              border-radius: 14px;}
