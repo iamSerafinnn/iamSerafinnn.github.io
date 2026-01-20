@@ -758,6 +758,8 @@ html, body {
   .toggle-card-photos {grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
                        height: 65vh;
                        border-radius: 14px;}
+  .toggle-card-photos embed {height: 65vh; 
+                            border-radius: 14px;}
   .section-grid {grid-template-columns: 1fr;}
   .reel-tile{max-width: 100%;
              border-radius: 14px;}
