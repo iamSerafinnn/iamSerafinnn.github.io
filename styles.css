@@ -122,7 +122,7 @@ body {
   font-size: 0.9rem;
   padding: 0.4rem 0.65rem;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.25);
   border: 1px solid rgba(255, 255, 255, 0.10);
 }
 .social:hover {
@@ -153,7 +153,7 @@ body {
   color: #cbd5f5;
   text-decoration: none;
   font-size: 0.9rem;
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(255, 255, 255, 0.25);
   border: 1px solid rgba(255, 255, 255, 0.08);
   width: fit-content;
 }
@@ -649,7 +649,7 @@ h1 {
   color: #e5e7eb;
   padding: 0.35rem 0.6rem;
   border-radius: 999px;
-  border: 1px solid rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.25);
   background: rgba(15,23,42,0.55);
 }
 .toggle-card-photos {
