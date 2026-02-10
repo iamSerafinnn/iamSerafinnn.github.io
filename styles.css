@@ -65,14 +65,14 @@ body {
 .hero-media{
   display: flex;
   grid-template-columns: repeat(5, minmax(180px, 1fr));
-  gap: 4rem;
+  gap: 0rem;
   align-items: center;
   justify-content: flex-start;
   -webkit-overflow-scrolling: touch;
   overflow-x: auto;
 }
 .side-img{
-  width: 380%;
+  width: 300px;
   height: 400px;
   object-fit: cover;
   border-radius: 16px;
@@ -335,7 +335,7 @@ body {
   gap: 1rem;
 }
 .org-card {
-  background: rgba(255, 255, 255, 0.04);
+  background-color: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 13px;
   padding: 1.1rem 1.25rem;
@@ -437,7 +437,7 @@ h1 {
   height: 320px;
   overflow-y: auto;
   position: relative;
-  background: rgba(255, 255, 255, 0.04);
+  background-color: rgba(255, 255, 255, 0.04);
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 16px;
   padding: 0;
@@ -470,9 +470,11 @@ h1 {
   color: #f3f4f6;
 }
 .card-body {
+  min-height: 240px;
   padding: 0.9rem 1.25rem 1.25rem;
   list-style: none;
   margin: 0;
+  background-color: rgba(255, 255, 255, 0.04);
 }
 .card-body li {
   padding: 0.35rem 0;
@@ -719,7 +721,7 @@ html, body {
                padding: 0 12px 0.5rem;
                scroll-padding: 12px;}
   .side-img {width: 260px; 
-             height: 350px;
+             height: 380px;
              flex: 0 0 auto;
              object-fit: cover;
              border-radius: 14px;
