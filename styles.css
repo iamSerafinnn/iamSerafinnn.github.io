@@ -712,6 +712,8 @@ html, body {
   .hero {grid-template-columns: 1fr !important;
          overflow: visible;
          gap: 1.25rem;}
+  body {background-attachment: scroll;
+        background-position: center top;}
   .hero-media {display: flex;
                gap: 0.75rem;
                overflow-x: auto;
