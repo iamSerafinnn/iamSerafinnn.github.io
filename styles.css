@@ -53,19 +53,6 @@ body {
 }
 /*__________________________________________________________________*/
 
-
-.list{
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.list li{
-  margin-bottom: 0.6rem;
-  font-size: 0.95rem;
-}
-
-
 /* Hero (Images) */
 /*__________________________________________________________________*/
 .hero {
@@ -704,7 +691,6 @@ h1 {
 }
 /*__________________________________________________________________*/
 
-
 /* Programming Languages */
 /*__________________________________________________________________*/
 .programming {margin-top: 2rem;}
@@ -796,5 +782,102 @@ html, body {
   .reel-overlay{padding: 0.75rem 0.9rem;}
   .reel-overlay h3{font-size: 0.95rem;}
   .reel-overlay span{font-size: 0.8rem; }
+}
+/*__________________________________________________________________*/
+
+
+
+
+/* Goals Section */
+/*__________________________________________________________________*/
+.goals-section {
+  padding: 1rem 0 2rem;
+}
+
+.goals-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.goal-card {
+  background-color: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 13px;
+  padding: 1.1rem 1.25rem;
+  transition: border-color 0.2s ease;
+}
+
+.goal-card:hover {
+  border-color: rgba(56, 189, 248, 0.35);
+}
+
+.goal-card-head h3 {
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #94a3b8;
+  margin-bottom: 0.2rem;
+}
+
+.goal-card-head p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #f3f4f6;
+  margin-bottom: 0.65rem;
+  line-height: 1.4;
+}
+
+.goal-desc {
+  font-size: 0.875rem;
+  line-height: 1.65;
+  color: #cbd5f5;
+  margin: 0;
+}
+
+.goals-long-term {
+  border-left: 2px solid rgba(56, 189, 248, 0.45);
+  padding-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.goals-long-term h4 {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #f3f4f6;
+  margin-bottom: 0.6rem;
+}
+
+.goals-long-term ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.goals-long-term ul li {
+  font-size: 0.875rem;
+  color: #cbd5f5;
+  line-height: 1.6;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.goals-long-term ul li::before {
+  content: '→';
+  color: #38bdf8;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+@media (max-width: 650px) {
+  .goals-grid {
+    grid-template-columns: 1fr;
+  }
 }
 /*__________________________________________________________________*/
