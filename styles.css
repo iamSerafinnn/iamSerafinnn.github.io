@@ -973,6 +973,14 @@ html {
   white-space: nowrap;
   flex-shrink: 0;
 }
+.cert-date-1 {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  white-space: nowrap;
+  flex-shrink: 0;
+  padding-top: 1rem;
+  display: none;
+}
 .cert-body {
   padding: 0 1.1rem 1rem;
   display: flex;
@@ -1100,7 +1108,7 @@ html, body {
 
   .cert-date {
     display: none;
-    margin-top: 0;
   }
+  .cert-date-1 {display: contents}
 }
 /*__________________________________________________________________*/
