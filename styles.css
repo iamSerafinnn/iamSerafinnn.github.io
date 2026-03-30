@@ -1109,6 +1109,6 @@ html, body {
   .cert-date {
     display: none;
   }
-  .cert-date-1 {display: contents}
+  .cert-date-1 {display: block;}
 }
 /*__________________________________________________________________*/
