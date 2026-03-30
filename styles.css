@@ -1088,7 +1088,7 @@ html, body {
   .tab-card-head {flex-direction: column;
                   align-items: flex-start;
                   gap: 0.35rem; }
-  .section-title {scroll-margin-top: 150px; }
+  .section-title {scroll-margin-top: 200px; }
   .cert-summary {
     display: flex;
     flex-direction: column !important;
@@ -1109,6 +1109,11 @@ html, body {
   .cert-date {
     display: none;
   }
-  .cert-date-1 {display: block;}
+  .cert-date-1 {font-size: 0.8rem;
+  color: #94a3b8;
+  white-space: nowrap;
+  flex-shrink: 0;
+  padding-top: 1rem;
+  display: none;}
 }
 /*__________________________________________________________________*/
