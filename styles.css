@@ -1110,10 +1110,10 @@ html, body {
     display: none;
   }
   .cert-date-1 {font-size: 1.2rem;
-  color: #94a3b8;
-  white-space: nowrap;
-  flex-shrink: 0;
-  padding-top: 1rem;
-  display: none;}
+                color: #94a3b8;
+                white-space: nowrap;
+                flex-shrink: 0;
+                padding-top: 1rem;
+                display: block;}
 }
 /*__________________________________________________________________*/
