@@ -1080,10 +1080,11 @@ html, body {
   .tab-card-head {flex-direction: column;
                   align-items: flex-start;
                   gap: 0.35rem; }
-  .tab-card-title {width: 100%; }
+  .cert-name,
+  .toggle-card-summary {width: 100%; }
   .tab-card-tag,
-  .tab-card-date {display: block;
-                  align-self: flex-start;
-                  margin-top: 0;}
+  .cert-date {display: block;
+              align-self: flex-start;
+              margin-top: 0;}
 }
 /*__________________________________________________________________*/
