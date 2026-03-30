@@ -1080,6 +1080,7 @@ html, body {
   .tab-card-head {flex-direction: column;
                   align-items: flex-start;
                   gap: 0.35rem; }
+  .cert-summary {flex-direction: column; }
   .cert-name,
   .toggle-card-summary {width: 100%; }
   .tab-card-tag,
