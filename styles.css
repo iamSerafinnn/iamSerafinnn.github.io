@@ -1099,7 +1099,7 @@ html, body {
   }
 
   .cert-date {
-    display: block;
+    display: none;
     margin-top: 0;
   }
 }
