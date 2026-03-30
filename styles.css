@@ -999,7 +999,8 @@ html, body {
 @media (max-width: 650px) {
   .hero {grid-template-columns: 1fr !important;
          overflow: visible;
-         gap: 1.25rem;}
+         gap: 1.25rem;
+         display:none;}
   body {background-attachment: scroll;
         background-position: center top;}
   .hero-media {display: flex;
