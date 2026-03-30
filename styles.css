@@ -1090,7 +1090,7 @@ html, body {
                   gap: 0.35rem; }
   .container {padding-top: 5rem; }
   .cert-date {display: none;}
-  .cert-date-1 {font-size: 1.0rem;
+  .cert-date-1 {font-size: 0.8rem;
                 color: #94a3b8;
                 white-space: nowrap;
                 flex-shrink: 0;
