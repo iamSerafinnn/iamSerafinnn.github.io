@@ -1097,7 +1097,7 @@ html, body {
     gap: 0.35rem;
   }
 
-  .cert-name {
+  /* .cert-name {
     display: block;
     width: 100%;
   }
@@ -1105,7 +1105,7 @@ html, body {
   .tab-card-tag {
     display: block;
     margin-top: 0.25rem;
-  }
+  } */
 
   .cert-date {
     display: none;
