@@ -1080,11 +1080,26 @@ html, body {
   .tab-card-head {flex-direction: column;
                   align-items: flex-start;
                   gap: 0.35rem; }
-  .cert-summary {flex-direction: column; }
-  .cert-name,
-  .toggle-card-summary {width: 100%; }
-  .tab-card-tag {display: block;
-                 align-self: flex-start;
-                 margin-top: 0;}
+  .cert-summary {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.35rem;
+  }
+
+  .cert-name {
+    display: block;
+    width: 100%;
+  }
+
+  .tab-card-tag {
+    display: block;
+    margin-top: 0.25rem;
+  }
+
+  .cert-date {
+    display: block;
+    margin-top: 0;
+  }
 }
 /*__________________________________________________________________*/
