@@ -1088,28 +1088,8 @@ html, body {
   .tab-card-head {flex-direction: column;
                   align-items: flex-start;
                   gap: 0.35rem; }
-  .container {padding-top: 10rem; }
-  .section-title {scroll-margin-top: 200px; }
-  .cert-summary {
-    display: flex;
-    flex-direction: column !important;
-    align-items: flex-start;
-    gap: 0.35rem;
-  }
-
-  /* .cert-name {
-    display: block;
-    width: 100%;
-  }
-
-  .tab-card-tag {
-    display: block;
-    margin-top: 0.25rem;
-  } */
-
-  .cert-date {
-    display: none;
-  }
+  .container {padding-top: 5rem; }
+  .cert-date {display: none;}
   .cert-date-1 {font-size: 1.2rem;
                 color: #94a3b8;
                 white-space: nowrap;
