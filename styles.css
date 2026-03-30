@@ -1088,6 +1088,7 @@ html, body {
   .tab-card-head {flex-direction: column;
                   align-items: flex-start;
                   gap: 0.35rem; }
+  .container {padding-top: 10rem; }
   .section-title {scroll-margin-top: 200px; }
   .cert-summary {
     display: flex;
