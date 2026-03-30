@@ -1080,6 +1080,7 @@ html, body {
   .tab-card-head {flex-direction: column;
                   align-items: flex-start;
                   gap: 0.35rem; }
+  .section-title {scroll-margin-top: 150px; }
   .cert-summary {
     display: flex;
     flex-direction: column;
