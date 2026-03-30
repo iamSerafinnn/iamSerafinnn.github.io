@@ -35,7 +35,21 @@
 
 <!-- ______________________________________________________________________________ -->
 <body>
-  <main class="container">
+  <nav class="navbar">
+    <span class="navbar-label">Navigate Through The Site</span>
+    <a href="#hero">Home</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Technical Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Notable Projects</a>
+    <a href="#awards">Certifications & Awards</a>
+    <a href="#organizations">Organizations</a>
+    <a href="#about">About</a>
+    <a href="#goals">Goals</a>
+    <a href="#videos">Videos</a>
+  </nav>
+
+  <main class="container" id="hero">
 
     <!-- Header Section -->
     <!-- ______________________________________________________________________________ -->
@@ -141,7 +155,7 @@
     
     <!-- Education Section -->
     <!-- ______________________________________________________________________________ -->
-    <h2 class="section-title">Education</h2>
+    <h2 class="section-title" id="education">Education</h2>
     <div class="section-divider-title"></div>
     <div class="edu-grid">
 
@@ -232,12 +246,14 @@
     <!-- Technical Skills -->
     <!-- ______________________________________________________________________________ -->
     <section class="technical-skills">
+      <h2 class="section-title" id="skills">Technical Skills</h2>
+      <div class="section-divider-title"></div>
+
       <div class="section-grid">
         <!-- Programming Languages -->
         <div class="section-col">
-          <h2 class="section-title">Programming Languages</h2>
-          <div class="section-divider-title"></div>
-
+          <div class="reels-head"><h2 class="section-title">Programming Languages</h2></div>
+          <div class="section-divider-thin"></div>
           <!-- Languages -->
           <div class="skills-scroll">
             <!-- Proficient Languages -->
@@ -269,8 +285,8 @@
 
         <!-- Development Tools -->
         <div class="section-col">
-          <h2 class="section-title">Development Tools</h2>
-          <div class="section-divider-title"></div>
+          <div class="reels-head"><h2 class="section-title">Development Tools</h2></div>
+          <div class="section-divider-thin"></div>
 
           <!-- Development Tools Most Used -->
           <div class="skills-scroll">
@@ -310,14 +326,15 @@
     <!-- ______________________________________________________________________________ -->
     <div class="section-divider-accent"></div>
     <!-- ______________________________________________________________________________ -->
-
     
     <!-- Experience Section -->
     <!-- ______________________________________________________________________________ -->
-    <h2 class="section-title">Experience</h2>
+    <h2 class="section-title" id="experience">Experience</h2>
     <div class="section-divider-title"></div>
     <p class="status">Click On Each Experience for More Information</p>
     <div class="section-divider-thin"></div>  
+
+    <!-- Experience Column 1 (Technical and Athletics)-->
     <section class="cards">
 
       <!-- Technical -->
@@ -333,7 +350,8 @@
            <li>
             <details class="toggle-card">
               <summary class="toggle-card-summary">
-                Wearable Technology and Sensory Enhancement Laboratory Research ★Active★
+                Wearable Technology and Sensory Enhancement Laboratory Research
+                <span class="tab-card-tag">Active</span>
               </summary>
 
               <div class="toggle-card-content">
@@ -372,7 +390,8 @@
           <li>
             <details class="toggle-card">
               <summary class="toggle-card-summary">
-                CodePath CyberSecurity - CYB 102 ★Active★
+                CodePath CyberSecurity - CYB 102
+                <span class="tab-card-tag">Active</span>
               </summary>
 
               <div class="toggle-card-content">
@@ -511,7 +530,8 @@
           <li>
             <details class="toggle-card">
               <summary class="toggle-card-summary">
-                Berber City FC (Main Team) ★Active★
+                Berber City FC (Main Team)
+                <span class="tab-card-tag">Active</span>
               </summary>
 
               <div class="toggle-card-content">
@@ -574,7 +594,8 @@
           <li>
             <details class="toggle-card">
               <summary class="toggle-card-summary">
-                Machu Picchu FC (Secondary Team) ★Active★
+                Machu Picchu FC (Secondary Team)
+                <span class="tab-card-tag">Active</span>
               </summary>
 
               <div class="toggle-card-content">
@@ -633,7 +654,8 @@
           <li>
             <details class="toggle-card">
               <summary class="toggle-card-summary">
-                Chicago City SC (Side Team) ★Active★
+                Chicago City SC (Additional Side Games)
+                <span class="tab-card-tag">Active</span>
               </summary>
 
               <div class="toggle-card-content">
@@ -674,7 +696,8 @@
           <li>
             <details class="toggle-card">
               <summary class="toggle-card-summary">
-                UIC Men's Club Soccer ★Active★
+                UIC Men's Club Soccer (Additional Side Training)
+                <span class="tab-card-tag">Active</span>
               </summary>
 
               <div class="toggle-card-content">
@@ -948,6 +971,7 @@
             <details class="toggle-card">
               <summary class="toggle-card-summary">
                 Notable Soccer Competitions
+                <span class="tab-card-tag">Active</span>
               </summary>
 
               <div class="toggle-card-content">
@@ -955,7 +979,10 @@
                 <!-- UIC Soccer Intramural Leagues -->
                 <li>
                   <details class="toggle-card">
-                    <summary class="toggle-card-summary">UIC Soccer Intramural Leagues</summary>
+                    <summary class="toggle-card-summary">
+                      UIC Soccer Intramural Leagues (Additional Side Games)
+                      <span class="tab-card-tag">Active</span>
+                    </summary>
                     <p class="toggle-card-date">August 2022 - Present</p>
                     <p class="toggle-card-location">Chicago IL, United States</p>
 
@@ -1040,13 +1067,15 @@
       </div>
 
     </section>
+
+    <!-- Experience Column 2 (Student Involvement and Work Experience) -->
     <section class="cards">
 
-      <!-- Leadership -->
+      <!-- Student Involvement -->
       <div class="card">
         <div class="card-head">
-          <h2>Leadership</h2>
-          <p>Leadership Experiences</p>
+          <h2>Student Involvement</h2>
+          <p>Student Involvement Experiences</p>
         </div>
         <ul class="card-body">
 
@@ -1054,7 +1083,8 @@
           <li>
             <details class="toggle-card">
               <summary class="toggle-card-summary">
-                Society of Professional Hispanic Engineers at UIC ★Active★
+                Society of Professional Hispanic Engineers at UIC
+                <span class="tab-card-tag">Active</span>
               </summary>
 
               <div class="toggle-card-content">
@@ -1155,7 +1185,8 @@
           <li>
             <details class="toggle-card">
               <summary class="toggle-card-summary">
-                Filipinos In Alliance at UIC ★Active★
+                Filipinos In Alliance at UIC
+                <span class="tab-card-tag">Active</span>
               </summary>
 
               <div class="toggle-card-content">
@@ -1386,376 +1417,12 @@
     
         </ul>
       </div>
-
-      <!-- Notable Projects -->
-      <div class="card">
-        <div class="card-head">
-          <h2>Notable Projects</h2>
-          <p>Notable Projects Worked On</p>
-        </div>
-        <ul class="card-body">
-
-          <!-- Inventory Management Platform for Crafters -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                UI/UX Inventory Management Platform for Crafters<br>★In Progress★
-              </summary>
-
-              <div class="toggle-card-content">
-                <h3 class="toggle-card-title">Inventory Management Platform for Crafters</h3>
-                <p class="toggle-card-date">February 2026 - Present</p>
-
-                <ul class="toggle-card-bullets">
-                  <li>Developing a React-based inventory management interface in a 5-person engineering team to help crafters organize materials, projects, and references in one centralized platform.</li>
-                  <li>Designing UI components for tracking 50+ potential crafting materials, including quantities, categories, and project associations.</li>
-                  <li>Implementing features that allow users to manage multiple craft projects simultaneously and track progress across different project stages.</li>
-                  <li>Applying insights from 3+ user interviews with experienced crafters to improve UI workflows for inventory tracking and project planning.</li>
-                  <li>Collaborating through Git/GitHub with 5 developers to build responsive React components using HTML, CSS, and modern frontend practices.</li>
-                </ul>
-
-                <div class="toggle-card-skills">
-                  <span class="skills-label">Skills Used</span>
-                  <div class="skills-scroll">
-                    <span class="skill-pill">React.js</span>
-                    <span class="skill-pill">Git and GitHub</span>
-                    <span class="skill-pill">UI/UX Design</span>
-                    <span class="skill-pill">VS Code</span>
-                    <span class="skill-pill">HTML</span>
-                    <span class="skill-pill">CSS Styling</span>
-                  </div>
-                </div>
-              </div>
-            </details>
-          </li>
-
-          <!--  Wearable Technology and Sensory Enhancement Device UI-->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                User Interface for Sensory Enhancement Wearable Device<br>★In Progress★
-              </summary>
-
-              <div class="toggle-card-content">
-                <h3 class="toggle-card-title">UI for Intra-Oral Respirometer Bio-Medical Sensoring Device</h3>
-                <p class="toggle-card-date">February 2026 - Present</p>
-
-                <ul class="toggle-card-bullets">
-                  <li>Collaborating with a team of engineers to design and implement the user interface for an intra-oral respirometer wearable device.</li>
-                  <li>Assisting in the development of UI components for real-time visualization of respiratory and biometric signals such as respiratory rate, pressure, and oxygen saturation.</li>
-                  <li>Supporting integration between the UI and BLE-based sensor data streams to ensure stable real-time monitoring during physical activity.</li>
-                  <li>Contributing to UI/UX improvements for experimental workflows, including visualization of sensor waveforms and adjustable thresholds for stress detection.</li>
-                  <li>Participating in collaborative development using Git/GitHub and modern frontend tools to build a reliable interface for biomedical research experiments.</li>
-                </ul>
-
-                <div class="toggle-card-skills">
-                  <span class="skills-label">Skills Used</span>
-                  <div class="skills-scroll">
-                    <span class="skill-pill">React.js</span>
-                    <span class="skill-pill">Git and GitHub</span>
-                    <span class="skill-pill">UI/UX Design</span>
-                    <span class="skill-pill">VS Code</span>
-                    <span class="skill-pill">Applied Biomedical Engineering</span>
-                  </div>
-                </div>
-              </div>
-            </details>
-          </li>
-
-          <!-- Make Or Break - Structure Building Physics Simulator -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                Make Or Break - Structure Building and Physics Simulator<br>★In Progress★
-              </summary>
-
-              <div class="toggle-card-content">
-                <h3 class="toggle-card-title">Make Or Break Natural Disaster Physics Simulator</h3>
-                <p class="toggle-card-date">January 2026 - Present</p>
-
-                <ul class="toggle-card-bullets">
-                  <li>Developed a Unity-based simulation in a 4-person team as part of a course project</li>
-                  <li>Implemented a simulator demonstrating how structures respond to various natural disasters</li>
-                  <li>Programmed a 3D environment with in-game physics, where buildings react to simulated forces and gravity</li>
-                  <li>Gained hands-on experience using Unity game development tools and workflows</li>
-                  <li>Demonstrated technical skills in computer graphics, 3D environment modeling, and game development</li>
-                </ul>
-
-                <div class="toggle-card-skills">
-                  <span class="skills-label">Skills Used</span>
-                  <div class="skills-scroll">
-                    <span class="skill-pill">Unity Development Software</span>
-                    <span class="skill-pill">In-Game Physics Programming</span>
-                    <span class="skill-pill">3D Modeling Computer Graphics</span>
-                    <span class="skill-pill">Game Development and Design</span>
-                    <span class="skill-pill">Software Team Development</span>
-                  </div>
-                </div>
-
-                <div class="toggle-card-photos">
-                  <embed src="projects/MakeOrBreak.png" width="200%" alt="">
-                </div>
-              </div>
-            </details>
-
-          </li>
-
-          <!-- Personal Website -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                Personal Portfolio Website - This Website
-              </summary>
-
-              <div class="toggle-card-content">
-                <h3 class="toggle-card-title">Personal Portfolio Website</h3>
-                <p class="toggle-card-date">December 2025 – January 2026</p>
-
-                <ul class="toggle-card-bullets">
-                  <li>Designed and built a fully responsive personal portfolio website from scratch to showcase computer science projects, athletics experience, and certifications</li>
-                  <li>Implemented reusable toggle-card components to organize projects, awards, and experiences with a clean, scalable layout</li>
-                  <li>Applied semantic HTML and custom CSS to create a consistent visual identity and intuitive user experience across devices</li>
-                  <li>Deployed and maintained the site using GitHub Pages, managing version control, asset optimization, and iterative updates</li>
-                  <li>Gained first-hand experience in front-end web development, learning best practices in layout, responsiveness, and content organization</li>
-                </ul>
-
-                <div class="toggle-card-skills">
-                  <span class="skills-label">Skills Used</span>
-                  <div class="skills-scroll">
-                    <span class="skill-pill">HTML</span>
-                    <span class="skill-pill">CSS Styling</span>
-                    <span class="skill-pill">Web Development</span>
-                    <span class="skill-pill">Git & GitHub</span>
-                    <span class="skill-pill">UI/UX Design</span>
-                  </div>
-                </div>
-
-                <!-- <div class="toggle-card-photos">
-                  <img src="image1.jpg" alt="">
-                  <img src="image2.jpg" alt="">
-                </div> -->
-              </div>
-            </details>
-          </li>
-
-          <!-- Wild Realms Immersive Wildlife Simulation -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                Wild Realms Immersive Wildlife Simulator
-              </summary>
-
-              <div class="toggle-card-content">
-                <h3 class="toggle-card-title">Wild Realms Immersive Wildlife Simulator</h3>
-                <p class="toggle-card-date">September 2025 – December 2025</p>
-
-                <ul class="toggle-card-bullets">
-                  <li>Built an interactive simulator enabling users to explore 6 global biomes and monitor 10+ species under environmental stress</li>
-                  <li>Implemented map navigation and 3D monitoring using React components and an integrated Google Earth API</li>
-                  <li>Worked on 2 different biomes, Desert and Tundra, implementing a discovery mode where the user has to explore and find the 5 different animals of the biome</li>
-                  <li>Hands-on experience in computer graphics implementing a 3D environment with React</li>
-                  <li>Collaborated in a team of 4, contributing to UI development and integration of environmental state updates</li>
-                </ul>
-
-                <a class="info" href="https://poly.pizza/u/Poly%20by%20Google"> Credits: Models Used From Poly By Google</a>
-                <a class="info" href="https://poly.pizza/u/Quaternius"> Credits: Models Used From Quaternius</a>
-
-                <div class="toggle-card-skills">
-                  <span class="skills-label">Skills Used</span>
-                  <div class="skills-scroll">
-                    <span class="skill-pill">React</span>
-                    <span class="skill-pill">Three.js</span>
-                    <span class="skill-pill">Computer 3D Modeling</span>
-                    <span class="skill-pill">Computer Graphics</span>
-                  </div>
-                </div>
-
-                <div class="toggle-card-photos">
-                  <iframe
-                    src="https://www.youtube.com/embed/LtZUJS0SFOU"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen>
-                  </iframe>
-                </div>
-                <div class="toggle-card-photos">
-                  <iframe
-                    src="https://www.youtube.com/embed/rsEznuca4DE"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen>
-                  </iframe>
-                </div>
-              </div>
-            </details>
-          </li>
-
-          <!-- Amazon Product Reviews Search Query Database System -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                Amazon Product Reviews Search Query Database System
-              </summary>
-
-              <div class="toggle-card-content">
-                <h3 class="toggle-card-title">Amazon Product Reviews Search Query Database System</h3>
-                <p class="toggle-card-date">September 2025 – December 2025</p>
-                <ul class="toggle-card-bullets">
-                  <li>Designed the end-to-end vector data pipeline for 50,000+ Amazon product reviews, transforming raw text into embeddings to enable semantic similarity search</li>
-                  <li>Architected and implemented the PostgreSQL database system from a self-designed ER/relational diagram, defining tables, relationships, constraints, and indexes</li>
-                  <li>Optimized SQL analytics and retrieval queries integrated with C++ logic, achieving a ~35% reduction in query latency through indexing and query planning</li>
-                  <li>Developed the database schema and data flow architecture diagrams that guided system implementation and ensured scalability and clarity across the team</li>
-                  <li>Collaborated in a 3-person team using Git-based workflows, integrating vector search infrastructure with teammate-implemented user prompts and interfaces</li>
-                </ul>
-
-                <div class="toggle-card-skills">
-                  <span class="skills-label">Skills Used</span>
-                  <div class="skills-scroll">
-                    <span class="skill-pill">Vector Databases</span>
-                    <span class="skill-pill">Databases</span>
-                    <span class="skill-pill">PostgreSQL</span>
-                    <span class="skill-pill">SQL</span>
-                    <span class="skill-pill">Python (Programming Language)</span>
-                  </div>
-                </div>
-
-                <div class="toggle-card-photos">
-                  <embed src="projects/480ProjectERD.pdf" width="400%" alt="">
-                </div>
-                <div class="toggle-card-photos">
-                  <embed src="projects/CS 480 ER Diagram For Amazon Products Project 2.pdf" width="400%" alt="">
-                </div>
-              </div>
-            </details>
-          </li>
-
-          <!-- JavaFX Card Poker Game -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                JavaFX Card Poker Game
-              </summary>
-
-              <div class="toggle-card-content">
-                <h3 class="toggle-card-title">JavaFX Card Poker Game</h3>
-                <p class="toggle-card-date">Oct 2024 - Nov 2024</p>
-
-                <ul class="toggle-card-bullets">
-                  <li>Developed a fully functional GUI-based Three Card Poker game using Java, JavaFX, and CSS, implementing complete betting mechanics including Ante, Pair Plus, and Play rules.</li>
-                  <li>Engineered game logic and dealer AI to handle hand evaluation, win/loss determination, and payout resolution across all gameplay phases.</li>
-                  <li>Implemented and validated win–loss detection algorithms, achieving 100% correctness across extensive unit tests and gameplay simulations.</li>
-                  <li>Designed scene-based UI flow using FXML controllers, ensuring smooth transitions between betting, dealing, and results phases.</li>
-                  <li>Collaborated in a two-person team using IntelliJ and Git, coordinating feature development, debugging, and final integration.</li>
-                </ul>
-
-                <div class="toggle-card-skills">
-                  <span class="skills-label">Skills Used</span>
-                  <div class="skills-scroll">
-                    <span class="skill-pill">JavaFX</span>
-                    <span class="skill-pill">Java</span>
-                    <span class="skill-pill">Game Programming</span>
-                    <span class="skill-pill">Program Design</span>
-                  </div>
-                </div>
-
-                <div class="toggle-card-photos">
-                  <iframe
-                    src="https://www.youtube.com/embed/Jk-u6NlC850"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen>
-                  </iframe>
-                </div>
-              </div>
-            </details>
-          </li>
-
-          <!-- C++ Data Structure Priority Queue -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                C++ Data Structure Priority Queue
-              </summary>
-
-              <div class="toggle-card-content">
-                <h3 class="toggle-card-title">C++ Data Structure Priority Queue</h3>
-                <p class="toggle-card-date">November 2023</p>
-
-                <ul class="toggle-card-bullets">
-                  <li>Implemented a custom priority queue in C++ using a binary search tree (BST) ordered by priority values.</li>
-                  <li>Designed priority-based dequeue logic that dynamically reorders nodes after each removal to maintain correctness.</li>
-                  <li>Applied object-oriented programming principles, using classes, encapsulation, and modular design.</li>
-                  <li>Utilized pointers and recursion to manage tree traversal, insertion, and deletion operations efficiently.</li>
-                  <li>Strengthened understanding of core data structures and algorithmic complexity, including tree height and operation costs</li>
-                </ul>
-
-                <div class="toggle-card-skills">
-                  <span class="skills-label">Skills Used</span>
-                  <div class="skills-scroll">
-                    <span class="skill-pill">C++</span>
-                    <span class="skill-pill">Object-Oriented Programming and Designing</span>
-                    <span class="skill-pill">Data Structures</span>
-                    <span class="skill-pill">Binary Trees</span>
-                    <span class="skill-pill">Linked List</span>
-                    <span class="skill-pill">Complexity Optimization</span>
-                  </div>
-                </div>
-
-                <!-- <div class="toggle-card-photos">
-                  <img src="image1.jpg" alt="">
-                  <img src="image2.jpg" alt="">
-                </div> -->
-              </div>
-            </details>
-          </li>
-
-          <!-- Python Turtle Graphics Air Hockey 2D Game -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                Python Turtle Graphics Air Hockey 2D Game
-              </summary>
-
-              <div class="toggle-card-content">
-                <h3 class="toggle-card-title">Python Turtle Graphics Air Hockey 2D Game</h3>
-                <p class="toggle-card-date">November 2022</p>
-
-                <ul class="toggle-card-bullets">
-                  <li>Built a two-player 2D Pong-style game in Python using Turtle Graphics, developed and executed on Replit</li>
-                  <li>Implemented real-time paddle movement and ball collision detection with walls and player paddles</li>
-                  <li>Developed score tracking and win-condition logic across multiple gameplay states</li>
-                  <li>Applied imperative programming techniques, including loops, conditionals, functions, and arrays</li>
-                  <li>Gained experience using Replit’s cloud-based IDE for rapid prototyping, debugging, and execution</li>
-                </ul>
-
-                <div class="toggle-card-skills">
-                  <span class="skills-label">Skills Used</span>
-                  <div class="skills-scroll">
-                    <span class="skill-pill">Python (Programming Language)</span>
-                    <span class="skill-pill">Turtle Graphics</span>
-                    <span class="skill-pill">2D Game Development</span>
-                  </div>
-                </div>
-
-                <!-- <div class="toggle-card-photos">
-                  <img src="image1.jpg" alt="">
-                  <img src="image2.jpg" alt="">
-                </div> -->
-              </div>
-            </details>
-          </li>
-
-        </ul>
-      </div>
       
-    </section>
-    <section class="cards">
-
       <!-- Work Experience/Volunteers -->
       <div class="card">
         <div class="card-head">
           <h2>Work Experience</h2>
-          <p>Work and Volunteering Experiences</p>
+          <p>Employment and Volunteering Experiences</p>
         </div>
         <ul class="card-body">
 
@@ -1981,449 +1648,578 @@
         </ul>
       </div>
 
-      <!-- Certifications & Awards -->
-      <div class="card">
-        <div class="card-head">
-          <h2>Certifications Awards</h2>
-          <p>Notable Certifications and Awards Earned</p>
-        </div>
-        <ul class="card-body">
+    </section>
+    <!-- ______________________________________________________________________________ -->
 
-          <!-- Computer Science Certifications -->
-          <li>
-          <details class="toggle-card">
-          <summary class="toggle-card-summary">Computer Science Certifications</summary>
-          <div class="toggle-card-content">
-            
-          <!-- Coding for Data - SQL Specialist -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                Coding for Data - SQL Specialist
-              </summary>
-                <p class="toggle-card-date">Issued October 2024</p>
-                <a class="info" href="https://www.credential.net/5f92c1db-8db0-4919-b6ed-9905fb723177#acc.Bt8O40Rg"> 
-                  Click Here for Credentials</a>
 
-                <ul class="toggle-card-bullets">
-                  
-                  <li>Badge recipient has gained practical experience doing professional-level data analysis utilizing SQL (Structured Query Language) and Tableau.</li>
-                  <li>Working with large, real-world data sets, they investigated business problems and made data-driven recommendations to inform business decisions.</li>
-                  <li>Technical skills mastered include: Querying data, Filtering data, summarizing data with GROUP BY, joining data, and visualizing data in Tableau.</li>
-                  <li>Professional skills mastered include: understanding databases, working with large datasets, writing and debugging code, and data storytelling.</li>
-                </ul>
+    <!-- Section Divider -->
+    <!-- ______________________________________________________________________________ -->
+    <div class="section-divider-accent"></div>
+    <!-- ______________________________________________________________________________ -->
+     
 
-                <div class="toggle-card-skills">
-                  <span class="skills-label">Skills Used</span>
-                  <div class="skills-scroll">
+    <!-- Projects & Certifications -->
+    <!-- ______________________________________________________________________________ -->
+    <!-- Projects -->
+    <div class="tabs-section">
+      <h2 class="section-title" id="projects">Notable Projects</h2>
+      <div class="section-divider-title"></div>
+      <div class="certs-list">
+
+        <!-- Inventory Management Platform for Crafters -->
+        <details class="cert-item">
+          <summary class="cert-summary">
+            <span class="cert-name">UI/UX Inventory Management Platform for Crafters <span class="tab-card-tag">In Progress</span> </span>
+            <span class="cert-date">February 2026 – Present</span>
+          </summary>
+          <div class="cert-body">
+            <ul class="tab-card-bullets">
+              <li>Developing a React-based inventory management interface in a 5-person engineering team to help crafters organize materials, projects, and references in one centralized platform.</li>
+              <li>Designing UI components for tracking 50+ potential crafting materials, including quantities, categories, and project associations.</li>
+              <li>Implementing features that allow users to manage multiple craft projects simultaneously and track progress across different project stages.</li>
+              <li>Applying insights from 3+ user interviews with experienced crafters to improve UI workflows for inventory tracking and project planning.</li>
+              <li>Collaborating through Git/GitHub with 5 developers to build responsive React components using HTML, CSS, and modern frontend practices.</li>
+            </ul>
+            <div class="tab-card-pills">
+              <span class="skill-pill">React.js</span>
+              <span class="skill-pill">Git and GitHub</span>
+              <span class="skill-pill">UI/UX Design</span>
+              <span class="skill-pill">VS Code</span>
+              <span class="skill-pill">HTML</span>
+              <span class="skill-pill">CSS Styling</span>
+            </div>
+          </div>
+        </details>
+
+        <!-- Wearable Technology Device UI -->
+        <details class="cert-item">
+          <summary class="cert-summary">
+            <span class="cert-name">User Interface for Sensory Enhancement Wearable Device <span class="tab-card-tag">In Progress</span> </span>
+            <span class="cert-date">February 2026 – Present</span>
+          </summary>
+          <div class="cert-body">
+            <ul class="tab-card-bullets">
+              <li>Collaborating with a team of engineers to design and implement the user interface for an intra-oral respirometer wearable device.</li>
+              <li>Assisting in the development of UI components for real-time visualization of respiratory and biometric signals such as respiratory rate, pressure, and oxygen saturation.</li>
+              <li>Supporting integration between the UI and BLE-based sensor data streams to ensure stable real-time monitoring during physical activity.</li>
+              <li>Contributing to UI/UX improvements for experimental workflows, including visualization of sensor waveforms and adjustable thresholds for stress detection.</li>
+              <li>Participating in collaborative development using Git/GitHub and modern frontend tools to build a reliable interface for biomedical research experiments.</li>
+            </ul>
+            <div class="tab-card-pills">
+              <span class="skill-pill">React.js</span>
+              <span class="skill-pill">Git and GitHub</span>
+              <span class="skill-pill">UI/UX Design</span>
+              <span class="skill-pill">VS Code</span>
+              <span class="skill-pill">Applied Biomedical Engineering</span>
+            </div>
+          </div>
+        </details>
+
+        <!-- Make Or Break -->
+        <details class="cert-item">
+          <summary class="cert-summary">
+            <span class="cert-name">Make Or Break - Structure Building and Physics Simulator <span class="tab-card-tag">In Progress</span> </span>
+            <span class="cert-date">January 2026 – Present</span>
+          </summary>
+          <div class="cert-body">
+            <ul class="tab-card-bullets">
+              <li>Developed a Unity-based simulation in a 4-person team as part of a course project.</li>
+              <li>Implemented a simulator demonstrating how structures respond to various natural disasters.</li>
+              <li>Programmed a 3D environment with in-game physics, where buildings react to simulated forces and gravity.</li>
+              <li>Gained hands-on experience using Unity game development tools and workflows.</li>
+              <li>Demonstrated technical skills in computer graphics, 3D environment modeling, and game development.</li>
+            </ul>
+            <div class="tab-card-pills">
+              <span class="skill-pill">Unity Development Software</span>
+              <span class="skill-pill">In-Game Physics Programming</span>
+              <span class="skill-pill">3D Modeling Computer Graphics</span>
+              <span class="skill-pill">Game Development and Design</span>
+              <span class="skill-pill">Software Team Development</span>
+            </div>
+            <div class="toggle-card-photos">
+              <embed src="projects/MakeOrBreak.png" width="200%" alt="">
+            </div>
+          </div>
+        </details>
+
+        <!-- Personal Portfolio Website -->
+        <details class="cert-item">
+          <summary class="cert-summary">
+            <span class="cert-name">Personal Portfolio Website - This Website <span class="tab-card-tag">Constantly Updated</span> </span>
+            <span class="cert-date">December 2025 – January 2026</span>
+          </summary>
+          <div class="cert-body">
+            <ul class="tab-card-bullets">
+              <li>Designed and built a fully responsive personal portfolio website from scratch to showcase computer science projects, athletics experience, and certifications.</li>
+              <li>Implemented reusable toggle-card components to organize projects, awards, and experiences with a clean, scalable layout.</li>
+              <li>Applied semantic HTML and custom CSS to create a consistent visual identity and intuitive user experience across devices.</li>
+              <li>Deployed and maintained the site using GitHub Pages, managing version control, asset optimization, and iterative updates.</li>
+              <li>Gained first-hand experience in front-end web development, learning best practices in layout, responsiveness, and content organization.</li>
+            </ul>
+            <div class="tab-card-pills">
+              <span class="skill-pill">HTML</span>
+              <span class="skill-pill">CSS Styling</span>
+              <span class="skill-pill">Web Development</span>
+              <span class="skill-pill">Git & GitHub</span>
+              <span class="skill-pill">UI/UX Design</span>
+            </div>
+          </div>
+        </details>
+
+        <!-- Wild Realms -->
+        <details class="cert-item">
+          <summary class="cert-summary">
+            <span class="cert-name">Wild Realms Immersive Wildlife Simulator</span>
+            <span class="cert-date">September 2025 – December 2025</span>
+          </summary>
+          <div class="cert-body">
+            <ul class="tab-card-bullets">
+              <li>Built an interactive simulator enabling users to explore 6 global biomes and monitor 10+ species under environmental stress.</li>
+              <li>Implemented map navigation and 3D monitoring using React components and an integrated Google Earth API.</li>
+              <li>Worked on 2 different biomes, Desert and Tundra, implementing a discovery mode where the user has to explore and find the 5 different animals of the biome.</li>
+              <li>Hands-on experience in computer graphics implementing a 3D environment with React.</li>
+              <li>Collaborated in a team of 4, contributing to UI development and integration of environmental state updates.</li>
+            </ul>
+            <div class="tab-card-pills">
+              <span class="skill-pill">React</span>
+              <span class="skill-pill">Three.js</span>
+              <span class="skill-pill">Computer 3D Modeling</span>
+              <span class="skill-pill">Computer Graphics</span>
+            </div>
+            <div class="toggle-card-photos">
+              <iframe src="https://www.youtube.com/embed/LtZUJS0SFOU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="toggle-card-photos">
+              <iframe src="https://www.youtube.com/embed/rsEznuca4DE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </details>
+
+        <!-- Amazon Product Reviews -->
+        <details class="cert-item">
+          <summary class="cert-summary">
+            <span class="cert-name">Amazon Product Reviews Search Query Database System</span>
+            <span class="cert-date">September 2025 – December 2025</span>
+          </summary>
+          <div class="cert-body">
+            <ul class="tab-card-bullets">
+              <li>Designed the end-to-end vector data pipeline for 50,000+ Amazon product reviews, transforming raw text into embeddings to enable semantic similarity search.</li>
+              <li>Architected and implemented the PostgreSQL database system from a self-designed ER/relational diagram, defining tables, relationships, constraints, and indexes.</li>
+              <li>Optimized SQL analytics and retrieval queries integrated with C++ logic, achieving a ~35% reduction in query latency through indexing and query planning.</li>
+              <li>Developed the database schema and data flow architecture diagrams that guided system implementation and ensured scalability and clarity across the team.</li>
+              <li>Collaborated in a 3-person team using Git-based workflows, integrating vector search infrastructure with teammate-implemented user prompts and interfaces.</li>
+            </ul>
+            <div class="tab-card-pills">
+              <span class="skill-pill">Vector Databases</span>
+              <span class="skill-pill">Databases</span>
+              <span class="skill-pill">PostgreSQL</span>
+              <span class="skill-pill">SQL</span>
+              <span class="skill-pill">Python (Programming Language)</span>
+            </div>
+            <div class="toggle-card-photos">
+              <embed src="projects/480ProjectERD.pdf" width="400%" alt="">
+            </div>
+            <div class="toggle-card-photos">
+              <embed src="projects/CS 480 ER Diagram For Amazon Products Project 2.pdf" width="400%" alt="">
+            </div>
+          </div>
+        </details>
+
+        <!-- JavaFX Card Poker Game -->
+        <details class="cert-item">
+          <summary class="cert-summary">
+            <span class="cert-name">JavaFX Card Poker Game</span>
+            <span class="cert-date">October 2024 – November 2024</span>
+          </summary>
+          <div class="cert-body">
+            <ul class="tab-card-bullets">
+              <li>Developed a fully functional GUI-based Three Card Poker game using Java, JavaFX, and CSS, implementing complete betting mechanics including Ante, Pair Plus, and Play rules.</li>
+              <li>Engineered game logic and dealer AI to handle hand evaluation, win/loss determination, and payout resolution across all gameplay phases.</li>
+              <li>Implemented and validated win–loss detection algorithms, achieving 100% correctness across extensive unit tests and gameplay simulations.</li>
+              <li>Designed scene-based UI flow using FXML controllers, ensuring smooth transitions between betting, dealing, and results phases.</li>
+              <li>Collaborated in a two-person team using IntelliJ and Git, coordinating feature development, debugging, and final integration.</li>
+            </ul>
+            <div class="tab-card-pills">
+              <span class="skill-pill">JavaFX</span>
+              <span class="skill-pill">Java</span>
+              <span class="skill-pill">Game Programming</span>
+              <span class="skill-pill">Program Design</span>
+            </div>
+            <div class="toggle-card-photos">
+              <iframe src="https://www.youtube.com/embed/Jk-u6NlC850" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </details>
+
+        <!-- C++ Data Structure Priority Queue -->
+        <details class="cert-item">
+          <summary class="cert-summary">
+            <span class="cert-name">C++ Data Structure Priority Queue</span>
+            <span class="cert-date">November 2023</span>
+          </summary>
+          <div class="cert-body">
+            <ul class="tab-card-bullets">
+              <li>Implemented a custom priority queue in C++ using a binary search tree (BST) ordered by priority values.</li>
+              <li>Designed priority-based dequeue logic that dynamically reorders nodes after each removal to maintain correctness.</li>
+              <li>Applied object-oriented programming principles, using classes, encapsulation, and modular design.</li>
+              <li>Utilized pointers and recursion to manage tree traversal, insertion, and deletion operations efficiently.</li>
+              <li>Strengthened understanding of core data structures and algorithmic complexity, including tree height and operation costs.</li>
+            </ul>
+            <div class="tab-card-pills">
+              <span class="skill-pill">C++</span>
+              <span class="skill-pill">Object-Oriented Programming and Designing</span>
+              <span class="skill-pill">Data Structures</span>
+              <span class="skill-pill">Binary Trees</span>
+              <span class="skill-pill">Linked List</span>
+              <span class="skill-pill">Complexity Optimization</span>
+            </div>
+          </div>
+        </details>
+
+        <!-- Python Turtle Graphics Air Hockey -->
+        <details class="cert-item">
+          <summary class="cert-summary">
+            <span class="cert-name">Python Turtle Graphics Air Hockey 2D Game</span>
+            <span class="cert-date">November 2022</span>
+          </summary>
+          <div class="cert-body">
+            <ul class="tab-card-bullets">
+              <li>Built a two-player 2D Pong-style game in Python using Turtle Graphics, developed and executed on Replit.</li>
+              <li>Implemented real-time paddle movement and ball collision detection with walls and player paddles.</li>
+              <li>Developed score tracking and win-condition logic across multiple gameplay states.</li>
+              <li>Applied imperative programming techniques, including loops, conditionals, functions, and arrays.</li>
+              <li>Gained experience using Replit's cloud-based IDE for rapid prototyping, debugging, and execution.</li>
+            </ul>
+            <div class="tab-card-pills">
+              <span class="skill-pill">Python (Programming Language)</span>
+              <span class="skill-pill">Turtle Graphics</span>
+              <span class="skill-pill">2D Game Development</span>
+            </div>
+          </div>
+        </details>
+
+      </div>
+    </div>
+
+    <!-- Certifications & Awards -->
+    <div class="tabs-section">
+      <h2 class="section-title" id="awards">Certifications & Awards</h2>
+      <div class="section-divider-title"></div>
+      <div class="certs-list">
+
+        <!-- Computer Science Certifications -->
+        <details class="cert-item">
+          <summary class="cert-summary">
+            <span class="cert-name">Computer Science Certifications</span>
+            <span class="cert-date"></span>
+          </summary>
+          <div class="cert-body">
+            <div class="certs-list">
+
+              <details class="cert-item">
+                <summary class="cert-summary">
+                  <span class="cert-name">Coding for Data - SQL Specialist</span>
+                  <span class="cert-date">Issued October 2024</span>
+                </summary>
+                <div class="cert-body">
+                  <a class="info" href="https://www.credential.net/5f92c1db-8db0-4919-b6ed-9905fb723177#acc.Bt8O40Rg">Click Here for Credentials</a>
+                  <ul class="tab-card-bullets">
+                    <li>Badge recipient has gained practical experience doing professional-level data analysis utilizing SQL and Tableau.</li>
+                    <li>Working with large, real-world data sets, they investigated business problems and made data-driven recommendations to inform business decisions.</li>
+                    <li>Technical skills mastered include: Querying data, Filtering data, summarizing data with GROUP BY, joining data, and visualizing data in Tableau.</li>
+                    <li>Professional skills mastered include: understanding databases, working with large datasets, writing and debugging code, and data storytelling.</li>
+                  </ul>
+                  <div class="tab-card-pills">
                     <span class="skill-pill">SQL</span>
                     <span class="skill-pill">Data Visualization</span>
                     <span class="skill-pill">Data Analytics</span>
                   </div>
+                  <div class="toggle-card-photos">
+                    <img src="/assets/SQLSpecialist.png" alt="">
+                  </div>
                 </div>
+              </details>
 
-                <div class="toggle-card-photos">
-                  <img src="/assets/SQLSpecialist.png" alt="">
-                </div>
-            </details>
-          </li>
-
-          <!-- Coding for Data - Python Specialist -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                Coding for Data - Python Specialist
-              </summary>
-                <p class="toggle-card-date">Issued December 2024</p>
-                <a class="info" href="https://www.credential.net/c76e87d4-2792-417c-878e-8923091c8b5b#acc.9zrUOFnP"> 
-                  Click Here for Credentials</a>
-
-                <ul class="toggle-card-bullets">
-                  <li>Badge recipient has gained practical experience doing professional-level data analysis utilizing Python and Jupyter Notebooks.</li>
-                  <li>Working with large, real-world data sets, they investigated business problems and made data-driven recommendations to inform business decisions.</li>
-                  <li>Technical skills mastered include: programming fundamentals, visualizing data with the Plotly library, Pandas functions and methods, grouping and aggregating data.</li>
-                  <li>Professional skills mastered include: communicating with data, understanding business metrics, and collaborating with a global team.</li>
-                </ul>
-
-                <div class="toggle-card-skills">
-                  <span class="skills-label">Skills Used</span>
-                  <div class="skills-scroll">
+              <details class="cert-item">
+                <summary class="cert-summary">
+                  <span class="cert-name">Coding for Data - Python Specialist</span>
+                  <span class="cert-date">Issued December 2024</span>
+                </summary>
+                <div class="cert-body">
+                  <a class="info" href="https://www.credential.net/c76e87d4-2792-417c-878e-8923091c8b5b#acc.9zrUOFnP">Click Here for Credentials</a>
+                  <ul class="tab-card-bullets">
+                    <li>Badge recipient has gained practical experience doing professional-level data analysis utilizing Python and Jupyter Notebooks.</li>
+                    <li>Working with large, real-world data sets, they investigated business problems and made data-driven recommendations to inform business decisions.</li>
+                    <li>Technical skills mastered include: programming fundamentals, visualizing data with the Plotly library, Pandas functions and methods, grouping and aggregating data.</li>
+                    <li>Professional skills mastered include: communicating with data, understanding business metrics, and collaborating with a global team.</li>
+                  </ul>
+                  <div class="tab-card-pills">
                     <span class="skill-pill">Python Programming</span>
                     <span class="skill-pill">Data Visualization with Plotly</span>
                     <span class="skill-pill">Data Analysis with Pandas</span>
                   </div>
+                  <div class="toggle-card-photos">
+                    <img src="assets/PythonSpecialist.png" alt="">
+                  </div>
                 </div>
+              </details>
 
-                <div class="toggle-card-photos">
-                  <img src="assets/PythonSpecialist.png" alt="">
-                </div>
-            </details>
-          </li>
-
-          <!-- Global Career Accelerator - Intercultural Skills -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                Global Career Accelerator - Intercultural Skills
-              </summary>
-                <p class="toggle-card-date">Issued December 2024</p>
-                <a class="info" href="https://www.credential.net/9bd3d395-503a-4064-b38b-40bc29f0ed73#acc.cjGi59fQ"> 
-                  Click Here for Credentials</a>
-
-                <ul class="toggle-card-bullets">
-                  <li>Badge recipient has demonstrated intercultural skills and the ability to interact effectively and appropriately with diverse team members in an online environment.</li>
-                  <li>Activities included intercultural communication practice, personal reflections, and workplace situations simulations.</li>
-                  <li>Topics covered included: cultural self-awareness, managing bias, building emotional intelligence, and managing stress responses.</li>
-                  <li>Skills developed included: listening for understanding, suspending judgment, and cultivating curiosity and cultural humility.</li>
-                </ul>
-
-                <div class="toggle-card-skills">
-                  <span class="skills-label">Skills Used</span>
-                  <div class="skills-scroll">
+              <details class="cert-item">
+                <summary class="cert-summary">
+                  <span class="cert-name">Global Career Accelerator - Intercultural Skills</span>
+                  <span class="cert-date">Issued December 2024</span>
+                </summary>
+                <div class="cert-body">
+                  <a class="info" href="https://www.credential.net/9bd3d395-503a-4064-b38b-40bc29f0ed73#acc.cjGi59fQ">Click Here for Credentials</a>
+                  <ul class="tab-card-bullets">
+                    <li>Badge recipient has demonstrated intercultural skills and the ability to interact effectively and appropriately with diverse team members in an online environment.</li>
+                    <li>Activities included intercultural communication practice, personal reflections, and workplace situations simulations.</li>
+                    <li>Topics covered included: cultural self-awareness, managing bias, building emotional intelligence, and managing stress responses.</li>
+                    <li>Skills developed included: listening for understanding, suspending judgment, and cultivating curiosity and cultural humility.</li>
+                  </ul>
+                  <div class="tab-card-pills">
                     <span class="skill-pill">Intercultural Communication</span>
                     <span class="skill-pill">Intercultural Collaboration</span>
                     <span class="skill-pill">Self-awareness</span>
                   </div>
+                  <div class="toggle-card-photos">
+                    <img src="assets/InterculturalSkills.png" alt="">
+                  </div>
                 </div>
+              </details>
 
-                <div class="toggle-card-photos">
-                  <img src="assets/InterculturalSkills.png" alt="">
-                </div>
-            </details>
-          </li>
-
-          <!-- The GRAMMYs Project - Website Audience Analysis -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                The GRAMMYs Project - Website Audience Analysis
-              </summary>
-                <p class="toggle-card-date">Issued December 2024</p>
-                <a class="info" href="https://www.credential.net/a2fa9386-8856-400f-9fed-5e8e01fa7f6d#acc.Y9VH06qO"> 
-                  Click Here for Credentials</a>
-
-                <ul class="toggle-card-bullets">
-                  <li>Certificate recipient has successfully completed a real Data Analysis project for The Recording Academy.</li>
-                  <li>They gained experience using professional data analysis and visualization in regards to the content and audience strategy of Grammy.com.</li>
-                  <li>They used real data sets and business context to investigate, analyze, and present their findings in a professional setting.</li>
-                </ul>
-
-                <div class="toggle-card-skills">
-                  <span class="skills-label">Skills Used</span>
-                  <div class="skills-scroll">
+              <details class="cert-item">
+                <summary class="cert-summary">
+                  <span class="cert-name">The GRAMMYs Project - Website Audience Analysis</span>
+                  <span class="cert-date">Issued December 2024</span>
+                </summary>
+                <div class="cert-body">
+                  <a class="info" href="https://www.credential.net/a2fa9386-8856-400f-9fed-5e8e01fa7f6d#acc.Y9VH06qO">Click Here for Credentials</a>
+                  <ul class="tab-card-bullets">
+                    <li>Certificate recipient has successfully completed a real Data Analysis project for The Recording Academy.</li>
+                    <li>They gained experience using professional data analysis and visualization in regards to the content and audience strategy of Grammy.com.</li>
+                    <li>They used real data sets and business context to investigate, analyze, and present their findings in a professional setting.</li>
+                  </ul>
+                  <div class="tab-card-pills">
                     <span class="skill-pill">Data Visualization & Analysis</span>
                     <span class="skill-pill">A/B Testing</span>
                     <span class="skill-pill">Intercultural Teamwork</span>
                   </div>
+                  <div class="toggle-card-photos">
+                    <embed src="certificates/GRAMMYsProject.pdf" alt="">
+                  </div>
                 </div>
+              </details>
 
-                <div class="toggle-card-photos">
-                  <embed src="certificates/GRAMMYsProject.pdf" alt="">
-                </div>
-            </details>
-          </li>
-
-          <!-- University of Illinois Chicago - Coding for Data Track -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                University of Illinois Chicago - Coding for Data Track
-              </summary>
-
-                <p class="toggle-card-date">Issued December 2024</p>
-                <a class="info" href="https://www.credential.net/09d1c5ca-2ec4-454c-81aa-bce7080d583b#acc.wXIvupSs"> 
-                  Click Here for Credentials</a>
-
-                <ul class="toggle-card-bullets">
-                  <li>The recipient of this certificate has demonstrated skills in data analysis by completing professional-level projects using SQL and Python.</li>
-                </ul>
-
-                <div class="toggle-card-skills">
-                  <span class="skills-label">Skills Used</span>
-                  <div class="skills-scroll">
+              <details class="cert-item">
+                <summary class="cert-summary">
+                  <span class="cert-name">University of Illinois Chicago - Coding for Data Track</span>
+                  <span class="cert-date">Issued December 2024</span>
+                </summary>
+                <div class="cert-body">
+                  <a class="info" href="https://www.credential.net/09d1c5ca-2ec4-454c-81aa-bce7080d583b#acc.wXIvupSs">Click Here for Credentials</a>
+                  <ul class="tab-card-bullets">
+                    <li>The recipient of this certificate has demonstrated skills in data analysis by completing professional-level projects using SQL and Python.</li>
+                  </ul>
+                  <div class="tab-card-pills">
                     <span class="skill-pill">SQL</span>
                     <span class="skill-pill">Python</span>
                     <span class="skill-pill">Data Analytics</span>
                   </div>
+                  <div class="toggle-card-photos">
+                    <embed src="certificates/CodingForData.pdf" alt="">
+                  </div>
                 </div>
+              </details>
 
-                <div class="toggle-card-photos">
-                  <embed src="certificates/CodingForData.pdf" alt="">
-                </div>
-            </details>
-          </li>
-
-          <!-- Intel Project - Data Analysis for Sustainability -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                Intel Project - Data Analysis for Sustainability
-              </summary>
-                <p class="toggle-card-date">Issued November 2024</p>
-                <a class="info" href="https://www.credential.net/4f133f31-0e82-48e6-813c-616dbfda3c80#acc.m9eIgoaO"> 
-                  Click Here for Credentials</a>
-
-                <ul class="toggle-card-bullets">
-                  <li>Certificate recipient has successfully completed a real Data Analysis project for Intel’s Sustainability team.</li>
-                  <li>They gained experience using professional data analysis and visualization on topics relevant to Intel’s Sustainability goals.</li>
-                  <li>Working with real-world data, badge recipient investigated business problems related to sustainability and produced data-driven recommendations.</li>
-                </ul>
-
-                <div class="toggle-card-skills">
-                  <span class="skills-label">Skills Used</span>
-                  <div class="skills-scroll">
+              <details class="cert-item">
+                <summary class="cert-summary">
+                  <span class="cert-name">Intel Project - Data Analysis for Sustainability</span>
+                  <span class="cert-date">Issued November 2024</span>
+                </summary>
+                <div class="cert-body">
+                  <a class="info" href="https://www.credential.net/4f133f31-0e82-48e6-813c-616dbfda3c80#acc.m9eIgoaO">Click Here for Credentials</a>
+                  <ul class="tab-card-bullets">
+                    <li>Certificate recipient has successfully completed a real Data Analysis project for Intel's Sustainability team.</li>
+                    <li>They gained experience using professional data analysis and visualization on topics relevant to Intel's Sustainability goals.</li>
+                    <li>Working with real-world data, badge recipient investigated business problems related to sustainability and produced data-driven recommendations.</li>
+                  </ul>
+                  <div class="tab-card-pills">
                     <span class="skill-pill">Tableau</span>
                     <span class="skill-pill">Data Visualization</span>
                     <span class="skill-pill">Data Storytelling</span>
                   </div>
+                  <div class="toggle-card-photos">
+                    <embed src="certificates/DataAnalysisSustainabilityProject.pdf" alt="">
+                  </div>
                 </div>
+              </details>
 
-                <div class="toggle-card-photos">
-                  <embed src="certificates/DataAnalysisSustainabilityProject.pdf" alt="">
-                </div>
-            </details>
-          </li>
-
+            </div>
           </div>
-          </details>
-          </li>
+        </details>
 
-          <!-- Academic Honors -->
-          <li>
-          <details class="toggle-card">
-          <summary class="toggle-card-summary">Academic Honors</summary>
-          <div class="toggle-card-content">
+        <!-- Academic Honors -->
+        <details class="cert-item">
+          <summary class="cert-summary">
+            <span class="cert-name">Academic Honors</span>
+            <span class="cert-date"></span>
+          </summary>
+          <div class="cert-body">
+            <div class="certs-list">
 
-          <!-- University of Illinois Chicago - Dean's List Fall 2023 -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                University of Illinois Chicago - Dean's List Fall 2023
-              </summary>
-                <p class="toggle-card-date">Issued January 2024</p>
-                <a class="info" href="https://engineering.uic.edu/wp-content/uploads/sites/217/2025/06/COE-Fall-2023-Deans-List.pdf"> 
-                  Click Here for Credentials</a>
-
-                <ul class="toggle-card-bullets">
-                  <li>Earned the UIC College of Engineering Dean's List for Fall 2023</li>
-                  <li>Exceptional academic achievement in the College of Engineering is recognized each term by inclusion on the Dean’s List.</li>
-                  <li>Eligibility is based on a 3.50/4.00 term GPA with a minimum of 12 semester hours of course work applicable toward degree requirements.</li>
-                </ul>
-
-                <div class="toggle-card-skills">
-                  <span class="skills-label">Skills Used</span>
-                  <div class="skills-scroll">
+              <details class="cert-item">
+                <summary class="cert-summary">
+                  <span class="cert-name">University of Illinois Chicago - Dean's List Fall 2023</span>
+                  <span class="cert-date">Issued January 2024</span>
+                </summary>
+                <div class="cert-body">
+                  <a class="info" href="https://engineering.uic.edu/wp-content/uploads/sites/217/2025/06/COE-Fall-2023-Deans-List.pdf">Click Here for Credentials</a>
+                  <ul class="tab-card-bullets">
+                    <li>Earned the UIC College of Engineering Dean's List for Fall 2023.</li>
+                    <li>Exceptional academic achievement in the College of Engineering is recognized each term by inclusion on the Dean's List.</li>
+                    <li>Eligibility is based on a 3.50/4.00 term GPA with a minimum of 12 semester hours of course work applicable toward degree requirements.</li>
+                  </ul>
+                  <div class="tab-card-pills">
                     <span class="skill-pill">Time Management</span>
                     <span class="skill-pill">Academic Productivity</span>
                   </div>
                 </div>
-            </details>
-          </li>
+              </details>
 
-          <!-- University of Illinois Chicago - Dean's List Spring 2023 -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                University of Illinois Chicago - Dean's List Spring 2023
-              </summary>
-                <p class="toggle-card-date">Issued June 2023</p>
-                <a class="info" href="https://engineering.uic.edu/wp-content/uploads/sites/217/2023/06/COE-Spring-2023-Deans-List.pdf"> 
-                  Click Here for Credentials</a>
-
-                <ul class="toggle-card-bullets">
-                  <li>Earned the UIC College of Engineering Dean's List for Spring 2023</li>
-                  <li>Exceptional academic achievement in the College of Engineering is recognized each term by inclusion on the Dean’s List.</li>
-                  <li>Eligibility is based on a 3.50/4.00 term GPA with a minimum of 12 semester hours of course work applicable toward degree requirements.</li>
-                </ul>
-
-                <div class="toggle-card-skills">
-                  <span class="skills-label">Skills Used</span>
-                  <div class="skills-scroll">
+              <details class="cert-item">
+                <summary class="cert-summary">
+                  <span class="cert-name">University of Illinois Chicago - Dean's List Spring 2023</span>
+                  <span class="cert-date">Issued June 2023</span>
+                </summary>
+                <div class="cert-body">
+                  <a class="info" href="https://engineering.uic.edu/wp-content/uploads/sites/217/2023/06/COE-Spring-2023-Deans-List.pdf">Click Here for Credentials</a>
+                  <ul class="tab-card-bullets">
+                    <li>Earned the UIC College of Engineering Dean's List for Spring 2023.</li>
+                    <li>Exceptional academic achievement in the College of Engineering is recognized each term by inclusion on the Dean's List.</li>
+                    <li>Eligibility is based on a 3.50/4.00 term GPA with a minimum of 12 semester hours of course work applicable toward degree requirements.</li>
+                  </ul>
+                  <div class="tab-card-pills">
                     <span class="skill-pill">Time Management</span>
                     <span class="skill-pill">Academic Productivity</span>
                   </div>
                 </div>
-            </details>
-          </li>
+              </details>
 
+            </div>
           </div>
-          </details>
-          </li>
+        </details>
 
-          <!-- Running Certifications -->
-          <li>
-          <details class="toggle-card">
-          <summary class="toggle-card-summary">Running Certifications</summary>
-          <div class="toggle-card-content">
+        <!-- Running Certifications -->
+        <details class="cert-item">
+          <summary class="cert-summary">
+            <span class="cert-name">Running Certifications</span>
+            <span class="cert-date"></span>
+          </summary>
+          <div class="cert-body">
+            <div class="certs-list">
 
-          <!-- Chi-Town Turkey Trot Run 8k Finisher -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                Chi-Town Turkey Trot Run Finisher - 8K Run
-              </summary>
-                <p class="toggle-card-date">Issued November 2025</p>
-
-                <ul class="toggle-card-bullets">
-                  <li>Completed the Chi-Town Turkey Trot Run 10k race.</li>
-                </ul>
-
-                <!-- <div class="toggle-card-skills">
-                  <span class="skills-label">Skills Used</span>
-                  <div class="skills-scroll">
-                    <span class="skill-pill">Skill</span>
-                    <span class="skill-pill">Skill</span>
-                    <span class="skill-pill">Skill</span>
+              <details class="cert-item">
+                <summary class="cert-summary">
+                  <span class="cert-name">Chi-Town Turkey Trot Run Finisher - 8K Run</span>
+                  <span class="cert-date">Issued November 2025</span>
+                </summary>
+                <div class="cert-body">
+                  <ul class="tab-card-bullets">
+                    <li>Completed the Chi-Town Turkey Trot Run 8K race.</li>
+                  </ul>
+                  <div class="toggle-card-photos">
+                    <embed src="certificates/ChiTownTurkeyTrotRun2025.pdf" alt="">
                   </div>
-                </div> -->
-
-                <div class="toggle-card-photos">
-                  <embed src="certificates/ChiTownTurkeyTrotRun2025.pdf" alt="">
                 </div>
-            </details>
-          </li>
+              </details>
 
-          <!-- Chicago 13.1 Half Marathon Finisher -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                Chicago 13.1 Half Marathon Finisher - Half Marathon (13.1 Miles) Run
-              </summary>
-                <p class="toggle-card-date">Issued June 2025</p>
-                <a class="info" href="https://events.hakuapp.com/?registration_number=30CBC6DF02"> 
-                  Click Here for Credentials</a>
-
-                <ul class="toggle-card-bullets">
-                  <li>Completed the Chicago 13.1 Half Marathon race.</li>
-                </ul>
-
-                <!-- <div class="toggle-card-skills">
-                  <span class="skills-label">Skills Used</span>
-                  <div class="skills-scroll">
-                    <span class="skill-pill">Discipline</span>
-                    <span class="skill-pill">Running</span>
-                    <span class="skill-pill">Perseverance</span>
+              <details class="cert-item">
+                <summary class="cert-summary">
+                  <span class="cert-name">Chicago 13.1 Half Marathon Finisher - Half Marathon (13.1 Miles)</span>
+                  <span class="cert-date">Issued June 2025</span>
+                </summary>
+                <div class="cert-body">
+                  <a class="info" href="https://events.hakuapp.com/?registration_number=30CBC6DF02">Click Here for Credentials</a>
+                  <ul class="tab-card-bullets">
+                    <li>Completed the Chicago 13.1 Half Marathon race.</li>
+                  </ul>
+                  <div class="toggle-card-photos">
+                    <embed src="certificates/BankofAmericaChicago13.12025.pdf" alt="">
                   </div>
-                </div> -->
-
-                <div class="toggle-card-photos">
-                  <embed src="certificates/BankofAmericaChicago13.12025.pdf" alt="">
                 </div>
-            </details>
-          </li>
+              </details>
 
-          <!-- Bank of America Shamrock Shuffle Finisher -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                Bank of America Shamrock Shuffle Finisher - 8K Run
-              </summary>
-                <p class="toggle-card-date">Issued March 2025</p>
-                <a class="info" href="https://events.hakuapp.com/?registration_number=C2590F2893"> 
-                  Click Here for Credentials</a>
-
-                <ul class="toggle-card-bullets">
-                  <li>Completed the Bank of America Shamrock Shuffle 8k race.</li>
-                </ul>
-
-                <!-- <div class="toggle-card-skills">
-                  <span class="skills-label">Skills Used</span>
-                  <div class="skills-scroll">
-                    <span class="skill-pill">Skill</span>
-                    <span class="skill-pill">Skill</span>
-                    <span class="skill-pill">Skill</span>
+              <details class="cert-item">
+                <summary class="cert-summary">
+                  <span class="cert-name">Bank of America Shamrock Shuffle Finisher - 8K Run</span>
+                  <span class="cert-date">Issued March 2025</span>
+                </summary>
+                <div class="cert-body">
+                  <a class="info" href="https://events.hakuapp.com/?registration_number=C2590F2893">Click Here for Credentials</a>
+                  <ul class="tab-card-bullets">
+                    <li>Completed the Bank of America Shamrock Shuffle 8K race.</li>
+                  </ul>
+                  <div class="toggle-card-photos">
+                    <embed src="certificates/BankofAmericaShamrockShuffle2025.png" width="200%" alt="">
                   </div>
-                </div> -->
-
-                <div class="toggle-card-photos">
-                  <embed src="certificates/BankofAmericaShamrockShuffle2025.png"width="200%" alt="">
                 </div>
-            </details>
-          </li>
+              </details>
 
-          <!-- SKECHERS Hot Chocolate Run 15k Finisher -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                SKECHERS Hot Chocolate Run Finisher - 15K Run
-              </summary>
-                <p class="toggle-card-date">Issued November 2024</p>
-
-                <ul class="toggle-card-bullets">
-                  <li>Completed the SKECHERS Hot Chocolate Run 15k race.</li>
-                </ul>
-
-                <!-- <div class="toggle-card-skills">
-                  <span class="skills-label">Skills Used</span>
-                  <div class="skills-scroll">
-                    <span class="skill-pill">Skill</span>
-                    <span class="skill-pill">Skill</span>
-                    <span class="skill-pill">Skill</span>
+              <details class="cert-item">
+                <summary class="cert-summary">
+                  <span class="cert-name">SKECHERS Hot Chocolate Run Finisher - 15K Run</span>
+                  <span class="cert-date">Issued November 2024</span>
+                </summary>
+                <div class="cert-body">
+                  <ul class="tab-card-bullets">
+                    <li>Completed the SKECHERS Hot Chocolate Run 15K race.</li>
+                  </ul>
+                  <div class="toggle-card-photos">
+                    <embed src="certificates/ChicagoHotChocolateRun2024.png" width="300%" alt="">
                   </div>
-                </div> -->
-
-                <div class="toggle-card-photos">
-                  <embed src="certificates/ChicagoHotChocolateRun2024.png" width="300%" alt="">
                 </div>
-            </details>
-          </li>
+              </details>
 
+            </div>
           </div>
-          </details>
-          </li>
+        </details>
 
-          <!-- Soccer Trophies -->
-          <li>
-          <details class="toggle-card">
-          <summary class="toggle-card-summary">Soccer Trophies</summary>
-          <div class="toggle-card-content">
+        <!-- Soccer Trophies -->
+        <details class="cert-item">
+          <summary class="cert-summary">
+            <span class="cert-name">Soccer Trophies</span>
+            <span class="cert-date"></span>
+          </summary>
+          <div class="cert-body">
+            <div class="certs-list">
 
-          <!-- 3rd Place Winners - GT Internacional Soccer League -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                GT Internacional Soccer League - 3rd Place Winners
-              </summary>
-                <p class="toggle-card-date">Issued February 2025</p>
-
-                <ul class="toggle-card-bullets">
-                  <li>MP United FC earned a 3rd-place finish in the GT Internacional Soccer League Second Division</li>
-                </ul>
-
-                <!-- <div class="toggle-card-skills">
-                  <span class="skills-label">Skills Used</span>
-                  <div class="skills-scroll">
-                    <span class="skill-pill">Skill</span>
-                    <span class="skill-pill">Skill</span>
-                    <span class="skill-pill">Skill</span>
+              <details class="cert-item">
+                <summary class="cert-summary">
+                  <span class="cert-name">GT Internacional Soccer League - 3rd Place Winners</span>
+                  <span class="cert-date">Issued February 2025</span>
+                </summary>
+                <div class="cert-body">
+                  <ul class="tab-card-bullets">
+                    <li>MP United FC earned a 3rd-place finish in the GT Internacional Soccer League Second Division.</li>
+                  </ul>
+                  <div class="toggle-card-photos">
+                    <img src="trophies/gtleague1.JPG" alt="">
+                    <img src="trophies/gtleague2.jpeg" alt="">
+                    <img src="trophies/gtleague3.jpeg" alt="">
+                    <img src="trophies/gtleague4.jpeg" alt="">
+                    <img src="trophies/gtleague5.JPEG" alt="">
+                    <img src="trophies/gtleague6.jpeg" alt="">
                   </div>
-                </div> -->
-
-                <div class="toggle-card-photos">
-                  <img src="trophies/gtleague1.JPG" alt="">
-                  <img src="trophies/gtleague2.jpeg" alt="">
-                  <img src="trophies/gtleague3.jpeg" alt="">
-                  <img src="trophies/gtleague4.jpeg" alt="">
-                  <img src="trophies/gtleague5.JPEG" alt="">
-                  <img src="trophies/gtleague6.jpeg" alt="">
                 </div>
-            </details>
-          </li>
+              </details>
 
+            </div>
           </div>
-          </details>
-          </li>
+        </details>
 
-        </ul>
       </div>
-
-    </section>
-
-    <!-- Section Divider -->
-    <!-- ______________________________________________________________________________ -->
-    <div class="section-divider-thin"></div>
-    <!-- ______________________________________________________________________________ -->
- 
+    </div>
     <!-- ______________________________________________________________________________ -->
 
 
@@ -2435,11 +2231,13 @@
     <!-- Organizations -->
     <!-- ______________________________________________________________________________ -->
     <section class="orgs">
-      <h2 class="section-title">Organizations</h2>
+      <h2 class="section-title" id="organizations">Organizations</h2>
       <div class="section-divider-title"></div>
+
 
       <!-- Section Divider -->
       <!-- ______________________________________________________________________________ -->
+      <div class="reels-head"><h2 class="section-title">Student Organizations</h2></div>
       <div class="section-divider-thin"></div>
       <!-- ______________________________________________________________________________ -->
 
@@ -2488,34 +2286,6 @@
             A leading airport provider of passenger and cabin services to commercial airlines across the U.S.
           </p>
         </article>
-
-        <!-- University of Illinois at Chicago -->
-        <!-- <article class="org-card">
-          <div class="org-header">
-            <img src="assets/uic.svg" class="org-avatar" alt="FIA">
-            <div class="org-meta">
-              <h3>UIC - University of Illinois at Chicago</h3>
-              <p>Student • August 2022 - Present</p>
-            </div>
-          </div>
-          <p class="org-desc">
-            A large and diverse public research university located in the heart of Chicago hosting numerous clubs, programs,
-            colleges, and offers a wide range of academic opportunities.
-        </article> -->
-
-        <!-- Theodore Roosevelt Highschool -->
-        <!-- <article class="org-card">
-          <div class="org-header">
-            <img src="assets/roosevelt.png" class="org-avatar" alt="Roosevelt">
-            <div class="org-meta">
-              <h3>Theodore Roosevelt Highschool</h3>
-              <p>Student • Athlete • August 2018 – June 2022</p>
-            </div>
-          </div>
-          <p class="org-desc">
-            Description Here...
-          </p>
-        </article> -->
         
       </div>
     </section>
@@ -2524,11 +2294,10 @@
     <!-- Soccer Teams -->
     <!-- ______________________________________________________________________________ -->
     <section class="teams">
-      <h2 class="section-title">Soccer Teams</h2>
-      <div class="section-divider-title"></div>
 
       <!-- Section Divider -->
       <!-- ______________________________________________________________________________ -->
+      <div class="reels-head"><h2 class="section-title">Soccer Teams</h2></div>
       <div class="section-divider-thin"></div>
       <!-- ______________________________________________________________________________ -->
 
@@ -2631,11 +2400,10 @@
     <!-- Soccer Leagues -->
     <!-- ______________________________________________________________________________ -->
     <section class="teams">
-      <h2 class="section-title">Pre-Professional Soccer Leagues</h2>
-      <div class="section-divider-title"></div>
 
       <!-- Section Divider -->
       <!-- ______________________________________________________________________________ -->
+      <div class="reels-head"><h2 class="section-title">Semi-Professional Soccer</h2></div>
       <div class="section-divider-thin"></div>
       <!-- ______________________________________________________________________________ -->
 
@@ -2680,11 +2448,10 @@
     <!-- Running Teams -->
     <!-- ______________________________________________________________________________ -->
     <section class="teams">
-      <h2 class="section-title">Running Involvement</h2>
-      <div class="section-divider-title"></div>
 
       <!-- Section Divider -->
       <!-- ______________________________________________________________________________ -->
+      <div class="reels-head"><h2 class="section-title">Running</h2></div>
       <div class="section-divider-thin"></div>
       <!-- ______________________________________________________________________________ -->
 
@@ -2745,7 +2512,7 @@
     
     <!-- About Me Section -->
     <!-- ______________________________________________________________________________ -->
-    <h2 class="section-title">About Me</h2>
+    <h2 class="section-title" id="about">About Me</h2>
     <div class="section-divider-title"></div>
     <!-- ______________________________________________________________________________ -->
 
@@ -2793,9 +2560,7 @@
 
     <!-- Goals Section -->
     <!-- ______________________________________________________________________________ -->
-    <div class="reels-head">
-      <h2 class="section-title">Personal Goals</h2>
-    </div>
+    <div class="reels-head"><h2 class="section-title" id="goals">Personal Goals</h2></div>
     <div class="section-divider-title"></div>
 
     <section class="goals-section">
@@ -2867,18 +2632,10 @@
     <!-- ______________________________________________________________________________ -->
 
 
-    <!-- Section Divider -->
-    <!-- ______________________________________________________________________________ -->
-    <div class="section-divider-thin"></div>
-    <!-- ______________________________________________________________________________ -->
-
-
-    <!-- Highlight Reels -->
+    <!-- Videos -->
     <!-- ______________________________________________________________________________ -->
     <section class="reels-section">
-      <div class="reels-head">
-        <h2 class="section-title">Videos</h2>
-      </div>
+      <div class="reels-head"><h2 class="section-title" id="videos">Videos</h2></div>
       <div class="section-divider-title"></div>
 
       <!-- Additional Highlights -->
