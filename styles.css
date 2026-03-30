@@ -1109,7 +1109,7 @@ html, body {
   .cert-date {
     display: none;
   }
-  .cert-date-1 {font-size: 0.8rem;
+  .cert-date-1 {font-size: 1.2rem;
   color: #94a3b8;
   white-space: nowrap;
   flex-shrink: 0;
