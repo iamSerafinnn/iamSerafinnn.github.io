@@ -339,7 +339,6 @@ body {
   border-radius: 13px;
   padding: 1.1rem 1.25rem;
   transition: border-color 0.2s ease;
-  max-height: 200px;
 }
 .org-card:hover {
   border-color: rgba(56, 189, 248, 0.35);
@@ -763,7 +762,8 @@ html, body {
                     padding: 0.25rem 1.25rem 0.75rem;
                     margin: 0 -1.25rem;}
   .orgs .org-card,
-  .teams .org-card {scroll-snap-align: start;}
+  .teams .org-card {scroll-snap-align: start;
+                    max-height: 200px;}
   .orgs .org-grid::-webkit-scrollbar,
   .teams .org-grid::-webkit-scrollbar {height: 0;}
   .org-header {gap: 0.65rem;}
