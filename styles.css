@@ -999,8 +999,7 @@ html, body {
 @media (max-width: 650px) {
   .hero {grid-template-columns: 1fr !important;
          overflow: visible;
-         gap: 1.25rem;
-         display:none;}
+         gap: 1.25rem;}
   body {background-attachment: scroll;
         background-position: center top;}
   .hero-media {display: flex;
@@ -1010,7 +1009,8 @@ html, body {
                scroll-snap-type: x mandatory;
                -webkit-overflow-scrolling: touch;
                padding: 0 12px 0.5rem;
-               scroll-padding: 12px;}
+               scroll-padding: 12px;
+               display: none;}
   .side-img {width: 260px; 
              height: 380px;
              flex: 0 0 auto;
