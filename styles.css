@@ -763,7 +763,8 @@ html, body {
                     margin: 0 -1.25rem;}
   .orgs .org-card,
   .teams .org-card {scroll-snap-align: start;
-                    max-height: 200px;}
+                    max-height: none;
+                    overflow-y: auto;}
   .orgs .org-grid::-webkit-scrollbar,
   .teams .org-grid::-webkit-scrollbar {height: 0;}
   .org-header {gap: 0.65rem;}
