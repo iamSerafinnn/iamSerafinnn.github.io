@@ -1083,7 +1083,7 @@ html, body {
   .section-title {scroll-margin-top: 150px; }
   .cert-summary {
     display: flex;
-    flex-direction: column;
+    flex-direction: column !important;
     align-items: flex-start;
     gap: 0.35rem;
   }
