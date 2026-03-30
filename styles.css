@@ -1009,8 +1009,7 @@ html, body {
                scroll-snap-type: x mandatory;
                -webkit-overflow-scrolling: touch;
                padding: 0 12px 0.5rem;
-               scroll-padding: 12px;
-               display: none;}
+               scroll-padding: 12px;}
   .side-img {width: 260px; 
              height: 380px;
              flex: 0 0 auto;
