@@ -9,6 +9,7 @@
   git push origin main
 -->
 
+<!-- Tab Image -->
 <!-- ______________________________________________________________________________ -->
  <link rel="icon" type="image/png" href="profile.png">
 <!-- ______________________________________________________________________________ -->
@@ -18,8 +19,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Serafin O. Gargantiel III.</title>
+  <title>Serafin's Personal Portfolio</title>
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@700&display=swap">
 
   <style>
     body {
@@ -33,27 +37,33 @@
 <!-- ______________________________________________________________________________ -->
 
 
-<!-- ______________________________________________________________________________ -->
 <body>
+  <!-- Navigation Bar -->
+  <!-- ______________________________________________________________________________ --> 
   <nav class="navbar">
-    <span class="navbar-label">Navigate The Site</span>
+    <span class="navbar-label">The Entry Level Portfolio</span>
     <a href="#hero">Home</a>
     <a href="#education">Education</a>
+    <a href="#software">Software Engineering</a>
+    <a href="#projects">Engineering Projects</a>
+    <a href="#studyabroad">Study Abroad</a>
     <a href="#skills">Technical Skills</a>
-    <a href="#experience">Experience</a>
-    <a href="#projects">Notable Projects</a>
-    <a href="#awards">Certifications & Awards</a>
+    <a href="#soccer">Soccer</a>
     <a href="#organizations">Organizations</a>
-    <a href="#about">About</a>
-    <a href="#goals">Goals</a>
-    <a href="#videos">Videos</a>
+    <a href="#running">Running</a>
+    <a href="#extra">More</a>
+    <a href="#about">About Me</a>
+    <a href="#contact">Contact Me</a>
   </nav>
+  <!-- ______________________________________________________________________________ -->
 
+  <!-- Container - Contains the whole page -->
   <main class="container" id="hero">
 
     <!-- Header Section -->
     <!-- ______________________________________________________________________________ -->
     <header class="hero">
+      <!-- Left Side - Text -->
       <div class="hero-text">
         
         <!-- Profile Picture -->
@@ -89,20 +99,16 @@
             <img src="assets/gmail.svg" alt="Email" class="icon" />
             gargantielserafin@gmail.com
           </a>
-          <a class="info" href="tel:+1-773-366-1153">
+          <!-- <a class="info" href="tel:+1-773-366-1153">
             <img src="assets/phone.svg" alt="Phone" class="icon" />
             (773) 366-1153
-          </a>
+          </a> -->
           <a class="info" href="assets/Serafin_Gargantiel_Resume.pdf" download>
             <img src="assets/download.svg" alt="Download resume" class="icon" />
             Download Resume
           </a>
-          <!-- <a class="info" href="assets/Resume CS + Athletics.pdf" download>
-            <img src="assets/download.svg" alt="Download resume" class="icon" />
-            Download Resume
-          </a> -->
         </div>
-
+        
         <!-- Intros -->
         <div class="intros">
           <div class="divider"></div>
@@ -115,12 +121,12 @@
         </div>
 
         <!-- Website Status -->
-        <p class="status">Welcome to my portfolio website — more will be added.<br>
+        <p class="web-status">Welcome to my portfolio website — more will be added.<br>
                           Last Updated - June 1, 2026</p>
         
       </div>
 
-      <!-- Images -->
+      <!-- Right Side - Images -->
       <div class="hero-media">
         <div>
           <img class="side-img" src="images/image1.jpg" alt="image1" />
@@ -176,13 +182,15 @@
     <div class="edu-grid">
 
       <!-- College UIC CS Bachelors -->
+      <!-- ---------------------------------------------------------------- -->
+      <!-- Left Side (UIC Infos) -->
       <div>
         <!-- School and Major -->
         <div class="edu-header">
           <div class="edu-title">
             <h3>University of Illinois Chicago (UIC)</h3>
-            <p class="edu-meta">B.S. Computer Science • August 2022 - May 2026</p>
-            <p class="edu-meta">Chicago, IL</p>
+            <p class="edu-text">B.S. Computer Science • August 2022 - May 2026</p>
+            <p class="edu-text">Chicago, IL</p>
             <div class="infos">
               <a class="info">Cumulative GPA: 3.42 </a>
             </div>
@@ -209,10 +217,10 @@
         </div>
       </div>
 
-      <!-- Relevant Skills -->
+      <!-- Right Side - Notable Courses -->
       <div class="edu-right">
         <h4>Most Notable Courses</h4>
-        <div class="skills-scroll">
+        <div class="edu-skills-scroll">
           <ul class="edu-mini">
             <li>UI Interface Design • React</li>
             <li>Software Mobile Development • Java & XML</li>
@@ -225,16 +233,21 @@
           </ul>
         </div>
       </div>
+      <!-- ---------------------------------------------------------------- -->
       
-      <!-- Highschool -->
+      <!-- Highschool Roosevelt HS -->
+      <!-- ---------------------------------------------------------------- -->
+      <!-- Left Side (RHS Infos) -->
       <div>
+        <!-- Divider -->
         <div class="section-divider-thin"></div>
 
+        <!-- High School -->
         <div class="edu-header">
           <div class="edu-title">
             <h3>Theodore Roosevelt Highshcool</h3>
-            <p class="edu-meta">AP and Dual Credit Student • Highschool Athlete • August 2018 - June 2022</p>
-            <p class="edu-meta">Chicago, IL</p>
+            <p class="edu-text">AP and Dual Credit Student • Highschool Athlete • August 2018 - June 2022</p>
+            <p class="edu-text">Chicago, IL</p>
             <div class="infos">
               <a class="info">Highschool GPA: 4.67</a>
             </div>
@@ -249,6 +262,10 @@
           4th highest academic ranking student in class of 2022<br>
           Highschool athlete involved with soccer and track</p>
       </div>
+
+      <!-- Right Side (None) -->
+      
+      <!-- ---------------------------------------------------------------- -->
     </div>
     <!-- ______________________________________________________________________________ -->
 
@@ -256,2453 +273,970 @@
     <!-- Section Divider -->
     <!-- ______________________________________________________________________________ -->
     <div class="section-divider-accent"></div>
+    <!-- ______________________________________________________________________________ -->     
+    
+
+
+    <!-- Software Engineering -->
+    <section class="experience-software" id="software">
+      <h2 class="section-title-lg">Software Engineering</h2>
+
+      <!-- Software Engineering - Experiences -->
+      <h2 class="section-title-sm">Engineering Experiences</h2>
+      <div class="section-divider-title"></div>
+
+      <div class="section-grid">
+
+        <!-- COOP Careers - Data Analytic's Track -->
+        <div class="experience-card" data-id="coopcareers" style="background-image: url('experiences/application-development/coopcareers.png');">
+          <span class="card-type-badge">Fellowship</span>
+          <img src="experiences/application-development/coopcareers-logo.jpeg" alt="COOP Careers" class="experience-avatar">
+          <div class="card-header">
+            <div class="card-info">
+              <h3>COOP Careers - Data Analytics Track</h3>
+              <div class="experience-badges">
+                <span class="experience-badge">Data Analytics</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Global Career Accelerator Program for Data Wrangling -->
+        <div class="experience-card" data-id="globalcareeraccelerator" style="background-image: url('experiences/application-development/globalcareeraccelerator.pdf');">
+          <span class="card-type-badge">Remote Program</span>
+          <img src="experiences/application-development/globalcareeraccelerator-logo.jpeg" alt="Global Career Accelerator" class="experience-avatar">
+          <div class="card-header">
+            <div class="card-info">
+              <h3>Global Career Accelerator</h3>
+              <div class="experience-badges">
+                <span class="experience-badge">Data Analytics & Wrangling</span>
+                <span class="experience-badge">MySQL / Tableau / Jupyter Notebooks</span>
+                <span class="experience-badge">SQL / Python</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- UIC Sparkhacks Hackathon -->
+        <div class="experience-card" data-id="sparkhacks" style="background-image: url('experiences/groupPhotos/sparkhacks.JPG');">
+          <span class="card-type-badge">Hackathon</span>
+          <img src="experiences/application-development/sparkhacks-logo.png" alt="Avatar" class="experience-avatar">
+          <div class="card-header">
+            <div class="card-info">
+              <h3>UIC SparkHacks</h3>
+              <div class="experience-badges">
+                <span class="experience-badge">Backend Web Development</span>
+                <span class="experience-badge">SQL + Python</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CodePath's Applied AI Engineering -->
+        <div class="experience-card" data-id="codepath-ai" style="background-image: url('experiences/application-development/codepath.webp');">
+          <span class="card-type-badge">Remote Program</span>
+          <img src="experiences/application-development/codepath-logo.jpeg" alt="CodePath" class="experience-avatar">
+          <div class="card-header">
+            <div class="card-info">
+              <h3>CodePath Applied AI Engineering</h3>
+              <div class="experience-badges">
+                <span class="experience-badge">AI Engineering</span>
+                <span class="experience-badge">GitHub Open Source</span>
+                <span class="experience-badge">React / Docusaurus</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CodePath Cybersecurity -->
+        <div class="experience-card" data-id="codepath-cybersecurity" style="background-image: url('experiences/application-development/codepath2.pdf'); background-color: azure;">
+          <span class="card-type-badge">Remote Program</span>
+          <img src="experiences/application-development/codepath-logo.jpeg" alt="CodePath" class="experience-avatar">
+          <div class="card-header">
+            <div class="card-info">
+              <h3>CodePath's Intermediate Cybersecurity</h3>
+              <div class="experience-badges">
+                <span class="experience-badge">Cybersecurity</span>
+                <span class="experience-badge">Incident Response / DoS Defense / Phising Detection / Directory Traversal</span>
+                <span class="experience-badge">Splunk & SIEM / Wireshar / Docker</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Revature's Pre-Training Program -->
+        <div class="experience-card" data-id="revature-pre" style="background-image: url('experiences/application-development/revature.webp');">
+          <span class="card-type-badge">Remote Program</span>
+          <img src="experiences/application-development/revature-logo.jpeg" alt="Revature" class="experience-avatar">
+          <div class="card-header">
+            <div class="card-info">
+              <h3>Revature Pre-Training Program</h3>
+              <div class="experience-badges">
+                <span class="experience-badge">Full-Stack Development</span>
+                <span class="experience-badge">Cloud Computing</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="section-divider-thin"></div>
+
+
+      <!-- Projects -->
+      <h2 class="section-title-sm" id="projects">Engineering Projects</h2>
+      <div class="section-divider-title"></div>
+      
+      <div class="section-grid">
+
+        <!-- CraftTracks - Inventory Management Platform for Crafters -->
+        <div class="experience-card" data-id="crafttracks" style="background-position: left; background-image: url('experiences/application-development/crafttracks.png');">
+          <span class="card-type-badge">Website Application</span>
+          <img src="experiences/application-development/crafttracks-logo.png" alt="CraftTracks" class="experience-avatar">
+          <div class="card-header">
+            <div class="card-info">
+              <h3>CraftTracks</h3>
+              <div class="experience-badges">
+                <span class="experience-badge">Web App Development</span>
+                <span class="experience-badge">React + CSS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Amazon Product Reviews Search Query Database System -->
+        <div class="experience-card" data-id="amazon-reviews" style="background-image: url('experiences/application-development/epiccode.png');">
+          <span class="card-type-badge">Database System</span>
+          <img src="experiences/application-development/epiccode-logo.png" alt="Amazon Reviews" class="experience-avatar">
+          <div class="card-header">
+            <div class="card-info">
+              <h3>Amazon Product Reviews Search</h3>
+              <div class="experience-badges">
+                <span class="experience-badge">Vector Database System</span>
+                <span class="experience-badge">FAISS + FastAPI + PostgreSQL</span>
+                <span class="experience-badge">SQL + React + Python</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Personal Portfolio Website-->
+        <div class="experience-card" data-id="portfolio" style="background-position: left; background-image: url('experiences/application-development/portfolio.png');">
+          <span class="card-type-badge">Website Development & Design</span>
+          <img src="experiences/application-development/portfolio-logo.png" alt="Portfolio" class="experience-avatar">
+          <div class="card-header">
+            <div class="card-info">
+              <h3>Personal Portfolio Website</h3>
+              <div class="experience-badges">
+                <span class="experience-badge">Website Development</span>
+                <span class="experience-badge">HTML + CSS + JavaScript</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- HertzBeat Site Refactoring -->
+        <div class="experience-card" data-id="hertzbeat-refactor" style="background-position: left; background-image: url('experiences/application-development/hertzbeat.png');">
+          <span class="card-type-badge">Open Source Contribution</span>
+          <img src="experiences/application-development/hertzbeat-logo.png" alt="Apache HertzBeat" class="experience-avatar">
+          <div class="card-header">
+            <div class="card-info">
+              <h3>HertzBeat Refactor</h3>
+              <div class="experience-badges">
+                <span class="experience-badge">GitHub Open Source Contribution</span>
+                <span class="experience-badge">Website Refactoring</span>
+                <span class="experience-badge">React + Docusaurus</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- WildRealms Wildlife Exploration -->
+        <div class="experience-card" data-id="wildrealms" style="background-image: url('experiences/application-development/ .png');">
+          <span class="card-type-badge">Computer Graphics</span>
+          <img src="experiences/application-development/wildrealms-logo.png" alt="Amazon Reviews" class="experience-avatar">
+          <div class="card-header">
+            <div class="card-info">
+              <h3>WildRealms Immersive Simulator</h3>
+              <div class="experience-badges">
+                <span class="experience-badge">3D Environment Models & Simulator</span>
+                <span class="experience-badge">React + Three.js</span>
+              </div>
+            </div>
+          </div>
+        </div>
+          
+        <!-- Make or Break - Physics Disaster Simulator -->
+        <div class="experience-card" data-id="make-or-break" style="background-image: url('experiences/project-photos/make-or-break.JPG');">
+          <span class="card-type-badge">Simulated Physics Environment</span>
+          <img src="experiences/application-development/make-or-break-logo.png" alt="Make or Break" class="experience-avatar">
+          <div class="card-header">
+            <div class="card-info">
+              <h3>Make or Break</h3>
+              <div class="experience-badges">
+                <span class="experience-badge">Unity Game Development</span>
+                <span class="experience-badge">In-Game Physics Simulation</span>
+                <span class="experience-badge">3D Computer Modeling</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Android AIDL Bound Service System -->
+        <div class="experience-card" data-id="android-aidl" style="background-image: url('experiences/project-photos/aidl-system.JPG');">
+          <span class="card-type-badge">Thread Inter-Communication</span>
+          <img src="experiences/application-development/android-logo.png" alt="Android" class="experience-avatar">
+          <div class="card-header">
+            <div class="card-info">
+              <h3>Android AIDL Bound Service System</h3>
+              <div class="experience-badges">
+                <span class="experience-badge">Mobile Development / Android Studio</span>
+                <span class="experience-badge">AIDL / IPC Development</span>
+                <span class="experience-badge">Micro-Services / Multi-Threaded / Java</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Android Gopher Hunting Game - A Multi-Threaded App -->
+        <div class="experience-card" data-id="gopher-hunting" style="background-image: url('experiences/project-photos/gopher-hunting.JPG');">
+          <span class="card-type-badge">Multi-Threaded Android App</span>
+          <img src="experiences/application-development/android-logo.png" alt="Android" class="experience-avatar">
+          <div class="card-header">
+            <div class="card-info">
+              <h3>Gopher Hunting Game</h3>
+              <div class="experience-badges">
+                <span class="experience-badge">Mobile Development / Android Studio</span>
+                <span class="experience-badge">Handlers and Looper</span>
+                <span class="experience-badge">Multi-Threading / Permissions / Java</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- JavaFX Object Oriented Poker Game -->
+        <div class="experience-card" data-id="javafx-poker" style="background-image: url('experiences/project-photos/poker-game.JPG');">
+          <span class="card-type-badge">Object Oriented Application</span>
+          <img src="experiences/application-development/javafx-logo.png" alt="JavaFX" class="experience-avatar">
+          <div class="card-header">
+            <div class="card-info">
+              <h3>JavaFX Poker Game</h3>
+              <div class="experience-badges">
+                <span class="experience-badge">Java Application Development</span>
+                <span class="experience-badge">Object Oriented + JavaFX</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- C++ Priority Queue Data Structure -->
+        <div class="experience-card" data-id="priority-queue" style="background-image: url('experiences/project-photos/priority-queue.JPG');">
+          <span class="card-type-badge">Data Structure</span>
+          <img src="experiences/application-development/cpp-logo.png" alt="C++" class="experience-avatar">
+          <div class="card-header">
+            <div class="card-info">
+              <h3>Priority Queue</h3>
+              <div class="experience-badges">
+                <span class="experience-badge">C++ Object Oriented Data Structure</span>
+                <span class="experience-badge">Binary Trees + Linked List</span>
+                <span class="experience-badge">Complexity Optimization</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CodePath Cybersecurity -->
+        <div class="experience-card" data-id="codepath-cyb-projects" style="background-image: url('experiences/application-development/codepath-cyber.png');">
+          <span class="card-type-badge">Cybersecurity Projects</span>
+          <img src="assets/codepath.jpeg" alt="CodePath" class="experience-avatar">
+          <div class="card-header">
+            <div class="card-info">
+              <h3>Applied Cybersecurity Projects</h3>
+              <div class="experience-badges">
+                <span class="experience-badge">Wireshark + Splunk</span>
+                <span class="experience-badge">Incident Response</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Turtle Graphics Air Hockey Game -->
+        <div class="experience-card" data-id="turtle-airhockey" style="background-image: url('experiences/project-photos/air-hockey.JPG');">
+          <span class="card-type-badge">2D Game Development</span>
+          <img src="experiences/application-development/python-logo.png" alt="Python" class="experience-avatar">
+          <div class="card-header">
+            <div class="card-info">
+              <h3>Turtle Graphics Air Hockey</h3>
+              <div class="experience-badges">
+                <span class="experience-badge">Python 2D Development</span>
+                <span class="experience-badge">Turtle Graphics</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="section-divider-thin"></div>
+
+
+      <!-- Study Abroad -->
+      <h2 class="section-title-sm" id="studyabroad">Study Abroad</h2>
+      <div class="section-divider-title"></div>
+      <div class="section-grid" style="grid-template-columns: repeat(1, 1fr);">
+
+        <!-- Study Abroad Program - Entrepreneurship & Wearable Technology in Europe -->
+        <div class="experience-card" data-id="wearable-tech-abroad" style="background-image: url('experiences/groupPhotos/europeStudyAbroad3.JPG')">
+          <span class="card-type-badge">STEM Study Abroad Program</span>
+          <img src="experiences/application-development/wtse.png" alt="Study Abroad" class="experience-avatar">
+          <div class="card-header">
+            <div class="card-info">
+              <h3>Europe Study Abroad - Entrepreneurship & Wearable Technology</h3>
+              <div class="experience-badges">
+                <span class="experience-badge">Entrepreneurship & Wearable Tech</span>
+                <span class="experience-badge">London / Milan Study Abroad</span>
+                <span class="experience-badge">European Tech Startups</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- Section Divider -->
     <!-- ______________________________________________________________________________ -->
+    <div class="section-divider-accent"></div>
+    <!-- ______________________________________________________________________________ -->
+
 
 
     <!-- Technical Skills -->
     <!-- ______________________________________________________________________________ -->
-    <section class="technical-skills">
-      <h2 class="section-title" id="skills">Technical Skills</h2>
+    <section class="technical-skills" id="skills">
+      <h2 class="section-title-lg" style="padding-bottom: 0.2rem; letter-spacing: 0.2rem;">Technical Skills</h2>
+
+      <!-- Languages -->
+      <details class="section-grid">
+        <summary class="skill-title">Coding Languages</summary>
+        <div class="section-divider-title"></div>
+
+        <!-- C++ -->
+        <div class="tech-skill-card" style="background-image: url('skills/languages/c++-background.png');">
+          <div class="tech-skill-card-header">
+            <div class="tech-skill-card-info">
+              <h3>C++</h3>
+              <div class="tech-skill-card-footer">
+                <span class="skill-badge">Proficient</span>
+                <span class="skill-favorite">★ Favorite</span>
+              </div>
+            </div>
+            <img src="skills/languages/c++-logo.png" alt="Avatar" class="skill-avatar">
+          </div>
+        </div>
+
+        <!-- Python -->
+        <div class="tech-skill-card" style="background-image: url('skills/languages/python-background.png');">
+          <div class="tech-skill-card-header">
+            <div class="tech-skill-card-info">
+              <h3>Python</h3>
+              <div class="tech-skill-card-footer">
+                <span class="skill-badge">Proficient</span>
+              </div>
+            </div>
+            <img src="skills/languages/python-logo.png" alt="Avatar" class="skill-avatar">
+          </div>
+        </div>
+
+        <!-- SQL -->
+        <div class="tech-skill-card" style="background-image: url('skills/languages/sql-background.jpeg');">
+          <div class="tech-skill-card-header">
+            <div class="tech-skill-card-info">
+              <h3>SQL</h3>
+              <div class="tech-skill-card-footer">
+                <span class="skill-badge">Proficient</span>
+              </div>
+            </div>
+            <img src="skills/languages/sql-logo.png" alt="Avatar" class="skill-avatar">
+          </div>
+        </div>
+
+        <!-- Java -->
+        <div class="tech-skill-card" style="background-image: url('skills/languages/java-background.png');">
+          <div class="tech-skill-card-header">
+            <div class="tech-skill-card-info">
+              <h3>Java</h3>
+              <div class="tech-skill-card-footer">
+                <span class="skill-badge">Familiar</span>
+              </div>
+            </div>
+            <img src="skills/languages/java-logo.webp" alt="Avatar" class="skill-avatar">
+          </div>
+        </div>
+
+        <!-- C -->
+        <div class="tech-skill-card" style="background-image: url('skills/languages/c-background.jpeg');">
+          <div class="tech-skill-card-header">
+            <div class="tech-skill-card-info">
+              <h3>C</h3>
+              <div class="tech-skill-card-footer">
+                <span class="skill-badge">Familiar</span>
+              </div>
+            </div>
+            <img src="skills/languages/c-logo.jpeg" alt="Avatar" class="skill-avatar">
+          </div>
+        </div>
+
+        <!-- HTML/CSS -->
+        <!-- <div class="tech-skill-card" style="background-image: url('skills/languages/htmlcss-background.png');">
+          <div class="tech-skill-card-header">
+            <div class="tech-skill-card-info">
+              <h3>HTML/CSS</h3>
+              <div class="tech-skill-card-footer">
+                <span class="skill-badge">Familiar</span>
+              </div>
+            </div>
+            <img src="skills/languages/htmlcss-logo.png" alt="Avatar" class="skill-avatar">
+          </div>
+        </div> -->
+
+        <!-- XML -->
+        <!-- <div class="tech-skill-card" style="background-image: url('skills/languages/xml-background.jpeg');">
+          <div class="tech-skill-card-header">
+            <div class="tech-skill-card-info">
+              <h3>XML</h3>
+              <div class="tech-skill-card-footer">
+                <span class="skill-badge">Familiar</span>
+              </div>
+            </div>
+            <img src="skills/languages/xml-logo.png" alt="Avatar" class="skill-avatar">
+          </div>
+        </div> -->
+
+      </details>
+
+      <!-- Libraries -->
+      <details class="section-grid">
+        <summary class="skill-title">Libraries and Frameworks</summary>
+        <div class="section-divider-title"></div>
+
+        <!-- React -->
+        <div class="tech-skill-card" style="background-image: url('skills/libraries/react-background.jpeg');">
+          <div class="tech-skill-card-header">
+            <div class="tech-skill-card-info">
+              <h3>React</h3>
+              <div class="tech-skill-card-footer">
+                <span class="skill-badge">Familiar</span>
+                <span class="skill-favorite">★ Favorite</span>
+              </div>
+            </div>
+            <img src="skills/libraries/react-logo.png" alt="Avatar" class="skill-avatar">
+          </div>
+        </div>
+
+        <!-- Three.js -->
+        <div class="tech-skill-card" style="background-image: url('skills/libraries/threejs-background.jpeg');">
+          <div class="tech-skill-card-header">
+            <div class="tech-skill-card-info">
+              <h3>Three.js</h3>
+              <div class="tech-skill-card-footer">
+                <span class="skill-badge">Familiar</span>
+              </div>
+            </div>
+            <img src="skills/libraries/threejs-logo.png" alt="Avatar" class="skill-avatar">
+          </div>
+        </div>
+
+        <!-- JavaFX -->
+        <div class="tech-skill-card" style="background-image: url('skills/libraries/javafx-background.png');">
+          <div class="tech-skill-card-header">
+            <div class="tech-skill-card-info">
+              <h3>JavaFX</h3>
+              <div class="tech-skill-card-footer">
+                <span class="skill-badge">Familiar</span>
+              </div>
+            </div>
+            <img src="skills/libraries/javafx-logo.png" alt="Avatar" class="skill-avatar">
+          </div>
+        </div>
+
+      </details>
+
+      <!-- Tools -->
+      <details class="section-grid">
+        <summary class="skill-title">Development Tools</summary>
+        <div class="section-divider-title"></div>
+
+        <!-- Visual Studios Code -->
+        <div class="tech-skill-card" style="background-image: url('skills-photos/language-background.png');">
+          <div class="tech-skill-card-header">
+            <div class="tech-skill-card-info">
+              <h3>Visual Studios Code</h3>
+              <div class="tech-skill-card-footer">
+                <span class="skill-badge">Proficient</span>
+                <span class="skill-favorite">★ Favorite</span>
+              </div>
+            </div>
+            <img src="skills-photos/language-logo.png" alt="Avatar" class="skill-avatar">
+          </div>
+        </div>
+
+        <!-- Jupyter Notebook -->
+        <div class="tech-skill-card" style="background-image: url('skills-photos/language-background.png');">
+          <div class="tech-skill-card-header">
+            <div class="tech-skill-card-info">
+              <h3>Jupyter Notebook</h3>
+              <div class="tech-skill-card-footer">
+                <span class="skill-badge">Familiar</span>
+              </div>
+            </div>
+            <img src="skills-photos/language-logo.png" alt="Avatar" class="skill-avatar">
+          </div>
+        </div>
+
+        <!-- IntelliJ IDEA -->
+        <div class="tech-skill-card" style="background-image: url('skills-photos/language-background.png');">
+          <div class="tech-skill-card-header">
+            <div class="tech-skill-card-info">
+              <h3>IntelliJ IDEA</h3>
+              <div class="tech-skill-card-footer">
+                <span class="skill-badge">Familiar</span>
+              </div>
+            </div>
+            <img src="skills-photos/language-logo.png" alt="Avatar" class="skill-avatar">
+          </div>
+        </div>
+
+        <!-- Unity -->
+        <div class="tech-skill-card" style="background-image: url('skills-photos/language-background.png');">
+          <div class="tech-skill-card-header">
+            <div class="tech-skill-card-info">
+              <h3>Unity</h3>
+              <div class="tech-skill-card-footer">
+                <span class="skill-badge">Familiar</span>
+              </div>
+            </div>
+            <img src="skills-photos/language-logo.png" alt="Avatar" class="skill-avatar">
+          </div>
+        </div>
+
+        <!-- Android Studio -->
+        <div class="tech-skill-card" style="background-image: url('skills-photos/language-background.png');">
+          <div class="tech-skill-card-header">
+            <div class="tech-skill-card-info">
+              <h3>Android Studio</h3>
+              <div class="tech-skill-card-footer">
+                <span class="skill-badge">Familiar</span>
+              </div>
+            </div>
+            <img src="skills-photos/language-logo.png" alt="Avatar" class="skill-avatar">
+          </div>
+        </div>
+
+      </details>
+
+      <!-- Version Control -->
+      <details class="section-grid">
+        <summary class="skill-title">Version Control</summary>
+        <div class="section-divider-title"></div>
+
+        <!-- GitHub -->
+        <div class="tech-skill-card" style="background-image: url('skills-photos/language-background.png');">
+          <div class="tech-skill-card-header">
+            <div class="tech-skill-card-info">
+              <h3>Git/GitHub</h3>
+              <div class="tech-skill-card-footer">
+                <span class="skill-badge">Proficient</span>
+                <span class="skill-favorite">★ Favorite</span>
+              </div>
+            </div>
+            <img src="skills-photos/language-logo.png" alt="Avatar" class="skill-avatar">
+          </div>
+        </div>
+
+        <!-- Linux Command Lines -->
+        <div class="tech-skill-card" style="background-image: url('skills-photos/language-background.png');">
+          <div class="tech-skill-card-header">
+            <div class="tech-skill-card-info">
+              <h3>Linux Command Lines</h3>
+              <div class="tech-skill-card-footer">
+                <span class="skill-badge">Familiar</span>
+                <span class="skill-favorite">★ Favorite</span>
+              </div>
+            </div>
+            <img src="skills-photos/language-logo.png" alt="Avatar" class="skill-avatar">
+          </div>
+        </div>
+
+      </details>
+
+      <!-- Data Tools -->
+      <details class="section-grid">
+        <summary class="skill-title">Data Tools</summary>
+        <div class="section-divider-title"></div>
+
+        <!-- PostgreSQL -->
+        <div class="tech-skill-card" style="background-image: url('skills-photos/language-background.png');">
+          <div class="tech-skill-card-header">
+            <div class="tech-skill-card-info">
+              <h3>PostgreSQL</h3>
+              <div class="tech-skill-card-footer">
+                <span class="skill-badge">Familiar</span>
+              </div>
+            </div>
+            <img src="skills-photos/language-logo.png" alt="Avatar" class="skill-avatar">
+          </div>
+        </div>
+
+        <!-- Tableau -->
+        <div class="tech-skill-card" style="background-image: url('skills-photos/language-background.png');">
+          <div class="tech-skill-card-header">
+            <div class="tech-skill-card-info">
+              <h3>Tableau</h3>
+              <div class="tech-skill-card-footer">
+                <span class="skill-badge">Familiar</span>
+              </div>
+            </div>
+            <img src="skills-photos/language-logo.png" alt="Avatar" class="skill-avatar">
+          </div>
+        </div>
+
+      </details>
+
+      <!-- AI Tools -->
+      <details class="section-grid">
+        <summary class="skill-title">Applied AI Tools</summary>
+        <div class="section-divider-title"></div>
+
+        <!-- Anthropic Claude AI -->
+        <div class="tech-skill-card" style="background-image: url('skills-photos/language-background.png');">
+          <div class="tech-skill-card-header">
+            <div class="tech-skill-card-info">
+              <h3>Claude AI (Anthropic)</h3>
+              <div class="tech-skill-card-footer">
+                <span class="skill-badge">Proficient</span>
+                <span class="skill-favorite">★ Favorite</span>
+              </div>
+            </div>
+            <img src="skills-photos/language-logo.png" alt="Avatar" class="skill-avatar">
+          </div>
+        </div>
+        
+      </details>
+
+      <!-- Concepts -->
+      <!-- <details class="section-grid">
+        <summary class="skill-title">Coding Languages</summary>
+        <div class="section-divider-title"></div>
+
+      </details> -->
+    </section>
+    <!-- ______________________________________________________________________________ -->
+
+    
+
+    <!-- Section Divider -->
+    <!-- ______________________________________________________________________________ -->
+    <div class="section-divider-accent"></div>
+    <!-- ______________________________________________________________________________ -->
+
+
+
+    <!-- Soccer Athletics -->
+    <section class="experience-soccer" id="soccer">
+      <h2 class="section-title-lg" style="padding-bottom: 0.2rem; letter-spacing: 0.1rem;">Soccer Athletics</h2>
+
+      <!-- Soccer -->
+      <h2 class="section-title-sm">Football Clubs</h2>
       <div class="section-divider-title"></div>
 
       <div class="section-grid">
-        <!-- Programming Languages -->
-        <div class="section-col">
-          <div class="reels-head"><h2 class="section-title">Programming Languages</h2></div>
-          <div class="section-divider-thin"></div>
-          <!-- Languages -->
-          <div class="skills-scroll">
-            <!-- Proficient Languages -->
-            <div class="skill-group">
-              <span class="skills-label">Primary Languages (Most Proficient)</span>
-              <div class="skill-pills">
-                <span class="skill-pill">C++</span>
-                <span class="skill-pill">Python</span>
-                <span class="skill-pill">Java</span>
-                <span class="skill-pill">SQL</span>
-              </div>
-            </div>
-
-            <!-- Least Proficient Languages -->
-            <div class="skill-group">
-              <span class="skills-label">Learned Languages (Least Proficient)</span>
-              <div class="skill-pills">
-                <span class="skill-pill">HTML</span>
-                <span class="skill-pill">React</span>
-                <span class="skill-pill">CSS</span>
-                <span class="skill-pill">F#</span>
-                <span class="skill-pill">Assembly</span>
-                <span class="skill-pill">C</span>
-                <span class="skill-pill">XML</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Development Tools -->
-        <div class="section-col">
-          <div class="reels-head"><h2 class="section-title">Development Tools</h2></div>
-          <div class="section-divider-thin"></div>
-
-          <!-- Development Tools Most Used -->
-          <div class="skills-scroll">
-            <div class="skill-group">
-              <span class="skills-label">Primary Tools</span>
-              <div class="skill-pills">
-                <span class="skill-pill">Visual Studios Code</span>
-                <span class="skill-pill">GitHub</span>
-                <span class="skill-pill">Linux Command-Lines</span>
-                <span class="skill-pill">Claude AI (Anthropic)</span>
-                <span class="skill-pill">ChatGPT (OpenAI)</span>
-              </div>
-            </div>
-
-            <!-- Learned Tools (Least Used) -->
-            <div class="skill-group">
-              <span class="skills-label">Familiar Tools</span>
-              <div class="skill-pills">
-                <span class="skill-pill">Jupyter Notebook</span>
-                <span class="skill-pill">IntelliJ IDEA</span>
-                <span class="skill-pill">Replit</span>
-                <span class="skill-pill">Arduino IDE</span>
-                <span class="skill-pill">Tableau</span>
-                <span class="skill-pill">Unity</span>
-                <span class="skill-pill">Android Studio</span>
-                <span class="skill-pill">PostgreSQL</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- ______________________________________________________________________________ -->
-          
-    
-    <!-- Section Divider -->
-    <!-- ______________________________________________________________________________ -->
-    <div class="section-divider-accent"></div>
-    <!-- ______________________________________________________________________________ -->
-    
-    <!-- Experience Section -->
-    <!-- ______________________________________________________________________________ -->
-    <h2 class="section-title" id="experience">Experience</h2>
-    <div class="section-divider-title"></div>
-    <p class="status">Click On Each Experience for More Information</p>
-    <div class="section-divider-thin"></div>  
-
-    <!-- Experience Column 1 (Technical and Athletics)-->
-    <section class="cards">
-
-      <!-- Technical -->
-      <div class="card">
-        <div class="card-head">
-          <h2>Technical </h2>
-          <p>Research & Applied Engineering Experiences</p>
-        </div>
-
-        <ul class="card-body">
-
-          <!-- Wearable Technology and Sensory Enhancement Laboratory Research -->
-           <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                Wearable Technology and Sensory Enhancement Laboratory Research - WTSE
-                <span class="tab-card-tag">Upcoming</span>
-              </summary>
-
-              <div class="toggle-card-content">
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">Student Lab Researcher</summary>
-                    <p class="toggle-card-date">May 2026 - Present</p>
-                    <p class="toggle-card-location">On Site | University of Illinois at Chicago | Chicago IL, United States</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Participating as a student researcher in data collection for a biomedical wearable device measuring respiratory and physiological output via a respirometer</li>
-                      <li>Supporting the research team by logging and organizing sensor data to contribute to ongoing lab experiments</li>
-                      <li>Available to assist with frontend development (React.js) as the project's UI needs evolve</li>
-                    </ul>
-
-                    <div class="toggle-card-skills">
-                      <span class="skills-label">Skills Used</span>
-                      <div class="skills-scroll">
-                        <span class="skill-pill">Data Collection</span>
-                        <span class="skill-pill">Research</span>
-                      </div>
-                    </div>
-                  
-                  </details>
-                </li>
-              </div>
-
-            </details>
-           </li>
-
-          <!-- CyberSecurity CodePath -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                CodePath CyberSecurity - CYB 102
-              </summary>
-
-              <div class="toggle-card-content">
-
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">
-                      Online Course Student
-                    </summary>
-                    <p class="toggle-card-date">February 2026 - May 2026</p>
-                    <p class="toggle-card-location">Online | Remote</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Participating in a project-based cybersecurity program focused on identifying system vulnerabilities, analyzing attack vectors, and implementing defensive security strategies</li>
-                      <li>Collaborating with cohort members to complete hands-on security labs and applied projects involving web application security and threat mitigation</li>
-                      <li>Applying secure coding principles and authentication best practices to reduce common vulnerabilities such as injection attacks and access control flaws</li>
-                      <li>Engaging in peer discussions and technical reviews to strengthen understanding of modern security challenges and defensive architectures</li>
-                    </ul>
-
-                    <div class="toggle-card-skills">
-                      <span class="skills-label">Skills Used</span>
-                      <div class="skills-scroll">
-                        <span class="skill-pill">Cybersecurity</span>
-                        <span class="skill-pill">Splunk & SIEM</span>
-                        <span class="skill-pill">Threat Intelligence</span>
-                        <span class="skill-pill">Linux & Ubuntu</span>
-                        <span class="skill-pill">Directory Traversal</span>
-                        <span class="skill-pill">DoS/DDoS Defense</span>
-                        <span class="skill-pill">Phishing Detection</span>
-                        <span class="skill-pill">Docker</span>
-                      </div>
-                    </div>
-
-                    <!-- <div class="toggle-card-photos">
-                      <img src="" alt="">
-                    </div>       -->
-
-                  </details>
-                </li>
-
-              </div>
-            </details>
-          </li>
-
-          <!-- UIC SparkHacks Hackathon -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                UIC SparkHacks Hackathon
-              </summary>
-
-              <div class="toggle-card-content">
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">Backend Developer - Hackathon Competitor</summary>
-                    <p class="toggle-card-date">February 2025</p>
-                    <p class="toggle-card-location">Chicago IL, United States</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Competed in UIC SparkHacks, a 24–48 hour hackathon focused on rapidly prototyping creative technology solutions under tight time constraints.</li>
-                      <li>Collaborated with a five-person team to design a prototype chatbot aimed at helping new users navigate the UIC website and resources.</li>
-                      <li>Served primarily as a backend developer, implementing Python and SQL logic to analyze user input keywords and map them to the closest relevant web destinations.</li>
-                      <li>Contributed to building the chatbot’s data-driven matching logic, enabling intent-based navigation despite limited development time.</li>
-                      <li>Strengthened skills in rapid prototyping, backend development, teamwork, and iterative problem-solving in a high-pressure, time-limited environment.</li>
-                    </ul>
-
-                    <div class="toggle-card-skills">
-                      <span class="skills-label">Skills Used</span>
-                      <div class="skills-scroll">
-                        <span class="skill-pill">Back-End Web Development</span>
-                        <span class="skill-pill">SQL</span>
-                        <span class="skill-pill">Python</span>
-                        <span class="skill-pill">Query</span>
-                        <span class="skill-pill">Teamwork</span>
-                      </div>
-                    </div>
-                  </details>
-                </li>
-
-                <div class="toggle-card-photos">
-                  <img src="groupPhotos/sparkhacks.JPG" alt="">
-                </div>
-              </div>
-            </details>
-          </li>
-
-          <!-- Global Accelerator Program for Data Wrangling -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                Global Accelerator Program for Data Wrangling
-              </summary>
-
-              <div class="toggle-card-content">
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">Data Analytics Program Student</summary>
-                    <p class="toggle-card-date">August 2024 - November 2024</p>
-                    <p class="toggle-card-location">Online Remote</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Completed an advanced data wrangling and analytics program focused on SQL, MySQL, Python, and end-to-end data analytics workflows.</li>
-                      <li>Worked with industry tools including Tableau, Jupyter Notebook, and relational databases to analyze, query, and visualize real-world datasets.</li>
-                      <li>Strengthened skills in data cleaning, structuring, querying, and preparing datasets for meaningful analysis and insights.</li>
-                      <li>Contributed to professional data analytics projects and earned certifications in data analytics, demonstrating applied technical competency.</li>
-                      <li>Collaborated within interculturally diverse teams on hands-on data challenges, enhancing analytical thinking, problem-solving, and cross-cultural communication.</li>
-                    </ul>
-
-                    <div class="toggle-card-skills">
-                      <span class="skills-label">Skills Used</span>
-                      <div class="skills-scroll">
-                        <span class="skill-pill">SQL</span>
-                        <span class="skill-pill">MySQL</span>
-                        <span class="skill-pill">Python</span>
-                        <span class="skill-pill">Data Analytics</span>
-                        <span class="skill-pill">Data Wrangling</span>
-                        <span class="skill-pill">Data Visualization</span>
-                        <span class="skill-pill">Tableau</span>
-                        <span class="skill-pill">Jupyter Notebooks</span>
-                      </div>
-                    </div>
-                  </details>
-                </li>
-              </div>
-            </details>
-          </li>
-
-        </ul>
-      </div>
-
-      <!-- Athletics -->
-      <div class="card">
-        <div class="card-head">
-          <h2>Athletics</h2>
-          <p>Athletic Experiences</p>
-        </div>
-        <ul class="card-body">
-
-          <!-- Berber City FC -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                Berber City FC (Main Team)
-                <span class="tab-card-tag">Active</span>
-              </summary>
-
-              <div class="toggle-card-content">
-
-                <!-- UPSL Semi-Professional Team -->
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">UPSL Premier Division Semi-Professional Team</summary>
-                    <p class="toggle-card-date">March 2026 - Present</p>
-                    <p class="toggle-card-location">Chicago IL, United States</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Accepted through tryouts for Berber City FC in March 2026 to join their main team in UPSL semi-pro season, spring 2026.</li>
-                      <li>UPSL is a major semi-professional league in the US serving as tier 4 sitting right below professional featuring over 800 clubs nationwide.</li>
-                      <li>Maintaining structured training on Tuesdays and Fridays with scheduled games throughout the season against semi-pro clubs in Illinois.</li>
-                      <li>High level of competition in soccer and balancing it with academic responsibilities.</li>
-                    </ul>
-
-                    <div class="toggle-card-skills">
-                      <span class="skills-label">Skills Used</span>
-                      <div class="skills-scroll">
-                        <span class="skill-pill">Soccer</span>
-                        <span class="skill-pill">Athletics</span>
-                        <span class="skill-pill">Time Management</span>
-                      </div>
-                    </div>
-                  </details>
-                </li>
-
-                <!-- Men's Winter Program -->
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">Men's Winter Program - Semi-Pro Trial for UPSL</summary>
-                    <p class="toggle-card-date">December 2025 - March 2026</p>
-                    <p class="toggle-card-location">Chicago IL, United States</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Accepted through tryouts for Berber City FC in early December to participate in a training program for upcoming UPSL season.</li>
-                      <li>Serves as a trial period for UPSL, a major semi-professional league in the US serving as tier 4 sitting right below professional.</li>
-                      <li>Maintaining structured training Mondays weekly with games Thursdays at the Fire Pitch aspiring to play UPSL.</li>
-                      <li>Player development through high-pressure training sessions and fast-paced enviroments strengthening athletics and fitness.</li>
-                    </ul>
-
-                    <div class="toggle-card-skills">
-                      <span class="skills-label">Skills Used</span>
-                      <div class="skills-scroll">
-                        <span class="skill-pill">Soccer</span>
-                        <span class="skill-pill">Athletics</span>
-                        <span class="skill-pill">Discipline</span>
-                        <span class="skill-pill">Teamwork</span>
-                      </div>
-                    </div>
-                  </details>
-                </li>
-              </div>
-            </details>
-          </li>
-
-          <!-- Machu Picchu FC -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                Machu Picchu FC (Secondary Team)
-                <span class="tab-card-tag">Active</span>
-              </summary>
-
-              <div class="toggle-card-content">
-               
-                <!-- GCSL Major Division - Semi-Pro -->
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">GCSL Major Division Semi-Professional Team</summary> 
-                    <p class="toggle-card-date">March 2026 - Present</p>
-                    <p class="toggle-card-location">Chicago IL, United States</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Competing in the GCSL Major Division during the 2026 summer season against high-level semi-professional soccer clubs across Illinois.</li>
-                      <li>Though not specifically labeled as tier 4 on the US Soccer Pyramid, it is considered a semi-pro league based on its level structure.</li>
-                      <li>GCSL, aka Greater Chicago Soccer League, brings the best amateur and semi-pro clubs operating around the Chicago area.</li>
-                      <li>Major Division represents the league’s second-highest competitive division, positioned directly below the Elite Division, the highest GCSL division.</li>
-                    </ul>
-                  </details>
-                </li>
-
-                <!-- GCSL City Division - Semi-Pro -->
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">GCSL City Division Semi-Professional Team</summary> 
-                    <p class="toggle-card-date">July 2025 - October 2025</p>
-                    <p class="toggle-card-location">Chicago IL, United States</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Competed in the GCSL Semi-Professional league in city division against high-level and semi-professional soccer clubs in the Chicago area.</li>
-                      <li>It is considered an semi-pro league based on its level structure, bringing the best amateur and semi-pro clubs in the Chicago area.</li>
-                      <li>City Division serves as the third highest division of GCSL soccer, sitting below Major Division and Premier Division.</li>
-                      <li>Provided proper player development through coaching and drills, with training sessions Friday and games on Sundays with addtional friendlies.</li>
-                    </ul>
-
-                    <div class="toggle-card-skills">
-                      <span class="skills-label">Skills Used</span>
-                      <div class="skills-scroll">
-                          <span class="skill-pill">Soccer</span>
-                          <span class="skill-pill">Athletics</span>
-                          <span class="skill-pill">Discipline</span>
-                          <span class="skill-pill">Team Building</span>
-                      </div>
-                    </div>
-                  </details>
-                </li>
-
-                <div class="toggle-card-photos">
-                  <img src="groupPhotos/machupicchufc1.JPG" alt="">
-                  <img src="groupPhotos/machupicchufc2.JPG" alt="">
-                  <img src="groupPhotos/machupicchufc3.JPG" alt="">
-                </div>
-              </div>
-            </details>
-          </li>
-
-          <!-- UIC Men's Club Soccer -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                UIC Men's Club Soccer
-              </summary>
-
-              <div class="toggle-card-content">
-
-                <!-- Spring Season 2025 -->
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">College Soccer Club Team - Spring Season 2025</summary>
-                    <p class="toggle-card-date">March 2025 - May 2025</p>
-                    <p class="toggle-card-location">Chicago IL, United States</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Played as a player on the main roster for the UIC Men's Club Soccer Team.</li>
-                      <li>Competed in matches against college soccer clubs across Chicago at high levels of soccer.</li>
-                      <li>Structured consistent training and game preparation with real-time decision-making during matches.</li>
-                    </ul>
-
-                    <div class="toggle-card-skills">
-                      <span class="skills-label">Skills Used</span>
-                      <div class="skills-scroll">
-                        <span class="skill-pill">Soccer</span>
-                        <span class="skill-pill">Athletics</span>
-                        <span class="skill-pill">Discipline</span>
-                        <span class="skill-pill">Teamwork</span>
-                      </div>
-                    </div>
-                  </details>
-                </li>
-
-                <!-- Practice Player Member -->
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">Reserve and Practice Player</summary>
-                    <p class="toggle-card-date">March 2026 - May 2026 <br> September 2024 - November 2024 <br> March 2024 - May 2024 <br> September 2023 - November 2023</p>
-                    <p class="toggle-card-location">Chicago IL, United States</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Trained with the UIC Men's Club main soccer team as a reserve player.</li>
-                      <li>Provided proper player development and making me train in a serious enviroment.</li>
-                      <li>Building discipline, consistency, and resliency through structured drills and scrimmages.</li>
-                    </ul>
-
-                    <div class="toggle-card-skills">
-                      <span class="skills-label">Skills Used</span>
-                      <div class="skills-scroll">
-                        <span class="skill-pill">Soccer</span>
-                        <span class="skill-pill">Athletics</span>
-                        <span class="skill-pill">Discipline</span>
-                        <span class="skill-pill">Teamwork</span>
-                      </div>
-                    </div>
-                  </details>
-                </li>
-
-                <div class="toggle-card-photos">
-                  <img src="groupPhotos/uicclubsoccer1.JPG" alt="">
-                  <img src="groupPhotos/uicclubsoccer2.PNG" alt="">
-                  <img src="groupPhotos/uicclubsoccer5.JPG" alt="">
-                </div>
-              </div>
-            </details>
-          </li>
-
-          <!-- Chicago City SC -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                Chicago City SC
-              </summary>
-
-              <div class="toggle-card-content">
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">Midway Soccer League Team</summary>
-                    <p class="toggle-card-date">November 2025 - Febraury 2026</p>
-                    <p class="toggle-card-location">Bridgeview IL, United States</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Played for Chicago City SC on Midway Soccer League at Bridgeview.</li>
-                      <li>Provided a structured and competitive enviroment for soccer.</li>
-                      <li>Weekend games from Saturdays and Sundays, providing player development.</li>
-                    </ul>
-
-                    <div class="toggle-card-skills">
-                      <span class="skills-label">Skills Used</span>
-                      <div class="skills-scroll">
-                        <span class="skill-pill">Soccer</span>
-                        <span class="skill-pill">Athletics</span>
-                        <span class="skill-pill">Time Management</span>
-                        <span class="skill-pill">Discipline</span>
-                        <span class="skill-pill">Teamwork</span>
-                      </div>
-                    </div>
-                  </details>
-                </li>
-
-                <div class="toggle-card-photos">
-                  <img src="groupPhotos/chicagocitysc1.JPG" alt="">
-                  <img src="groupPhotos/chicagocitysc2.JPG" alt="">
-                </div>
-              </div>
-            </details>
-          </li>
-          
-          <!-- Diverse City FC -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                Diverse City FC Pro Academy
-              </summary>
-
-              <div class="toggle-card-content">
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">UPSL Semi-Professional Trial Program</summary>
-                    <p class="toggle-card-date">December 2025 - February 2026</p>
-                    <p class="toggle-card-location">Schaumburg IL, United States</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Selected after tryouts to continue training with Diverse City FC in a structured development program preparing athletes for the UPSL Semi-Professional season.</li>
-                      <li>Participated in early-morning training sessions (Saturdays, 6:00 AM) at Schaumburg Sports Center, combining technical soccer training and strength/weight conditioning.</li>
-                      <li>Trained in a disciplined, performance-driven environment and reinforced consistency.</li>
-                      <li>Playing in a pro-academy program focused on creating pathways for younger athletes for opportunities such as scholarships and advancement through soccer.</li>
-                    </ul>
-
-                    <div class="toggle-card-skills">
-                      <span class="skills-label">Skills Used</span>
-                      <div class="skills-scroll">
-                        <span class="skill-pill">Soccer</span>
-                        <span class="skill-pill">Athletics</span>
-                        <span class="skill-pill">Discipline</span>
-                        <span class="skill-pill">Team Building</span>
-                      </div>
-                    </div>
-                  </details>
-                </li>
-
-                <div class="toggle-card-photos">
-                  <img src="groupPhotos/diversecityfc1.jpg" alt="">
-                  <img src="groupPhotos/diversecityfc2.JPG" alt="">
-                  <img src="groupPhotos/diversecityfc3.JPG" alt="">
-                </div>
-              </div>
-            </details>
-          </li>
-
-          <!-- UIC Running Club -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                UIC Running Club
-              </summary>
-
-              <div class="toggle-card-content">
-                <!-- Running Club Member -->
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">Running Club Member</summary>
-                    <p class="toggle-card-date">September 2022 - November 2025</p>
-                    <p class="toggle-card-location">Chicago IL, United States</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Competed in major running and endurance events representing UIC Club, including long-distance races such as the Shamrock Shuffle and Hot Chocolate Run, as well as track and field competitions (Carthage Athletics, Circuit of Chicago).</li>
-                      <li>Utilized endurance training and occasional team practices (Tuesdays–Thursdays) to support soccer conditioning, stamina, and recovery.</li>
-                      <li>Contributed to a team-oriented club culture, collaborating with members to continuous improvement and athletic development.</li>
-                    </ul>
-
-                    <div class="toggle-card-skills">
-                      <span class="skills-label">Skills Used</span>
-                      <div class="skills-scroll">
-                        <span class="skill-pill">Running</span>
-                        <span class="skill-pill">Track and Field</span>
-                        <span class="skill-pill">Long Distance Running</span>
-                        <span class="skill-pill">Discipline</span>
-                        <span class="skill-pill">Resiliency</span>
-                        <span class="skill-pill">Perseverance</span>
-                        <span class="skill-pill">Athletics</span>
-                        <span class="skill-pill">Team Building</span>
-                        <span class="skill-pill">Team Leadership</span>
-                      </div>
-                    </div>
-                  </details>
-                </li>
-
-                <!-- Carthage Athletics Track & Field -->
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">Carthage Athletics Track & Field</summary>
-                    <p class="toggle-card-date">December 2025</p>
-                    <p class="toggle-card-location">Kenosha WI, United States</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Participated in a college track and field competition, gaining exposure to collegiate-level racing environments in the 300m and 50m dash events.</li>
-                      <li>Recorded official race times of 44.83 seconds (300m) and 7.86 seconds (50m), using the experience to assess performance and areas for improvement.</li>
-                    </ul>
-                  </details>
-                </li>
-
-                <!-- Circuit of Chicago Track & Field -->
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">Circuit of Chicago Track & Field Competition</summary>
-                    <p class="toggle-card-date">January 2025</p>
-                    <p class="toggle-card-location">Chicago IL, United States</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Competed in a track and field meet, racing in the 1-mile and 200-meter events against collegiate and club-level runners.</li>
-                      <li>Finished 3rd place in the 1-mile (6:06) and 2nd place in the 200m (30.04), demonstrating speed endurance and race execution.</li>
-                    </ul>
-                  </details>
-                </li>
-
-                <!-- Shamrock Shuffle 8K -->
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">Shamrock Shuffle 8K Run 2025</summary>
-                    <p class="toggle-card-date">March 2025</p>
-                    <p class="toggle-card-location">Chicago IL, United States</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Third time completing the Bank of America Shamrock Shuffle 8K, competing in a large Chicago race event.</li>
-                      <li>Finished with a time of 33:29, placing 138 / 914 (male ages 20–24), 1,027 / 11,442 by gender, and 1,258 / 23,714 overall.</li>
-                      <li>Demonstrated endurance, consistency, and race-day execution through structured preparation and competitive performance.</li>
-                    </ul>
-                  </details>
-                </li>
-
-                <!-- Hot Chocolate Run 15K -->
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">Hot Chocolate Run 15K 2024</summary>
-                    <p class="toggle-card-date">November 2024</p>
-                    <p class="toggle-card-location">Chicago IL, United States</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Second time completing the Hot Chocolate Run 15K in Chicago, covering approximately 10 miles in a large Chicago race event</li>
-                      <li>Finished with a time of 1:05:55 (7:05 min/mi pace), placing 173 / 4,569 overall, 135 / 2,283 male, and 10 / 201 in ages 20–24.</li>
-                      <li>Demonstrated strong endurance, pacing discipline, and mental resilience through sustained performance over a long-distance race.</li>
-                    </ul>
-                  </details>
-                </li>
-
-                <div class="toggle-card-photos">
-                  <img src="groupPhotos/uicrunningclub1.JPG" alt="">
-                  <img src="groupPhotos/uicrunningclub2.PNG" alt="">
-                  <img src="groupPhotos/uicrunningclub3.JPEG" alt="">
-                </div>
-              </div>
-            </details>
-          </li>
-
-          <!-- Highschool Sports -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                Theodore Roosevelt Highschool Athletics
-              </summary>
-
-              <div class="toggle-card-content">
-                <!-- Varsity Soccer -->
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">Varsity Soccer</summary>
-                    <p class="toggle-card-date">August 2019 - October 2021</p>
-                    <p class="toggle-card-location">Chicago IL, United States</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Competed as a varsity soccer athlete against high schools across the Chicago Public League.</li>
-                      <li>Successfully balanced rigorous academic coursework with varsity-level athletic training and competition.</li>
-                    </ul>
-
-                    <div class="toggle-card-photos">
-                      <img src="groupPhotos/rooseveltsoccer1.JPG" alt="">
-                      <img src="groupPhotos/rooseveltsoccer2.JPG" alt="">
-                      <img src="groupPhotos/rooseveltsoccer3.JPG" alt="">
-                    </div>
-                  </details>
-                </li>
-
-                <!-- Track & Field -->
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">Track & Field</summary>
-                    <p class="toggle-card-date">December 2019 - March 2022</p>
-                    <p class="toggle-card-location">Chicago IL, United States</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Competed in track and field events representing my high school against schools across the Chicago area.</li>
-                      <li>Balanced high-level academic coursework with the demands of competitive athletic training and meets.</li>
-                    </ul>
-                  </details>
-                </li>
-
-                <!-- Varsity Basketball -->
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">Varsity Basketball</summary>
-                    <p class="toggle-card-date">Febraury 2022 – May 2022</p>
-                    <p class="toggle-card-location">Chicago IL, United States</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Represented my high school on the varsity basketball team, competing against schools across the Chicago area.</li>
-                    </ul>
-                  </details>
-                </li>
-              </div>
-            </details>
-          </li>
-
-          <!-- Soccer Leagues -->
-           <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                Notable Soccer Competitions
-              </summary>
-
-              <div class="toggle-card-content">
-
-                <!-- UIC Soccer Intramural Leagues -->
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">
-                      UIC Soccer Intramural Leagues (Additional Side Games)
-                    </summary>
-                    <p class="toggle-card-date">August 2022 - May 2026</p>
-                    <p class="toggle-card-location">Chicago IL, United States</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Played in UIC’s recreational intramural soccer league as a way to stay active, have fun, and remain connected to the campus soccer community</li>
-                      <li>Competed across three different intramural teams and winning the league at least four times, emphasizing teamwork, communication, and sportsmanship</li>
-                      <li>Balanced academics with regular intramural participation, using the league as a positive outlet for fitness and stress relief.</li>
-                    </ul>
-
-                    <div class="toggle-card-photos">
-                      <img src="groupPhotos/uicintramurals1.PNG" alt="">
-                      <img src="groupPhotos/uicintramurals2.JPG" alt="">
-                      <img src="groupPhotos/uicintramurals3.JPG" alt="">
-                      <img src="groupPhotos/uicintramurals4.JPG" alt="">
-                    </div>
-                  </details>
-                </li>
-
-                <!-- GT Internacional Soccer League -->
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">GT Internacional Soccer League</summary>
-                    <p class="toggle-card-date">March 2024 - Febraury 2025</p>
-                    <p class="toggle-card-location">Melrose Park IL, United States</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Competed in the GT Internacional Soccer League (Second Division) providing highly physical and competitive match environments</li>
-                      <li>Finished the season in third place earning a trophy and medal, contributing to a strong team performance</li>
-                    </ul>
-
-                    <div class="toggle-card-photos">
-                      <img src="groupPhotos/gtleague1.JPG" alt="">
-                      <img src="groupPhotos/gtleague2.JPEG" alt="">
-                    </div>
-                  </details>
-                </li>
-              </div>
-            </details>
-          </li>
-
-          <!-- Long Distance Running Race -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                Notable Running Competitions
-              </summary>
-
-              <div class="toggle-card-content">
-                <!-- Bank of America Chicago 13.1 Half Marathon 2025 -->
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">Bank of America Chicago 13.1 Half Marathon 2025</summary>
-                    <p class="toggle-card-date">July 2025</p>
-                    <p class="toggle-card-location">Chicago IL, United States</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Completed my first half marathon (13.1 miles), successfully finishing a major endurance race</li>
-                      <li>Recorded a finish time of 1:37:12 (7:25 min/mile pace), placing 46 / 270 (male ages 20–24), 669 / 4,755 by gender, and 765 / 9,542 overall.</li>
-                      <li>Demonstrated endurance, pacing strategy, mental resilience, and long-term preparation through sustained performance over a demanding distance.</li>
-                    </ul>
-                  </details>
-                </li>
-
-                <!-- Chi-Town Turkey Trot 8k Run 2025 -->
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">Chi-Town Turkey Trot 8k Run 2025</summary>
-                    <p class="toggle-card-date">November 2025</p>
-                    <p class="toggle-card-location">Chicago IL, United States</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Completed the Chi-Town Turkey Trot 8K, racing along Chicago’s lakeshore in 25°F conditions, demonstrating endurance and mental toughness.</li>
-                      <li>Finished with a time of 33:29, placing 1,027 / 11,451 by gender, 138 / 914 in ages 20–24, and 1,257 / 23,733 overall.</li>
-                      <li>Showcased discipline, resilience, and goal-driven preparation through race execution under challenging weather conditions.</li>
-                    </ul>
-                  </details>
-                </li>
-              </div>
-            </details>
-          </li>
-
-        </ul>
-      </div>
-
-    </section>
-
-    <!-- Experience Column 2 (Student Involvement and Work Experience) -->
-    <section class="cards">
-
-      <!-- Student Involvement -->
-      <div class="card">
-        <div class="card-head">
-          <h2>Student Involvement</h2>
-          <p>Student Involvement Experiences</p>
-        </div>
-        <ul class="card-body">
-
-          <!-- Society of Professional Hispanic Engineers at UIC -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                Society of Professional Hispanic Engineers at UIC
-              </summary>
-
-              <div class="toggle-card-content">
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">Student Member</summary>
-                    <p class="toggle-card-date">August 2024 - May 2026</p>
-                    <p class="toggle-card-location">Chicago IL, United States</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Participated in national STEM conventions and career fairs, gaining exposure to engineering careers, emerging technologies, and industry trends.</li>
-                      <li>Participated in professional development workshops focused on technical skill growth, leadership development, and early-career readiness.</li>
-                      <li>Networked with recruiters and engineers from leading technology companies (including Microsoft, Accenture, John Deere, Lenovo, Nintendo, and Disney) to gain insight into career pathways, hiring expectations, and technical roles.</li>
-                    </ul>
-
-                    <div class="toggle-card-skills">
-                      <span class="skills-label">Skills Used</span>
-                      <div class="skills-scroll">
-                        <span class="skill-pill">Community Engagement</span>
-                        <span class="skill-pill">Professional Networking</span>
-                        <span class="skill-pill">Professional Communication</span>
-                        <span class="skill-pill">Career Development</span>
-                        <span class="skill-pill">Interpersonal Skills</span>
-                      </div>
-                    </div>
-                  </details>
-                </li>
-
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">United Airlines Company Visit</summary>
-                    <p class="toggle-card-date">February 2026</p>
-                    <p class="toggle-card-location">Chicago Illinois, United States</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Networked with United Airlines recruiters and talent acquisition professionals to discuss internship and early-career opportunities in technology and engineering.</li>
-                      <li>Participated in an exclusive headquarters tour at Willis Tower, gaining insight into airline operations, corporate infrastructure, and cross-functional teams.</li>
-                      <li>Learned about United’s innovation initiatives in aviation technology, data systems, and large-scale operational logistics.</li>
-                    </ul>
-                  </details>
-                </li>
-
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">SHPE National Convention 2025</summary>
-                    <p class="toggle-card-date">November 2025</p>
-                    <p class="toggle-card-location">Philadelphia, United States</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Selected as a student participant for the 5-day SHPE National Convention 2025 in Philadelphia, one of the largest STEM career and professional development conferences in the U.S.</li>
-                      <li>Engaged with industry recruiters and engineers from companies including Lenovo, Henkel, and John Deere, gaining insight into career pathways, technical roles, and industry expectations.</li>
-                      <li>Participated in professional and technical workshops focused on engineering development, leadership, and early-career preparation.</li>
-                      <li>Competed in the SHPE Academic Olympiad, applying problem-solving, teamwork, and critical thinking skills in a competitive academic setting.</li>
-                      <li>Strengthened networking, communication, and professional presence through multi-day collaboration and exposure to diverse STEM professionals.</li>
-                    </ul>
-                  </details>
-                </li>
-
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">SHPE Region 6 STEM Summit Conference 2025</summary>
-                    <p class="toggle-card-date">April 2025</p>
-                    <p class="toggle-card-location">Evanston IL, United States</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Participated in the SHPE Region 6 STEM Summit, engaging with recruiters, engineers, and industry panelists across multiple STEM disciplines.</li>
-                      <li>Attended career panels, technical talks, and professional development sessions focused on early-career growth and industry expectations.</li>
-                      <li>Networked with professionals to gain insight into career pathways, recruiting processes, and skills valued in technical roles.</li>
-                      <li>Strengthened professional communication and networking skills through direct interaction with industry representatives and peers.</li>
-                    </ul>
-                  </details>
-                </li>
-
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">Epsilon Company Visit</summary>
-                    <p class="toggle-card-date">February 2025</p>
-                    <p class="toggle-card-location">Chicago Illinois, United States</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Participated in an office tour at Epsilon’s downtown Chicago location, gaining insight into the company’s corporate culture and collaborative work environment.</li>
-                      <li>Learned about Epsilon’s data-driven marketing, analytics, and digital transformation solutions for enterprise clients.</li>
-                      <li>Connected and networked with professionals to discuss career pathways, technical roles, and industry trends in marketing technology.</li>
-                    </ul>
-                  </details>
-                </li>
-
-                <div class="toggle-card-photos">
-                  <img src="groupPhotos/shpe1.JPG" alt="">
-                  <img src="groupPhotos/shpe2.JPG" alt="">
-                  <img src="groupPhotos/shpe3.JPG" alt="">
-                </div>
-              </div>
-            </details>
-          </li>
-
-          <!-- Filipinos In Alliance -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                Filipinos In Alliance at UIC
-              </summary>
-
-              <div class="toggle-card-content">
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">Student Member</summary>
-                    <p class="toggle-card-date">March 2024 - May 2026</p>
-                    <p class="toggle-card-location">Chicago IL, United States</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Participated in cultural, volunteer, and community events promoting Filipino heritage and representation across UIC.</li>
-                      <li>Collaborated with team members to support event planning, performances, and community gatherings.</li>
-                      <li>Strengthened communication, teamwork, and organizational skills through active involvement in club initiatives.</li>
-                      <li>Built meaningful connections across UIC and other university Filipino and multicultural student organizations, fostering cross-community collaboration.</li>
-                    </ul>
-
-                    <div class="toggle-card-skills">
-                      <span class="skills-label">Skills Used</span>
-                      <div class="skills-scroll">
-                        <span class="skill-pill">Community Engagement</span>
-                        <span class="skill-pill">Teamwork</span>
-                        <span class="skill-pill">Cultural Awareness</span>
-                        <span class="skill-pill">Event Management</span>
-                        <span class="skill-pill">Communication</span>
-                      </div>
-                    </div>
-                  </details>
-                </li>
-
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">Filipino Americans Coming Together Conference 2025</summary>
-                    <p class="toggle-card-date">November 2025</p>
-                    <p class="toggle-card-location">Urbana Champaign IL, United States</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Attended the Filipino Americans Coming Together (FACT) Conference 2025 at UIUC, a two day event focused on cultural engagement and professional development.</li>
-                      <li>Participated in three workshops covering topics related to leadership, identity, and career development, with relevance to my academic and professional interests.</li>
-                      <li>Networked with students and professionals in my field, exchanging insights on career paths, experiences, and opportunities.</li>
-                      <li>Engaged with the broader conference community through cultural programming and performances, strengthening cross-cultural awareness and community connection.</li>
-                    </ul>
-                  </details>
-                </li>
-
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">Midwest Filipino American Summit 2025</summary>
-                    <p class="toggle-card-date">April 2025</p>
-                    <p class="toggle-card-location">Evanston IL, United States</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Volunteered as an on-stage performer, participating in a group performance prepared through approximately four weeks of coordinated rehearsals.</li>
-                      <li>Demonstrated commitment, discipline, and teamwork by balancing rehearsals with academic and extracurricular responsibilities.</li>
-                      <li>Attended multiple workshops focused on leadership, cultural engagement, and personal development.</li>
-                      <li>Engaged in networking opportunities with students and professionals, strengthening communication skills and cross-community connections.</li>
-                    </ul>
-                  </details>
-                </li>
-
-                <div class="toggle-card-photos">
-                  <img src="groupPhotos/fia1.JPG" alt="">
-                  <img src="groupPhotos/fia2.JPG" alt="">
-                  <img src="groupPhotos/fia3.JPG" alt="">
-                </div>
-              </div>
-            </details>
-          </li>
-
-          <!-- Entrepreneurship and Wearable Technology Study Abroad In Europe -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                Entreprenuership and Wearable Technology Study Abroad In Europe
-              </summary>
-
-              <div class="toggle-card-content">
-
-                <!-- Study Abroad Student -->
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">Study Abroad STEM Program Student</summary>
-                    <p class="toggle-card-date">July 2025</p>
-                    <p class="toggle-card-location">London, United Kingdom | Milan, Italy</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Participated in a STEM-focused study abroad program across London and Milan, exploring entrepreneurship, technology innovation, and emerging hardware trends.</li>
-                      <li>Gained direct exposure to European tech clusters, startup ecosystems, and wearable technology companies through guided industry experiences.</li>
-                      <li>Engaged in company visits, workshops, and tech tours to learn how global teams approach engineering, product development, and innovation.</li>
-                      <li>Completed analytical and reflective essays evaluating observed technologies, offering critical commentary on innovations, and proposing original innovation concepts based on real-world insights.</li>
-                      <li>Developed stronger cross-cultural communication, adaptability, and global perspective through immersive international collaboration and academic reflection.</li>
-                    </ul>
-
-                    <div class="toggle-card-skills">
-                      <span class="skills-label">Skills Used</span>
-                      <div class="skills-scroll">
-                        <span class="skill-pill">Innovation Research</span>
-                        <span class="skill-pill">Industry Research</span>
-                        <span class="skill-pill">Technology Integration Research</span>
-                        <span class="skill-pill">Professional Communication</span>
-                        <span class="skill-pill">Professional Networking</span>
-                      </div>
-                    </div>
-                  </details>
-                </li>
-
-                <!-- London Tech Week -->
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">London Tech Week Career Convention 2025</summary>
-                    <p class="toggle-card-date">July 2025</p>
-                    <p class="toggle-card-location">London, United Kingdom</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Attended London Tech Week 2025, gaining first-hand exposure to London’s major tech clusters and their roles within the global innovation ecosystem.</li>
-                      <li>Observed and analyzed live presentations from startups and technology leaders showcasing emerging innovations across software, hardware, AI, and wearable technologies.</li>
-                      <li>Engaged in professional networking with founders, engineers, and industry representatives to discuss product vision, market impact, and career pathways.</li>
-                      <li>Explored how companies communicate innovation strategy, value propositions, and technical differentiation to investors, partners, and consumers.</li>
-                      <li>Developed insights into European startup culture and innovation trends, strengthening global awareness of technology development and commercialization.</li>
-                    </ul>
-                  </details>
-                </li>
-
-                <!-- EAVE Company Visit  -->
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">EAVE Company Visit</summary>
-                    <p class="toggle-card-date">July 2025</p>
-                    <p class="toggle-card-location">London, United Kingdom</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Learned about wearable safety devices designed to protect industrial and construction workers from hazardous gas exposure, excessive noise levels, and workplace risks.</li>
-                      <li>Received a guided headquarters tour showcasing product development, testing processes, and real-world deployment of worker safety technology.</li>
-                      <li>Engaged with company representatives through Q&A discussions about product innovation, regulatory standards, and the future of industrial safety solutions.</li>
-                    </ul>
-                  </details>
-                </li>
-
-                <!-- Mapei Sports Company Visit  -->
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">Mapei Sports Company Visit</summary>
-                    <p class="toggle-card-date">July 2025</p>
-                    <p class="toggle-card-location">Milan, Italy</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Visited a sports performance facility equipped with advanced biomedical technology for monitoring and training amateur/elite athletes.</li>
-                      <li>Observed data-driven performance analysis tools used for physiological tracking, injury prevention, and movement optimization.</li>
-                      <li>Learned how Mapei Sport collaborates with professional European football clubs through sports, analytics and tech.</li>
-                    </ul>
-                  </details>
-                </li>
-
-                <!-- United Kingdom Companies Visited  -->
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">Notable London Companies Visited</summary>
-                    <p class="toggle-card-date">July 2025</p>
-                    <p class="toggle-card-location">London, United Kingdom</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>NeuBond - Specializing in advanced wearable technology to empower patients recovering mobility and independence after stroke and neuro-injury.</li>
-                      <li>ARxVision - ARx headset streams video in real-time for visually impaired patients to provide instant, continuous descriptions of objects, text, and environments.</li>
-                    </ul>
-                  </details>
-                </li>
-
-                <!-- Milan Companies Visited  -->
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">Notable Italy Companies Visited</summary>
-                    <p class="toggle-card-date">July 2025</p>
-                    <p class="toggle-card-location">Milan, Italy</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>BTS Engineering - Specializing in body motion capture technologies in a means of connecting healthcare and sports.</li>
-                      <li>ComfTech - Designs and produces wearable devices to monitor physiological parameters based on smart textiles in a continuous and non-invasive way.</li>
-                      <li>Moon Rabbit Labs - A design and consultancy lab that combines creativity, technology, and advanced manufacturing to deliver innovative consumer goods.</li>
-                    </ul>
-                  </details>
-                </li>
-
-                <div class="toggle-card-photos">
-                  <img src="groupPhotos/europeStudyAbroad1.JPG" alt="">
-                  <img src="groupPhotos/europeStudyAbroad2.JPG" alt="">
-                  <img src="groupPhotos/europeStudyAbroad3.JPG" alt="">
-                </div>
-              </div>
-            </details>
-          </li>
-
-          <!-- Roosevelt Highschool JROTC -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                Roosevelt Highschool JROTC
-              </summary>
-
-              <div class="toggle-card-content">
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">Highschool JROTC Recruit</summary>
-                    <p class="toggle-card-date">August 2018 - June 2019</p>
-                    <p class="toggle-card-location">Chicago IL, United States</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Participated in Roosevelt High School JROTC, developing leadership, discipline, and accountability through structured military-style training.</li>
-                      <li>Maintained proper uniform standards and appearance during weekly inspections, reinforcing attention to detail and professionalism.</li>
-                      <li>Trained in marching drills, formations, and command response, strengthening teamwork, coordination, and leadership under instruction.</li>
-                      <li>Engaged in physical fitness activities and competitive events to build mental resilience and personal discipline.</li>
-                      <li>Represented the program at school and community events, including specialized activities such as archery and skills-based training.</li>
-                    </ul>
-
-                    <div class="toggle-card-skills">
-                      <span class="skills-label">Skills Used</span>
-                      <div class="skills-scroll">
-                        <span class="skill-pill">Leadership Development</span>
-                        <span class="skill-pill">Marching Drill & Ceremony</span>
-                        <span class="skill-pill">Military Bearing & Discipline</span>
-                        <span class="skill-pill">Uniform Standards</span>
-                        <span class="skill-pill">Team Formation & Coordination</span>
-                      </div>
-                    </div>
-                  </details>
-                </li>
-              </div>
-            </details>
-          </li>
-    
-        </ul>
-      </div>
-      
-      <!-- Work Experience/Volunteers -->
-      <div class="card">
-        <div class="card-head">
-          <h2>Work Experience</h2>
-          <p>Employment and Volunteering Experiences</p>
-        </div>
-        <ul class="card-body">
-
-          <!-- Prospect Airport Services -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                Prospect Airport Services
-              </summary>
-              <div class="toggle-card-content">
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">Airport Service Assistant - Summer Job</summary>
-                    <p class="toggle-card-date">July 2025 - August 2025</p>
-                    <p class="toggle-card-location">On Site | O'Hare International Airport | Chicago IL, United States</p>
-                    <ul class="toggle-card-bullets">
-                      <li>Assisted passengers requiring mobility support, providing wheelchair transport and escort services throughout the airport.</li>
-                      <li>Managed luggage, airport equipment, and supply handling to support daily operations.</li>
-                      <li>Coordinated with gate agents, airline staff, and team members to ensure timely passenger transfers and smooth workflows.</li>
-                      <li>Demonstrated patience, professionalism, and strong customer service skills in high-traffic, time-sensitive environments.</li>
-                    </ul>
-                    <div class="toggle-card-skills">
-                      <span class="skills-label">Skills Used</span>
-                      <div class="skills-scroll">
-                        <span class="skill-pill">Customer Service</span>
-                        <span class="skill-pill">Team Coordination</span>
-                        <span class="skill-pill">Team Communication</span>
-                        <span class="skill-pill">Workplace Safety</span>
-                        <span class="skill-pill">Employee Training</span>
-                      </div>
-                    </div>
-                  </details>
-                </li>
-              </div>
-            </details>
-          </li>
-
-          <!-- Reggio's Pizza -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                Reggio's Pizza
-              </summary>
-              <div class="toggle-card-content">
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">Fast Food Crew Member - Summer Job</summary>
-                    <p class="toggle-card-date">July 2024 - August 2025</p>
-                    <p class="toggle-card-location">On Site | O'Hare International Airport | Chicago IL, United States</p>
-                    <ul class="toggle-card-bullets">
-                      <li>Delivered customer service in a fast-paced airport environment, handling orders, transactions, and food preparation.</li>
-                      <li>Maintained kitchen, equipment, and workstations to meet health and safety standards.</li>
-                      <li>Supported store operations including inventory movement, restocking, and supply transportation across multiple airport locations.</li>
-                      <li>Strengthened teamwork, communication, and efficiency while adapting to fluctuating passenger traffic.</li>
-                    </ul>
-                    <div class="toggle-card-skills">
-                      <span class="skills-label">Skills Used</span>
-                      <div class="skills-scroll">
-                        <span class="skill-pill">Customer Service</span>
-                        <span class="skill-pill">Teamwork</span>
-                        <span class="skill-pill">Communication</span>
-                        <span class="skill-pill">Multi-Tasking</span>
-                        <span class="skill-pill">Food Preparation</span>
-                      </div>
-                    </div>
-                  </details>
-                </li>
-              </div>
-            </details>
-          </li>
-
-          <!-- SHPE Volunteering -->
-          <li>
-              <details class="toggle-card">
-                <summary class="toggle-card-summary">
-                Society of Professional Hispanic Engineers at UIC
-                </summary>
-                <div class="toggle-card-content">
-                  <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">SHPE Dia De Ciencias 2025 - Event Volunteer</summary>
-                    <p class="toggle-card-date">November 2025</p>
-                    <p class="toggle-card-location">On Site | University of Illinois at Chicago | Chicago IL, United States</p>
-                    <ul class="toggle-card-bullets">
-                      <li>Volunteered at SHPE Día de Ciencias 2025, supporting the organization and execution of a STEM-focused community outreach event.</li>
-                      <li>Assisted with event setup, coordination, and logistics, ensuring activities ran smoothly and on schedule.</li>
-                      <li>Guided participants and attendees, providing directions, answering questions, and helping create an engaging and welcoming learning environment.</li>
-                    </ul>
-                    <!-- <div class="toggle-card-skills">
-                      <span class="skills-label">Skills Used</span>
-                      <div class="skills-scroll">
-                        <span class="skill-pill">Skill</span>
-                        <span class="skill-pill">Skill</span>
-                        <span class="skill-pill">Skill</span>
-                      </div>
-                    </div> -->
-                  </details>
-                </li>
-              </div>
-            </details>
-          </li>
-
-          <!-- FIA Volunteering -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                Filipinos In Alliance at UIC
-              </summary>
-              <div class="toggle-card-content">
-
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">Pagsibol: Battle of the Bamboo 2026 - Part Time Event Volunteer</summary>
-                    <p class="toggle-card-date">Febraury 2026</p>
-                    <p class="toggle-card-location">On Site | Copernicus Center | Chicago IL, United States</p>
-
-                    <ul class="toggle-card-bullets">
-                      <li>Assisted with parking coordination by directing incoming vehicles to available spaces, ensuring smooth traffic flow before the event start.</li>
-                      <li>Guided attendees and families to appropriate parking areas and entrances at the Copernicus Center, improving event accessibility.</li>
-                      <li>Collaborated with event staff and volunteers to manage crowd movement and maintain an organized arrival process.</li>
-                      <li>Provided on-site assistance and answered attendee questions to support a welcoming and efficient event experience.</li>
-                    </ul>
-                  </details>
-                </li>
-
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">Philippine Cultural Night 2025 - Event Volunteer</summary>
-                    <p class="toggle-card-date">October 2025</p>
-                    <p class="toggle-card-location">On Site | University of Illinois at Chicago | Chicago IL, United States</p>
-                    <ul class="toggle-card-bullets">
-                      <li>Volunteered at Philippine Cultural Night 2025, a large-scale cultural showcase featuring dance, music, and community performances.</li>
-                      <li>Supported event organization and preparation, assisting with setup, logistics, and behind-the-scenes coordination.</li>
-                      <li>Served in an event operations and safety role, helping manage crowd flow, provide directions, and ensure attendees followed event guidelines.</li>
-                      <li>Contributed to a smooth, safe, and engaging event experience for performers, volunteers, and attendees.</li>
-                    </ul>
-                    <!-- <div class="toggle-card-skills">
-                      <span class="skills-label">Skills Used</span>
-                      <div class="skills-scroll">
-                        <span class="skill-pill">Skill</span>
-                        <span class="skill-pill">Skill</span>
-                        <span class="skill-pill">Skill</span>
-                      </div>
-                    </div> -->
-                  </details>
-                </li>
-
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">FIA Athletics Intern - Student Organization Board Assistant Volunteer</summary>
-                    <p class="toggle-card-date">January 2025 - April 2025</p>
-                    <p class="toggle-card-location">Hybrid | University of Illinois at Chicago | Chicago IL, United States</p>
-                    <ul class="toggle-card-bullets">
-                      <li>Served as an Athletics Intern, supporting the athletic leadership board (Athletic Coordinators) in planning, organizing, and executing organization-wide athletic events.</li>
-                      <li>Assisted with on-site event operations, helping ensure smooth execution, participant coordination, and adherence to schedules during events.</li>
-                      <li>Collaborated closely with athletic coordinators and fellow interns, communicating logistics, responsibilities, and updates before and during events.</li>
-                      <li>Demonstrated initiative and leadership by running for the Athletic Coordinator position, gaining experience in organizational leadership and responsibility.</li>
-                    </ul>
-                    <div class="toggle-card-skills">
-                      <span class="skills-label">Skills Used</span>
-                      <div class="skills-scroll">
-                        <span class="skill-pill">Event Planning</span>
-                        <span class="skill-pill">Time Management</span>
-                        <span class="skill-pill">Event Coordination</span>
-                        <span class="skill-pill">Organizational Development</span>
-                    </div>
-                  </details>
-                </li>
-
-                <li>
-                  <details class="toggle-card">
-                    <summary class="toggle-card-summary">Battle of the Bamboo 2025 - Event Volunteer</summary>
-                    <p class="toggle-card-date">February 2025</p>
-                    <p class="toggle-card-location">On Site | Copernicus Center | Chicago IL, United States</p>
-                    <ul class="toggle-card-bullets">
-                      <li>Volunteered at Battle of the Bamboo 2025, a large, full-day cultural performance event with high attendee turnout.</li>
-                      <li>Managed parking lot guidance and attendee flow, providing clear directions and ensuring safe, organized arrivals.</li>
-                      <li>Transitioned into an event security and crowd-control role, helping enforce event rules and maintain a safe environment throughout the day.</li>
-                      <li>Demonstrated reliability, situational awareness, and communication skills while supporting event operations under high-traffic conditions.</li>
-                    </ul>
-                    <!-- <div class="toggle-card-skills">
-                      <span class="skills-label">Skills Used</span>
-                      <div class="skills-scroll">
-                        <span class="skill-pill">Skill</span>
-                        <span class="skill-pill">Skill</span>
-                        <span class="skill-pill">Skill</span>
-                      </div>
-                    </div> -->
-                  </details>
-                </li>
-              </div>
-            </details>
-          </li>
-
-          <!-- Running Club Volunteering -->
-          <li>
-            <details class="toggle-card">
-              <summary class="toggle-card-summary">
-                UIC Running Club
-              </summary>
-              <div class="toggle-card-content">
-                <details class="toggle-card">
-                  <summary class="toggle-card-summary">CARA Chicago Lakefront 10 Miler & 5k - Running Pacer Volunteer</summary>
-                  <p class="toggle-card-date">April 2025</p>
-                  <p class="toggle-card-location">On Site | Chicago Lakefront | Chicago IL, United States</p>
-                  <ul class="toggle-card-bullets">
-                    <li>Volunteered as an official pace runner for the CARA Chicago Lakefront 10-Miler & 5K, supporting participants in achieving target finish times.</li>
-                    <li>Maintained a consistent pace and clear communication, providing guidance and motivation to runners throughout the race.</li>
-                    <li>Demonstrated reliability, leadership, and endurance, contributing to a positive and well-organized race experience.</li>
-                  </ul>
-                  <!-- <div class="toggle-card-skills">
-                    <span class="skills-label">Skills Used</span>
-                    <div class="skills-scroll">
-                      <span class="skill-pill">Skill</span>
-                      <span class="skill-pill">Skill</span>
-                      <span class="skill-pill">Skill</span>
-                    </div>
-                  </div> -->
-                </details>
-              </div>
-            </details>
-          </li>
-        </ul>
-      </div>
-
-    </section>
-    <!-- ______________________________________________________________________________ -->
-
-
-    <!-- Section Divider -->
-    <!-- ______________________________________________________________________________ -->
-    <div class="section-divider-accent"></div>
-    <!-- ______________________________________________________________________________ -->
-     
-
-    <!-- Projects & Certifications -->
-    <!-- ______________________________________________________________________________ -->
-    <!-- Projects -->
-    <div class="tabs-section">
-      <h2 class="section-title" id="projects">Relevant Projects</h2>
-      <div class="section-divider-title"></div>
-      <div class="certs-list">
-
-        <!-- Wearable Technology Device UI -->
-        <!-- <details class="cert-item">
-          <summary class="cert-summary">
-            <span class="cert-name">User Interface for Sensory Enhancement Wearable Device <span class="tab-card-tag">Upcoming</span> </span>
-            <span class="cert-date">May 2026 – Present</span>
-          </summary>
-          <div class="cert-body">
-            <span class="cert-date-1">May 2026 – Present</span>
-            <ul class="tab-card-bullets">
-              <li>Collaborating with a team of engineers to design and implement the user interface for an intra-oral respirometer wearable device.</li>
-              <li>Assisting in the development of UI components for real-time visualization of respiratory and biometric signals such as respiratory rate, pressure, and oxygen saturation.</li>
-              <li>Supporting integration between the UI and BLE-based sensor data streams to ensure stable real-time monitoring during physical activity.</li>
-              <li>Contributing to UI/UX improvements for experimental workflows, including visualization of sensor waveforms and adjustable thresholds for stress detection.</li>
-              <li>Participating in collaborative development using Git/GitHub and modern frontend tools to build a reliable interface for biomedical research experiments.</li>
-            </ul>
-            <div class="tab-card-pills">
-              <span class="skill-pill">React.js</span>
-              <span class="skill-pill">Git and GitHub</span>
-              <span class="skill-pill">UI/UX Design</span>
-              <span class="skill-pill">VS Code</span>
-              <span class="skill-pill">Applied Biomedical Engineering</span>
-            </div>
-          </div>
-        </details> -->
-
-        <!-- Inventory Management Platform for Crafters -->
-        <details class="cert-item">
-          <summary class="cert-summary">
-            <span class="cert-name">UI/UX Inventory Management Platform for Crafters</span>
-            <span class="cert-date">February 2026 – May 2026</span>
-          </summary>
-          <div class="cert-body">
-            <span class="cert-date-1">February 2026 – May 2026</span>
-            <a class="info" href="https://iamSerafinnn.github.io/CS422_CraftsProject" target="_blank">View Live Demo</a>
-            <ul class="tab-card-bullets">
-              <li>Developing a React-based inventory management interface in a 5-person engineering team to help crafters organize materials, projects, and references in one centralized platform.</li>
-              <li>Designing UI components for tracking 50+ potential crafting materials, including quantities, categories, and project associations.</li>
-              <li>Implementing features that allow users to manage multiple craft projects simultaneously and track progress across different project stages.</li>
-              <li>Applying insights from 3+ user interviews with experienced crafters to improve UI workflows for inventory tracking and project planning.</li>
-              <li>Collaborating through Git/GitHub with 5 developers to build responsive React components using HTML, CSS, and modern frontend practices.</li>
-            </ul>
-            <div class="tab-card-pills">
-              <span class="skill-pill">React.js</span>
-              <span class="skill-pill">Git and GitHub</span>
-              <span class="skill-pill">UI/UX Design</span>
-              <span class="skill-pill">VS Code</span>
-              <span class="skill-pill">HTML</span>
-              <span class="skill-pill">CSS Styling</span>
-            </div>
-          </div>
-        </details>
-
-        <!-- Make Or Break -->
-        <details class="cert-item">
-          <summary class="cert-summary">
-            <span class="cert-name">Make Or Break - Structure Building and Physics Simulator</span>
-            <span class="cert-date">January 2026 – May 2026</span>
-          </summary>
-          <div class="cert-body">
-            <span class="cert-date-1">January 2026 – May 2026</span>
-            <ul class="tab-card-bullets">
-              <li>Developed a Unity-based simulation in a 4-person team as part of a course project.</li>
-              <li>Implemented a simulator demonstrating how structures respond to various natural disasters.</li>
-              <li>Programmed a 3D environment with in-game physics, where buildings react to simulated forces and gravity.</li>
-              <li>Gained hands-on experience using Unity game development tools and workflows.</li>
-              <li>Demonstrated technical skills in computer graphics, 3D environment modeling, and game development.</li>
-            </ul>
-            <div class="tab-card-pills">
-              <span class="skill-pill">Unity Development Software</span>
-              <span class="skill-pill">In-Game Physics Programming</span>
-              <span class="skill-pill">3D Modeling Computer Graphics</span>
-              <span class="skill-pill">Game Development and Design</span>
-              <span class="skill-pill">Software Team Development</span>
-            </div>
-            <div class="toggle-card-photos">
-              <embed src="projects/MakeOrBreak.png" width="200%" alt="">
-            </div>
-          </div>
-        </details>
-
-        <!-- CodePath CYB102 Cybersecurity Projects -->
-        <details class="cert-item">
-          <summary class="cert-summary">
-            <span class="cert-name">CodePath CYB102 – Three Applied Cybersecurity Projects</span>
-            <span class="cert-date">February 2026 – May 2026</span>
-          </summary>
-          <div class="cert-body">
-            <span class="cert-date-1">February 2026 – May 2026</span>
-            <a class="info" href="https://docs.google.com/document/d/1ufUJ93xJ67YmWGZy4oVYbQwLwIWZhdhi0yxHKSWBVYo/edit" target="_blank">Project 3 – Directory Traversal</a>
-            <a class="info" href="https://docs.google.com/document/d/15XklfkCjoXheQjNj3rokevZoze6llVBqHeXwj0eNbzk/edit" target="_blank">Project 4 – DoS/DDoS Defense</a>
-            <a class="info" href="https://docs.google.com/document/d/16eefDSYBwDiFKuREb3puC9F67QhbhnSlN9QCFQwOPl8/edit" target="_blank">Project 1 – Incident Response</a>
-            <ul class="tab-card-bullets">
-              <li>Analyzed .pcap network traffic files using Wireshark to identify a malicious actor (IP 10.6.1.104) sending mass phishing emails, using SMTP filters to isolate threatening email patterns across thousands of data packets.</li>
-              <li>Performed a directory traversal attack on a local server using a custom shell script (.sh), accessing restricted file paths outside the intended directory to expose sensitive reports across multiple user accounts.</li>
-              <li>Practiced incident response and threat detection workflows using Splunk and Catalyst, analyzing logs for brute-force attempts, unauthorized access, and indicators of compromise (IOCs).</li>
-              <li>Documented findings across all projects with written reflections, attack breakdowns, and technical explanations aligned with real-world cybersecurity investigation procedures.</li>
-            </ul>
-            <div class="tab-card-pills">
-              <span class="skill-pill">Wireshark</span>
-              <span class="skill-pill">PCAP Analysis</span>
-              <span class="skill-pill">Phishing Detection</span>
-              <span class="skill-pill">Directory Traversal</span>
-              <span class="skill-pill">Shell Scripting</span>
-              <span class="skill-pill">Splunk</span>
-              <span class="skill-pill">Incident Response</span>
-              <span class="skill-pill">Linux CLI</span>
-            </div>
-          </div>
-        </details>
-
-        <!-- AIDL Bound Service Two-App System -->
-        <details class="cert-item">
-          <summary class="cert-summary">
-            <span class="cert-name">FunCenter & FunClient – Android AIDL Bound Service System</span>
-            <span class="cert-date">April 2026</span>
-          </summary>
-          <div class="cert-body">
-            <span class="cert-date-1">April 2026</span>
-            <ul class="tab-card-bullets">
-              <li>Built two communicating Android apps (FunCenter and FunClient) connected via a bound service using AIDL, enabling cross-process IPC for media delivery and audio playback control.</li>
-              <li>Designed and implemented the AIDL interface exposing five methods — getPicture(), playClip(), pauseClip(), resumeClip(), and stopClip() — shared across both app packages for seamless inter-app communication.</li>
-              <li>Engineered thread-safe service logic to handle simultaneous picture requests during active audio playback, preventing race conditions across multiple bound clients.</li>
-              <li>Managed Android activity lifecycle correctly — unbinding the service on onStop() while keeping audio playing, and fully stopping the service on onDestroy() to prevent resource leaks.</li>
-            </ul>
-            <div class="tab-card-pills">
-              <span class="skill-pill">Android Studio</span>
-              <span class="skill-pill">Java</span>
-              <span class="skill-pill">AIDL / IPC</span>
-              <span class="skill-pill">Bound Services</span>
-              <span class="skill-pill">MediaPlayer</span>
-              <span class="skill-pill">Thread Safety</span>
-              <span class="skill-pill">Activity Lifecycle</span>
-            </div>
-          </div>
-        </details>
-
-        <!-- Gopher Hunting Multithreading Game -->
-        <details class="cert-item">
-          <summary class="cert-summary">
-            <span class="cert-name">Gopher Hunting Game – Android Multithreaded App</span>
-            <span class="cert-date">March 2026 – April 2026</span>
-          </summary>
-          <div class="cert-body">
-            <span class="cert-date-1">March 2026 – April 2026</span>
-            <ul class="tab-card-bullets">
-              <li>Built an Android game where two concurrent worker threads compete in real time to locate a hidden gopher across a 10×10 grid, each using a distinct search algorithm (random and sequential).</li>
-              <li>Implemented inter-thread communication exclusively via Android Handlers and Messages, with the UI thread managing game state, rendering board updates, and delivering proximity feedback to each player thread.</li>
-              <li>Designed a custom dangerous-level permission (GAME_PLAYER) in the Android manifest and enforced runtime permission checks before gameplay could begin.</li>
-              <li>Architected a Looper-based reply handler on each worker thread to receive UI responses without blocking the main thread, resolving threading deadlocks during development.</li>
-            </ul>
-            <div class="tab-card-pills">
-              <span class="skill-pill">Android Studio</span>
-              <span class="skill-pill">Java</span>
-              <span class="skill-pill">Multithreading</span>
-              <span class="skill-pill">Handler / Looper</span>
-              <span class="skill-pill">Android Permissions</span>
-              <span class="skill-pill">UI Thread Architecture</span>
-            </div>
-          </div>
-        </details>
-
-        <!-- Personal Portfolio Website -->
-        <details class="cert-item">
-          <summary class="cert-summary">
-            <span class="cert-name">Personal Portfolio Website - This Website <span class="tab-card-tag">Constantly Updated</span> </span>
-            <span class="cert-date">December 2025 – January 2026</span>
-          </summary>
-          <div class="cert-body">
-            <span class="cert-date-1">December 2025 – January 2026</span>
-            <ul class="tab-card-bullets">
-              <li>Designed and built a fully responsive personal portfolio website from scratch to showcase computer science projects, athletics experience, and certifications.</li>
-              <li>Implemented reusable toggle-card components to organize projects, awards, and experiences with a clean, scalable layout.</li>
-              <li>Applied semantic HTML and custom CSS to create a consistent visual identity and intuitive user experience across devices.</li>
-              <li>Deployed and maintained the site using GitHub Pages, managing version control, asset optimization, and iterative updates.</li>
-              <li>Gained first-hand experience in front-end web development, learning best practices in layout, responsiveness, and content organization.</li>
-            </ul>
-            <div class="tab-card-pills">
-              <span class="skill-pill">HTML</span>
-              <span class="skill-pill">CSS Styling</span>
-              <span class="skill-pill">Web Development</span>
-              <span class="skill-pill">Git & GitHub</span>
-              <span class="skill-pill">UI/UX Design</span>
-            </div>
-          </div>
-        </details>
-
-        <!-- Wild Realms -->
-        <details class="cert-item">
-          <summary class="cert-summary">
-            <span class="cert-name">Wild Realms Immersive Wildlife Simulator</span>
-            <span class="cert-date">September 2025 – December 2025</span>
-          </summary>
-          <div class="cert-body">
-            <span class="cert-date-1">September 2025 – December 2025</span>
-            <ul class="tab-card-bullets">
-              <li>Built an interactive simulator enabling users to explore 6 global biomes and monitor 10+ species under environmental stress.</li>
-              <li>Implemented map navigation and 3D monitoring using React components and an integrated Google Earth API.</li>
-              <li>Worked on 2 different biomes, Desert and Tundra, implementing a discovery mode where the user has to explore and find the 5 different animals of the biome.</li>
-              <li>Hands-on experience in computer graphics implementing a 3D environment with React.</li>
-              <li>Collaborated in a team of 4, contributing to UI development and integration of environmental state updates.</li>
-            </ul>
-            <div class="tab-card-pills">
-              <span class="skill-pill">React</span>
-              <span class="skill-pill">Three.js</span>
-              <span class="skill-pill">Computer 3D Modeling</span>
-              <span class="skill-pill">Computer Graphics</span>
-            </div>
-            <div class="toggle-card-photos">
-              <iframe src="https://www.youtube.com/embed/LtZUJS0SFOU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="toggle-card-photos">
-              <iframe src="https://www.youtube.com/embed/rsEznuca4DE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-          </div>
-        </details>
-
-        <!-- Amazon Product Reviews -->
-        <details class="cert-item">
-          <summary class="cert-summary">
-            <span class="cert-name">Amazon Product Reviews Search Query Database System</span>
-            <span class="cert-date">September 2025 – December 2025</span>
-          </summary>
-          <div class="cert-body">
-            <span class="cert-date-1">September 2025 – December 2025</span>
-            <a class="info" href="https://iamserafinnn.github.io/Amazon-Product-Reviews-Database/" target="_blank">View Live Demo</a>
-            <ul class="tab-card-bullets">
-              <li>Designed the end-to-end vector data pipeline for 50,000+ Amazon product reviews, transforming raw text into embeddings to enable semantic similarity search.</li>
-              <li>Architected and implemented the PostgreSQL database system from a self-designed ER/relational diagram, defining tables, relationships, constraints, and indexes.</li>
-              <li>Optimized SQL analytics and retrieval queries integrated with C++ logic, achieving a ~35% reduction in query latency through indexing and query planning.</li>
-              <li>Developed the database schema and data flow architecture diagrams that guided system implementation and ensured scalability and clarity across the team.</li>
-              <li>Collaborated in a 3-person team using Git-based workflows, integrating vector search infrastructure with teammate-implemented user prompts and interfaces.</li>
-            </ul>
-            <div class="tab-card-pills">
-              <span class="skill-pill">Vector Databases</span>
-              <span class="skill-pill">Databases</span>
-              <span class="skill-pill">PostgreSQL</span>
-              <span class="skill-pill">SQL</span>
-              <span class="skill-pill">Python (Programming Language)</span>
-            </div>
-            <div class="toggle-card-photos">
-              <embed src="projects/480ProjectERD.pdf" width="400%" alt="">
-            </div>
-            <div class="toggle-card-photos">
-              <embed src="projects/CS 480 ER Diagram For Amazon Products Project 2.pdf" width="400%" alt="">
-            </div>
-          </div>
-        </details>
-
-        <!-- JavaFX Card Poker Game -->
-        <details class="cert-item">
-          <summary class="cert-summary">
-            <span class="cert-name">JavaFX Card Poker Game</span>
-            <span class="cert-date">October 2024 – November 2024</span>
-          </summary>
-          <div class="cert-body">
-            <span class="cert-date-1">October 2024 – November 2024</span>
-            <ul class="tab-card-bullets">
-              <li>Developed a fully functional GUI-based Three Card Poker game using Java, JavaFX, and CSS, implementing complete betting mechanics including Ante, Pair Plus, and Play rules.</li>
-              <li>Engineered game logic and dealer AI to handle hand evaluation, win/loss determination, and payout resolution across all gameplay phases.</li>
-              <li>Implemented and validated win–loss detection algorithms, achieving 100% correctness across extensive unit tests and gameplay simulations.</li>
-              <li>Designed scene-based UI flow using FXML controllers, ensuring smooth transitions between betting, dealing, and results phases.</li>
-              <li>Collaborated in a two-person team using IntelliJ and Git, coordinating feature development, debugging, and final integration.</li>
-            </ul>
-            <div class="tab-card-pills">
-              <span class="skill-pill">JavaFX</span>
-              <span class="skill-pill">Java</span>
-              <span class="skill-pill">Game Programming</span>
-              <span class="skill-pill">Program Design</span>
-            </div>
-            <div class="toggle-card-photos">
-              <iframe src="https://www.youtube.com/embed/Jk-u6NlC850" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-          </div>
-        </details>
-
-        <!-- C++ Data Structure Priority Queue -->
-        <details class="cert-item">
-          <summary class="cert-summary">
-            <span class="cert-name">C++ Data Structure Priority Queue</span>
-            <span class="cert-date">November 2023</span>
-          </summary>
-          <div class="cert-body">
-            <span class="cert-date-1">November 2023</span>
-            <ul class="tab-card-bullets">
-              <li>Implemented a custom priority queue in C++ using a binary search tree (BST) ordered by priority values.</li>
-              <li>Designed priority-based dequeue logic that dynamically reorders nodes after each removal to maintain correctness.</li>
-              <li>Applied object-oriented programming principles, using classes, encapsulation, and modular design.</li>
-              <li>Utilized pointers and recursion to manage tree traversal, insertion, and deletion operations efficiently.</li>
-              <li>Strengthened understanding of core data structures and algorithmic complexity, including tree height and operation costs.</li>
-            </ul>
-            <div class="tab-card-pills">
-              <span class="skill-pill">C++</span>
-              <span class="skill-pill">Object-Oriented Programming and Designing</span>
-              <span class="skill-pill">Data Structures</span>
-              <span class="skill-pill">Binary Trees</span>
-              <span class="skill-pill">Linked List</span>
-              <span class="skill-pill">Complexity Optimization</span>
-            </div>
-          </div>
-        </details>
-
-        <!-- Python Turtle Graphics Air Hockey -->
-        <details class="cert-item">
-          <summary class="cert-summary">
-            <span class="cert-name">Python Turtle Graphics Air Hockey 2D Game</span>
-            <span class="cert-date">November 2022</span>
-          </summary>
-          <div class="cert-body">
-            <span class="cert-date-1">November 2022</span>
-            <ul class="tab-card-bullets">
-              <li>Built a two-player 2D Pong-style game in Python using Turtle Graphics, developed and executed on Replit.</li>
-              <li>Implemented real-time paddle movement and ball collision detection with walls and player paddles.</li>
-              <li>Developed score tracking and win-condition logic across multiple gameplay states.</li>
-              <li>Applied imperative programming techniques, including loops, conditionals, functions, and arrays.</li>
-              <li>Gained experience using Replit's cloud-based IDE for rapid prototyping, debugging, and execution.</li>
-            </ul>
-            <div class="tab-card-pills">
-              <span class="skill-pill">Python (Programming Language)</span>
-              <span class="skill-pill">Turtle Graphics</span>
-              <span class="skill-pill">2D Game Development</span>
-            </div>
-          </div>
-        </details>
-
-      </div>
-    </div>
-
-
-    <!-- Section Divider -->
-    <!-- ______________________________________________________________________________ -->
-    <div class="section-divider-accent"></div>
-    <!-- ______________________________________________________________________________ -->
-
-
-    <!-- Certifications & Awards -->
-    <div class="tabs-section">
-      <h2 class="section-title" id="awards">Certifications & Awards</h2>
-      <div class="section-divider-title"></div>
-      <div class="certs-list">
-
-        <!-- Computer Science Certifications -->
-        <details class="cert-item">
-          <summary class="cert-summary">
-            <span class="cert-name">Computer Science Certifications</span>
-          </summary>
-          <div class="cert-body">
-            <div class="certs-list">
-
-              <details class="cert-item">
-                <summary class="cert-summary">
-                  <span class="cert-name">CodePath Intermediate CyberSecurity Completion</span>
-                  <span class="cert-date">Issued May 2026</span>
-                </summary>
-                <div class="cert-body">
-                  <span class="cert-date-1">Issued May 2026</span>
-                  <a class="info" href="https://drive.google.com/file/d/101mq3jPfxxC90glbfO8eGan_3DThTMfN/view">Click Here for Credentials</a>
-                  <ul class="tab-card-bullets">
-                    <li>Audited logs and analyzed network traffic using Splunk and Catalyst to detect unauthorized access, brute-force attempts, and phishing emails</li>
-                    <li>Performed directory traversal attacks on Ubuntu VMs via Linux CLI to expose hidden files and simulate real-world breach scenarios</li>
-                    <li>Identified and classified malicious IP addresses using AbuseIPDB to assess threat intelligence and block suspicious traffic</li>
-                    <li>Implemented defenses against DoS/DDoS attacks and practiced incident response using Docker-hosted environments with SIEM tooling</li>
-                  </ul>
-                  <div class="tab-card-pills">
-                    <span class="skill-pill">Cybersecurity</span>
-                    <span class="skill-pill">Splunk & SIEM</span>
-                    <span class="skill-pill">Threat Intelligence</span>
-                    <span class="skill-pill">Linux & Ubuntu</span>
-                    <span class="skill-pill">Directory Traversal</span>
-                    <span class="skill-pill">DoS/DDoS Defense</span>
-                    <span class="skill-pill">Phishing Detection</span>
-                    <span class="skill-pill">Docker</span>
-                  </div>
-                  <div class="toggle-card-photos">
-                    <embed src="/certificates/CodePathCyberSecurity.pdf" alt="">
-                  </div>
-                </div>
-              </details>
-
-              <details class="cert-item">
-                <summary class="cert-summary">
-                  <span class="cert-name">Coding for Data - SQL Specialist</span>
-                  <span class="cert-date">Issued October 2024</span>
-                </summary>
-                <div class="cert-body">
-                  <span class="cert-date-1">Issued October 2024</span>
-                  <a class="info" href="https://www.credential.net/5f92c1db-8db0-4919-b6ed-9905fb723177#acc.Bt8O40Rg">Click Here for Credentials</a>
-                  <ul class="tab-card-bullets">
-                    <li>Badge recipient has gained practical experience doing professional-level data analysis utilizing SQL and Tableau.</li>
-                    <li>Working with large, real-world data sets, they investigated business problems and made data-driven recommendations to inform business decisions.</li>
-                    <li>Technical skills mastered include: Querying data, Filtering data, summarizing data with GROUP BY, joining data, and visualizing data in Tableau.</li>
-                    <li>Professional skills mastered include: understanding databases, working with large datasets, writing and debugging code, and data storytelling.</li>
-                  </ul>
-                  <div class="tab-card-pills">
-                    <span class="skill-pill">SQL</span>
-                    <span class="skill-pill">Data Visualization</span>
-                    <span class="skill-pill">Data Analytics</span>
-                  </div>
-                  <div class="toggle-card-photos">
-                    <img src="/assets/SQLSpecialist.png" alt="">
-                  </div>
-                </div>
-              </details>
-
-              <details class="cert-item">
-                <summary class="cert-summary">
-                  <span class="cert-name">Coding for Data - Python Specialist</span>
-                  <span class="cert-date">Issued December 2024</span>
-                </summary>
-                <div class="cert-body">
-                  <span class="cert-date-1">Issued December 2024</span>
-                  <a class="info" href="https://www.credential.net/c76e87d4-2792-417c-878e-8923091c8b5b#acc.9zrUOFnP">Click Here for Credentials</a>
-                  <ul class="tab-card-bullets">
-                    <li>Badge recipient has gained practical experience doing professional-level data analysis utilizing Python and Jupyter Notebooks.</li>
-                    <li>Working with large, real-world data sets, they investigated business problems and made data-driven recommendations to inform business decisions.</li>
-                    <li>Technical skills mastered include: programming fundamentals, visualizing data with the Plotly library, Pandas functions and methods, grouping and aggregating data.</li>
-                    <li>Professional skills mastered include: communicating with data, understanding business metrics, and collaborating with a global team.</li>
-                  </ul>
-                  <div class="tab-card-pills">
-                    <span class="skill-pill">Python Programming</span>
-                    <span class="skill-pill">Data Visualization with Plotly</span>
-                    <span class="skill-pill">Data Analysis with Pandas</span>
-                  </div>
-                  <div class="toggle-card-photos">
-                    <img src="assets/PythonSpecialist.png" alt="">
-                  </div>
-                </div>
-              </details>
-
-              <details class="cert-item">
-                <summary class="cert-summary">
-                  <span class="cert-name">Global Career Accelerator - Intercultural Skills</span>
-                  <span class="cert-date">Issued December 2024</span>
-                </summary>
-                <div class="cert-body">
-                  <span class="cert-date-1">Issued December 2024</span>
-                  <a class="info" href="https://www.credential.net/9bd3d395-503a-4064-b38b-40bc29f0ed73#acc.cjGi59fQ">Click Here for Credentials</a>
-                  <ul class="tab-card-bullets">
-                    <li>Badge recipient has demonstrated intercultural skills and the ability to interact effectively and appropriately with diverse team members in an online environment.</li>
-                    <li>Activities included intercultural communication practice, personal reflections, and workplace situations simulations.</li>
-                    <li>Topics covered included: cultural self-awareness, managing bias, building emotional intelligence, and managing stress responses.</li>
-                    <li>Skills developed included: listening for understanding, suspending judgment, and cultivating curiosity and cultural humility.</li>
-                  </ul>
-                  <div class="tab-card-pills">
-                    <span class="skill-pill">Intercultural Communication</span>
-                    <span class="skill-pill">Intercultural Collaboration</span>
-                    <span class="skill-pill">Self-awareness</span>
-                  </div>
-                  <div class="toggle-card-photos">
-                    <img src="assets/InterculturalSkills.png" alt="">
-                  </div>
-                </div>
-              </details>
-
-              <details class="cert-item">
-                <summary class="cert-summary">
-                  <span class="cert-name">The GRAMMYs Project - Website Audience Analysis</span>
-                  <span class="cert-date">Issued December 2024</span>
-                </summary>
-                <div class="cert-body">
-                  <span class="cert-date-1">Issued December 2024</span>
-                  <a class="info" href="https://www.credential.net/a2fa9386-8856-400f-9fed-5e8e01fa7f6d#acc.Y9VH06qO">Click Here for Credentials</a>
-                  <ul class="tab-card-bullets">
-                    <li>Certificate recipient has successfully completed a real Data Analysis project for The Recording Academy.</li>
-                    <li>They gained experience using professional data analysis and visualization in regards to the content and audience strategy of Grammy.com.</li>
-                    <li>They used real data sets and business context to investigate, analyze, and present their findings in a professional setting.</li>
-                  </ul>
-                  <div class="tab-card-pills">
-                    <span class="skill-pill">Data Visualization & Analysis</span>
-                    <span class="skill-pill">A/B Testing</span>
-                    <span class="skill-pill">Intercultural Teamwork</span>
-                  </div>
-                  <div class="toggle-card-photos">
-                    <embed src="certificates/GRAMMYsProject.pdf" alt="">
-                  </div>
-                </div>
-              </details>
-
-              <details class="cert-item">
-                <summary class="cert-summary">
-                  <span class="cert-name">University of Illinois Chicago - Coding for Data Track</span>
-                  <span class="cert-date">Issued December 2024</span>
-                </summary>
-                <div class="cert-body">
-                  <span class="cert-date-1">Issued December 2024</span>
-                  <a class="info" href="https://www.credential.net/09d1c5ca-2ec4-454c-81aa-bce7080d583b#acc.wXIvupSs">Click Here for Credentials</a>
-                  <ul class="tab-card-bullets">
-                    <li>The recipient of this certificate has demonstrated skills in data analysis by completing professional-level projects using SQL and Python.</li>
-                  </ul>
-                  <div class="tab-card-pills">
-                    <span class="skill-pill">SQL</span>
-                    <span class="skill-pill">Python</span>
-                    <span class="skill-pill">Data Analytics</span>
-                  </div>
-                  <div class="toggle-card-photos">
-                    <embed src="certificates/CodingForData.pdf" alt="">
-                  </div>
-                </div>
-              </details>
-
-              <details class="cert-item">
-                <summary class="cert-summary">
-                  <span class="cert-name">Intel Project - Data Analysis for Sustainability</span>
-                  <span class="cert-date">Issued November 2024</span>
-                </summary>
-                <div class="cert-body">
-                  <span class="cert-date-1">Issued November 2024</span>
-                  <a class="info" href="https://www.credential.net/4f133f31-0e82-48e6-813c-616dbfda3c80#acc.m9eIgoaO">Click Here for Credentials</a>
-                  <ul class="tab-card-bullets">
-                    <li>Certificate recipient has successfully completed a real Data Analysis project for Intel's Sustainability team.</li>
-                    <li>They gained experience using professional data analysis and visualization on topics relevant to Intel's Sustainability goals.</li>
-                    <li>Working with real-world data, badge recipient investigated business problems related to sustainability and produced data-driven recommendations.</li>
-                  </ul>
-                  <div class="tab-card-pills">
-                    <span class="skill-pill">Tableau</span>
-                    <span class="skill-pill">Data Visualization</span>
-                    <span class="skill-pill">Data Storytelling</span>
-                  </div>
-                  <div class="toggle-card-photos">
-                    <embed src="certificates/DataAnalysisSustainabilityProject.pdf" alt="">
-                  </div>
-                </div>
-              </details>
-
-            </div>
-          </div>
-        </details>
-
-        <!-- Academic Honors -->
-        <details class="cert-item">
-          <summary class="cert-summary">
-            <span class="cert-name">Academic Honors</span>
-          </summary>
-          <div class="cert-body">
-            <div class="certs-list">
-
-              <details class="cert-item">
-                <summary class="cert-summary">
-                  <span class="cert-name">ETS Computer Science Major Field Test</span>
-                  <span class="cert-date">Issued April 2026</span>
-                </summary>
-                <div class="cert-body">
-                  <span class="cert-date-1">Issued April 2026</span>
-                  <ul class="tab-card-bullets">
-                    <li>Completed the ETS CS Major Field Test, a standardized assessment covering core computer science disciplines including algorithms, data structures, software engineering, and systems.</li>
-                    <li>Scored in the 48th percentile nationally, demonstrating competitive academic performance across a broad range of CS fundamentals.</li>
-                  </ul>
-                  <div class="tab-card-pills">
-                    <span class="skill-pill">Algorithms</span>
-                    <span class="skill-pill">Data Structures</span>
-                    <span class="skill-pill">Software Engineering</span>
-                    <span class="skill-pill">Computer Science Fundamentals</span>
-                  </div>
-                  <div class="toggle-card-photos">
-                    <embed src="certificates/MajorFieldTest.pdf" alt="">
-                  </div>
-                </div>
-              </details>
-
-              <details class="cert-item">
-                <summary class="cert-summary">
-                  <span class="cert-name">University of Illinois Chicago - Dean's List Fall 2023</span>
-                  <span class="cert-date">Issued January 2024</span>
-                </summary>
-                <div class="cert-body">
-                  <span class="cert-date-1">Issued January 2024</span>
-                  <a class="info" href="https://engineering.uic.edu/wp-content/uploads/sites/217/2025/06/COE-Fall-2023-Deans-List.pdf">Click Here for Credentials</a>
-                  <ul class="tab-card-bullets">
-                    <li>Earned the UIC College of Engineering Dean's List for Fall 2023.</li>
-                    <li>Exceptional academic achievement in the College of Engineering is recognized each term by inclusion on the Dean's List.</li>
-                    <li>Eligibility is based on a 3.50/4.00 term GPA with a minimum of 12 semester hours of course work applicable toward degree requirements.</li>
-                  </ul>
-                  <div class="tab-card-pills">
-                    <span class="skill-pill">Time Management</span>
-                    <span class="skill-pill">Academic Productivity</span>
-                  </div>
-                </div>
-              </details>
-
-              <details class="cert-item">
-                <summary class="cert-summary">
-                  <span class="cert-name">University of Illinois Chicago - Dean's List Spring 2023</span>
-                  <span class="cert-date">Issued June 2023</span>
-                </summary>
-                <div class="cert-body">
-                  <span class="cert-date-1">Issued June 2023</span>
-                  <a class="info" href="https://engineering.uic.edu/wp-content/uploads/sites/217/2023/06/COE-Spring-2023-Deans-List.pdf">Click Here for Credentials</a>
-                  <ul class="tab-card-bullets">
-                    <li>Earned the UIC College of Engineering Dean's List for Spring 2023.</li>
-                    <li>Exceptional academic achievement in the College of Engineering is recognized each term by inclusion on the Dean's List.</li>
-                    <li>Eligibility is based on a 3.50/4.00 term GPA with a minimum of 12 semester hours of course work applicable toward degree requirements.</li>
-                  </ul>
-                  <div class="tab-card-pills">
-                    <span class="skill-pill">Time Management</span>
-                    <span class="skill-pill">Academic Productivity</span>
-                  </div>
-                </div>
-              </details>
-
-            </div>
-          </div>
-        </details>
-
-        <!-- Running Certifications -->
-        <details class="cert-item">
-          <summary class="cert-summary">
-            <span class="cert-name">Running Certifications</span>
-          </summary>
-          <div class="cert-body">
-            <div class="certs-list">
-
-              <details class="cert-item">
-                <summary class="cert-summary">
-                  <span class="cert-name">Chi-Town Turkey Trot Run Finisher - 8K Run</span>
-                  <span class="cert-date">Issued November 2025</span>
-                </summary>
-                <div class="cert-body">
-                  <span class="cert-date-1">Issued November 2025</span>
-                  <ul class="tab-card-bullets">
-                    <li>Completed the Chi-Town Turkey Trot Run 8K race.</li>
-                  </ul>
-                  <div class="toggle-card-photos">
-                    <embed src="certificates/ChiTownTurkeyTrotRun2025.pdf" alt="">
-                  </div>
-                </div>
-              </details>
-
-              <details class="cert-item">
-                <summary class="cert-summary">
-                  <span class="cert-name">Chicago 13.1 Half Marathon Finisher - Half Marathon (13.1 Miles)</span>
-                  <span class="cert-date">Issued June 2025</span>
-                </summary>
-                <div class="cert-body">
-                  <span class="cert-date-1">Issued June 2025</span>
-                  <a class="info" href="https://events.hakuapp.com/?registration_number=30CBC6DF02">Click Here for Credentials</a>
-                  <ul class="tab-card-bullets">
-                    <li>Completed the Chicago 13.1 Half Marathon race.</li>
-                  </ul>
-                  <div class="toggle-card-photos">
-                    <embed src="certificates/BankofAmericaChicago13.12025.pdf" alt="">
-                  </div>
-                </div>
-              </details>
-
-              <details class="cert-item">
-                <summary class="cert-summary">
-                  <span class="cert-name">Bank of America Shamrock Shuffle Finisher - 8K Run</span>
-                  <span class="cert-date">Issued March 2025</span>
-                </summary>
-                <div class="cert-body">
-                  <span class="cert-date-1">Issued March 2025</span>
-                  <a class="info" href="https://events.hakuapp.com/?registration_number=C2590F2893">Click Here for Credentials</a>
-                  <ul class="tab-card-bullets">
-                    <li>Completed the Bank of America Shamrock Shuffle 8K race.</li>
-                  </ul>
-                  <div class="toggle-card-photos">
-                    <embed src="certificates/BankofAmericaShamrockShuffle2025.png" width="200%" alt="">
-                  </div>
-                </div>
-              </details>
-
-              <details class="cert-item">
-                <summary class="cert-summary">
-                  <span class="cert-name">SKECHERS Hot Chocolate Run Finisher - 15K Run</span>
-                  <span class="cert-date">Issued November 2024</span>
-                </summary>
-                <div class="cert-body">
-                  <span class="cert-date-1">Issued November 2024</span>
-                  <ul class="tab-card-bullets">
-                    <li>Completed the SKECHERS Hot Chocolate Run 15K race.</li>
-                  </ul>
-                  <div class="toggle-card-photos">
-                    <embed src="certificates/ChicagoHotChocolateRun2024.png" width="300%" alt="">
-                  </div>
-                </div>
-              </details>
-
-            </div>
-          </div>
-        </details>
-
-        <!-- Soccer Trophies -->
-        <details class="cert-item">
-          <summary class="cert-summary">
-            <span class="cert-name">Soccer Trophies</span>
-          </summary>
-          <div class="cert-body">
-            <div class="certs-list">
-
-              <details class="cert-item">
-                <summary class="cert-summary">
-                  <span class="cert-name">GT Internacional Soccer League - 3rd Place Winners</span>
-                  <span class="cert-date">Issued February 2025</span>
-                </summary>
-                <div class="cert-body">
-                  <span class="cert-date-1">Issued February 2025</span>
-                  <ul class="tab-card-bullets">
-                    <li>MP United FC earned a 3rd-place finish in the GT Internacional Soccer League Second Division.</li>
-                  </ul>
-                  <div class="toggle-card-photos">
-                    <img src="trophies/gtleague1.JPG" alt="">
-                    <img src="trophies/gtleague2.jpeg" alt="">
-                    <img src="trophies/gtleague3.jpeg" alt="">
-                    <img src="trophies/gtleague4.jpeg" alt="">
-                    <img src="trophies/gtleague5.JPEG" alt="">
-                    <img src="trophies/gtleague6.jpeg" alt="">
-                  </div>
-                </div>
-              </details>
-
-            </div>
-          </div>
-        </details>
-
-      </div>
-    </div>
-    <!-- ______________________________________________________________________________ -->
-
-
-    <!-- Section Divider -->
-    <!-- ______________________________________________________________________________ -->
-    <div class="section-divider-accent"></div>
-    <!-- ______________________________________________________________________________ -->
-    
-    <!-- Organizations -->
-    <!-- ______________________________________________________________________________ -->
-    <section class="orgs">
-      <h2 class="section-title" id="organizations">Notable Organizations</h2>
-      <div class="section-divider-title"></div>
-
-
-      <!-- Section Divider -->
-      <!-- ______________________________________________________________________________ -->
-      <div class="reels-head"><h2 class="section-title">Organizations</h2></div>
-      <div class="section-divider-thin"></div>
-      <!-- ______________________________________________________________________________ -->
-
-      <div class="org-grid">
-
-        <!-- Wearable Technical and Sensory Enhancement Laboratory -->
-        <article class="org-card">
-          <div class="org-header">
-            <img src="assets/wtse.png" class="org-avatar" alt="WTSE">
-            <div class="org-meta">
-              <h3>WTSE – Wearable Technical and Sensory Enhancement Laboratory</h3>
-              <p>Lab Researcher • May 2026 – Present</p>
-            </div>
-          </div>
-          <p class="org-desc">
-            Wearable Technology and Enhancement Lab in the University of Illinois conducting interdisciplinary research to
-            develop cutting-edge sensing and wearable technology for both fundamental science and applied medicine.
-          </p>
-        </article>
-        
-        <!-- Society of Professional Hispanic Engineers -->
-        <article class="org-card">
-          <div class="org-header">
-            <img src="assets/shpe.jpeg" class="org-avatar" alt="SHPE">
-            <div class="org-meta">
-              <h3>SHPE – Society of Hispanic Professional Engineers</h3>
-              <p>Member • August 2024 – May 2026</p>
-            </div>
-          </div>
-          <p class="org-desc">
-            Hispanic STEM organization participating in national conventions, professional development workshops,
-            and technical networking events focused on engineering leadership.
-          </p>
-        </article>
-        
-        <!-- Filipinos In Alliance -->
-        <article class="org-card">
-          <div class="org-header">
-            <img src="assets/fia.png" class="org-avatar" alt="FIA">
-            <div class="org-meta">
-              <h3>FIA - Filipinos In Alliance</h3>
-              <p>Member • March 2024 - May 2026</p>
-            </div>
-          </div>
-          <p class="org-desc">
-            Filipino student organization aiming to educate people about Filipino culture and heritage, along community
-            building and hosting/participating major events including athletics, performances, and performances. 
-          </p>
-        </article>
-
-        <!-- Prospect Airport Services -->
-        <article class="org-card">
-          <div class="org-header">
-            <img src="assets/prospect.jpeg" class="org-avatar" alt="FIA">
-            <div class="org-meta">
-              <h3>Prospect Airport Services</h3>
-              <p>Employee • July 2025 - August 2025</p>
-            </div>
-          </div>
-          <p class="org-desc">
-            A leading airport provider of passenger and cabin services to commercial airlines across the U.S.
-          </p>
-        </article>
-
-        <!-- Reggio's Pizza -->
-        <article class="org-card">
-          <div class="org-header">
-            <img src="assets/reggiospizza.png" class="org-avatar" alt="FIA">
-            <div class="org-meta">
-              <h3>Reggio's Pizza</h3>
-              <p>Employee • July 2024 - August 2024</p>
-            </div>
-          </div>
-          <p class="org-desc">
-            A Chicago-based pizzeria known for selling Chicago's deep dish pizzas.
-          </p>
-        </article>
-        
-      </div>
-    </section>
-    <!-- ______________________________________________________________________________ -->
-
-    <!-- Soccer Teams -->
-    <!-- ______________________________________________________________________________ -->
-    <section class="teams">
-
-      <!-- Section Divider -->
-      <!-- ______________________________________________________________________________ -->
-      <div class="reels-head"><h2 class="section-title">Soccer Teams</h2></div>
-      <div class="section-divider-thin"></div>
-      <!-- ______________________________________________________________________________ -->
-
-      <div class="org-grid">
 
         <!-- Berber City FC -->
-        <article class="org-card">
-          <div class="org-header">
-            <img src="assets/berbercityfc.png" class="org-avatar">
-            <div class="org-meta">
+        <div class="experience-card" data-id="berber-city-fc" style="background-image: url('images/image15.JPG')">
+          <span class="card-type-badge">UPSL Semi-Pro</span>
+          <img src="assets/berbercityfc.png" alt="Berber City FC" class="experience-avatar">
+          <div class="card-header">
+            <div class="card-info">
               <h3>Berber City FC</h3>
-              <p>December 2025 – Present </p>
+              <div class="experience-badges">
+                <span class="experience-badge">UPSL Premier Division Team Spring 2026</span>
+              </div>
             </div>
           </div>
-          <p class="org-desc">
-            Chicago-based youth development and semi-professional football club competing in semi-professional soccer
-            providing high-level forms of coaching and player growth.
-          </p>
-        </article>
+        </div>
 
         <!-- Machu Picchu FC -->
-        <article class="org-card">
-          <div class="org-header">
-            <img src="assets/machupicchufc.jpeg" class="org-avatar">
-            <div class="org-meta">
+        <div class="experience-card" data-id="machu-picchu-fc" style="background-image: url('images/image14.JPG');">
+          <span class="card-type-badge">GCSL Semi-Pro</span>
+          <img src="assets/machupicchufc.jpeg" alt="Machu Picchu FC" class="experience-avatar">
+          <div class="card-header">
+            <div class="card-info">
               <h3>Machu Picchu FC</h3>
-              <p>March 2026 - Present</p>
-              <p>June 2025 – October 2025</p>
+              <div class="experience-badges">
+                <span class="experience-badge">GCSL Major Division Team 2026</span>
+                <span class="experience-badge">GCSL City Division Team 2025</span>
+              </div>
             </div>
           </div>
-          <p class="org-desc">
-            Peruvian Chicago-based semi-professional football club competing in semi-pro GCSL soccer offering high-level forms of
-            competition in soccer.
-          </p>
-        </article>
-
-        <!-- Chicago City SC -->
-        <article class="org-card">
-          <div class="org-header">
-            <img src="assets/chicagocitysc.png" class="org-avatar">
-            <div class="org-meta">
-              <h3>Chicago City SC</h3>
-              <p>November 2025 – Febraury 2026</p>
-            </div>
-          </div>
-          <p class="org-desc">
-            Prominent Chicago non-profit soccer organization providing player development and competition competing
-            in major leagues including GCSL and MWPL.
-          </p>
-        </article>
+        </div>
 
         <!-- Diverse City FC -->
-        <article class="org-card">
-          <div class="org-header">
-            <img src="assets/diversecityfc.png" class="org-avatar">
-            <div class="org-meta">
-              <h3>Diverse City FC Pro Academy</h3>
-              <p>December 2025 – February 2026</p>
+        <div class="experience-card" data-id="diverse-city-fc" style="background-image: url('experiences/groupPhotos/diversecityfc1.jpg');">
+          <span class="card-type-badge">UPSL Semi-Pro Trial</span>
+          <img src="assets/diversecityfc.png" alt="Diverse City FC" class="experience-avatar">
+          <div class="card-header">
+            <div class="card-info">
+              <h3>Diverse City FC</h3>
+              <div class="experience-badges">
+                <span class="experience-badge">UPSL Semi-Pro Trial Winter 2025</span>
+              </div>
             </div>
           </div>
-          <p class="org-desc">
-            A Schaumburg-based youth development and semi-professional football club competing in UPSL semi-professional
-            soccer.
-          </p>
-        </article>
+        </div>
 
-        <!-- UIC Men's Soccer Club -->
-        <article class="org-card">
-          <div class="org-header">
-            <img src="assets/uicclubsoccer.jpeg" class="org-avatar">
-            <div class="org-meta">
+        <!-- Chicago City SC -->
+        <div class="experience-card" data-id="chicago-city-sc" style="background-image: url('experiences/groupPhotos/chicagocitysc1.JPG');">
+          <span class="card-type-badge">Midway Soccer League</span>
+          <img src="assets/chicagocitysc.png" alt="Chicago City SC" class="experience-avatar">
+          <div class="card-header">
+            <div class="card-info">
+              <h3>Chicago City SC</h3>
+              <div class="experience-badges">
+                <span class="experience-badge">Midway Soccer League Team Winter 2025</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- UIC Men's Club Soccer -->
+        <div class="experience-card" data-id="uic-club-soccer" style="background-image: url('experiences/groupPhotos/uicclubsoccer1.JPG');">
+          <span class="card-type-badge">College Sport's Club</span>
+          <img src="assets/uicclubsoccer.jpeg" alt="UIC Men's Club Soccer" class="experience-avatar">
+          <div class="card-header">
+            <div class="card-info">
               <h3>UIC Men's Club Soccer</h3>
-              <p>March 2025 – May 2026</p>
+              <div class="experience-badges">
+                <span class="experience-badge">College Club Soccer</span>
+              </div>
             </div>
           </div>
-          <p class="org-desc">
-            A student sport's club under UIC offering high-level forms of soccer competing against other college soccer
-            clubs across Chicago.
-          </p>
-        </article>
+        </div>
 
-        <!-- Theodore Roosevelt Highschool Sports-->
-        <article class="org-card">
-          <div class="org-header">
-            <img src="assets/roosevelt.png" class="org-avatar">
-            <div class="org-meta">
-              <h3>Theodore Roosevelt Highschool Varsity Soccer</h3>
-              <p>August 2019 – October 2021</p>
+        <!-- Roosevelt Highschool Soccer -->
+        <div class="experience-card" data-id="roosevelt-soccer" style="background-image: url('experiences/groupPhotos/rooseveltsoccer1.JPG');">
+          <span class="card-type-badge">Highschool Athletics</span>
+          <img src="assets/roosevelt.png" alt="Roosevelt High School Soccer" class="experience-avatar">
+          <div class="card-header">
+            <div class="card-info">
+              <h3>Roosevelt High School Soccer</h3>
+              <div class="experience-badges">
+                <span class="experience-badge">High School Varsity Soccer</span>
+              </div>
             </div>
           </div>
-          <p class="org-desc">
-            Roosevelt High School’s varsity soccer team competing against other high schools in the Chicago-land area.
-          </p>
-        </article>
-        
+        </div>
+      </div>
+
+
+      <div class="section-divider-thin"></div>
+
+
+      <!-- Playing Highlights -->
+      <h2 class="section-title-sm">Playing Highlights</h2>
+      <div class="section-divider-title"></div>
+      <div class="reel-scroll-row">
+
+        <!-- Second Chicago Strikers Friendly Game -->
+        <div class="reel-tile video-large">
+          <iframe
+            src="https://www.youtube.com/embed/QsKLGka335c"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+          <div class="reel-overlay">
+            <h3>GCSL Major Division Machu Picchu FC vs UPSL Premier Chicago Strikers</h3>
+            <span>Secondly Friendly game against Semi-Pro UPSL First Team, Chicago Strikers</span>
+          </div>
+        </div>
+
+        <!-- Chicago Strikers Friendly Game -->
+        <div class="reel-tile video-large">
+          <iframe
+            src="https://www.youtube.com/embed/kwT84mYAyus
+            "
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+          <div class="reel-overlay">
+            <h3>GCSL City Division Machu Picchu FC vs UPSL Premier Chicago Strikers</h3>
+            <span>Friendly game against Semi-Pro UPSL First Team, Chicago Strikers</span>
+          </div>
+        </div>
+
+        <!-- AFC Roscoe Game -->
+        <div class="reel-tile video-large">
+          <iframe
+            src="https://www.youtube.com/embed/0l740y7X-Uk"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+          <div class="reel-overlay">
+            <h3>Machu Picchu FC vs AFC Roscoe</h3>
+            <span>Final game of GCSL City Division against AFC Roscoe</span>
+          </div>
+        </div>
+
+        <!-- Juggling Session -->
+        <div class="reel-tile video-large">
+          <iframe
+            src="https://www.youtube.com/embed/Om6slASgiYw?feature=share"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+          <div class="reel-overlay">
+            <h3>Juggling Session</h3>
+            <span></span>
+          </div>
+        </div>
+
+        <!-- Additional Highlights -->
+        <div class="reel-tile video-large">
+          <iframe
+            src="https://www.youtube.com/embed/MQPBhKqTUso?feature=share"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+          <div class="reel-overlay">
+            <h3>Playing and Training Highlights</h3>
+            <span></span>
+          </div>
+        </div>
+
       </div>
     </section>
+
+    
+
+    <!-- Section Divider -->
+    <!-- ______________________________________________________________________________ -->
+    <div class="section-divider-accent"></div>
     <!-- ______________________________________________________________________________ -->
 
-    <!-- Soccer Leagues -->
-    <!-- ______________________________________________________________________________ -->
-    <section class="teams">
 
-      <!-- Section Divider -->
-      <!-- ______________________________________________________________________________ -->
-      <div class="reels-head"><h2 class="section-title">Semi-Professional Soccer</h2></div>
-      <div class="section-divider-thin"></div>
-      <!-- ______________________________________________________________________________ -->
 
-      <div class="org-grid">
+    <!-- Organizations -->
+    <section class="experience-organizations" id="organizations">
+      <h2 class="section-title-sm" style="text-align: center; font-size: 3rem; padding-bottom: 1rem;">Organizations</h2>
+      <div class="section-grid">
 
-        <!-- United Premier Soccer League -->
-        <article class="org-card">
-          <div class="org-header">
-            <img src="assets/upsl.jpg" class="org-avatar">
-            <div class="org-meta">
-              <h3>UPSL - United Premier Soccer League</h3>
-              <p>Premier Division | March 2026 – Present</p>
+        <!-- Society of Professional Hispanic Engineers (SHPE) -->
+        <div class="experience-card" data-id="shpe" style="background-image: url('experiences/groupPhotos/shpe2.JPG')">
+          <span class="card-type-badge">Hispanic STEM Nonprofit Organization</span>
+          <img src="assets/shpe.jpeg" alt="SHPE" class="experience-avatar">
+          <div class="card-header">
+            <div class="card-info">
+              <h3>Society of Professional Hispanic Engineers (SHPE)</h3>
+              <div class="experience-badges">
+                <span class="experience-badge">STEM Organization</span>
+                <span class="experience-badge">Professional Networking and Development</span>
+              </div>
             </div>
           </div>
-          <p class="org-desc">
-            Standing as one of the largest and most competitive pro-development league in North America, UPSL is a tier 4 national semi-professional soccer
-            league in the United States. It provides a platform for amateur clubs to compete at a high level and offers opportunities for player development
-            and progression within the soccer pyramid.
-          </p>
-        </article>
+        </div>
 
-        <!-- Greater Chicago Soccer League -->
-        <article class="org-card">
-          <div class="org-header">
-            <img src="assets/gcsl.png" class="org-avatar">
-            <div class="org-meta">
-              <h3>GCSL - Greater Chicago Soccer League</h3>
-              <p>Major Division | March 2026 - Present </p>
-              <p>City Division | July 2025 – October 2025</p>
+        <!-- Filipinos in Alliance (FIA) -->
+        <div class="experience-card" data-id="fia" style="background-image: url('experiences/groupPhotos/fia1.JPG')">
+          <span class="card-type-badge">Filipino Student Organization</span>
+          <img src="assets/fia.png" alt="FIA" class="experience-avatar">
+          <div class="card-header">
+            <div class="card-info">
+              <h3>Filipinos in Alliance (FIA)</h3>
+              <div class="experience-badges">
+                <span class="experience-badge">Filipino Cultural Organization</span>
+              </div>
             </div>
           </div>
-          <p class="org-desc">
-            A non-for-profit soccer league formed from the merger of National Soccer League (NSL) and Metropolitan Soccer Leagie (MSL) where best amateur clubs in the Chicago area competes. It is affiliated
-            with Illinois State Soccer Association (ISSA) and United States Adult Soccer Association (USASA) soccer.
-          </p>
-        </article>
-        
+        </div>
+
       </div>
     </section>
+
+
+
+    <!-- Section Divider -->
+    <!-- ______________________________________________________________________________ -->
+    <div class="section-divider-accent"></div>
     <!-- ______________________________________________________________________________ -->
 
-    <!-- Running Teams -->
-    <!-- ______________________________________________________________________________ -->
-    <section class="teams">
 
-      <!-- Section Divider -->
-      <!-- ______________________________________________________________________________ -->
-      <div class="reels-head"><h2 class="section-title">Running</h2></div>
-      <div class="section-divider-thin"></div>
-      <!-- ______________________________________________________________________________ -->
 
-      <div class="org-grid">
+    <!-- Long Distance Running -->
+    <section class="experience-running" id="running">
+      <h2 class="section-title-sm" style="text-align: center; font-size: 3rem; padding-bottom: 1rem;">Running</h2>
+      <div class="section-grid">
 
-        <!-- UIC Running Club -->
-        <article class="org-card">
-          <div class="org-header">
-            <img src="assets/uicrunningclub.jpeg" class="org-avatar">
-            <div class="org-meta">
+        <div class="experience-card" data-id="uic-running-club" style="background-image: url('experiences/groupPhotos/uicrunningclub3.JPEG')">
+          <span class="card-type-badge">College Sport's Club</span>
+          <img src="assets/uicrunningclub.jpeg" alt="Avatar" class="experience-avatar">
+          <div class="card-header">
+            <div class="card-info">
               <h3>UIC Running Club</h3>
-              <p>September 2022 – November 2025</p>
+              <div class="experience-badges">
+                <span class="experience-badge">College Run Club</span>
+              </div>
             </div>
           </div>
-          <p class="org-desc">
-            A student sport's club under UIC competiting in major running events and provides weekly running training.
-          </p>
-        </article>
+        </div>
 
-        <!-- UIC Triathlon Club -->
-        <article class="org-card">
-          <div class="org-header">
-            <img src="assets/uictriathlonclub.jpg" class="org-avatar">
-            <div class="org-meta">
-              <h3>UIC Triathlon Club</h3>
-              <p>September 2025 – November 2025</p>
-            </div>
-          </div>
-          <p class="org-desc">
-            A student sport's club under UIC competiting in triathlon events and provides weekly cycling/swimming/running training.
-          </p>
-        </article>
-
-        <!-- Theodore Roosevelt Highschool Sports-->
-        <article class="org-card">
-          <div class="org-header">
-            <img src="assets/roosevelt.png" class="org-avatar">
-            <div class="org-meta">
-              <h3>Theodore Roosevelt Highschool Track & Field</h3>
-              <p>December 2019 – March 2022</p>
-            </div>
-          </div>
-          <p class="org-desc">
-            Track and field for Roosevelt Highschool athletics competing against other high schools in the Chicago-land area.
-          </p>
-        </article>
-        
       </div>
     </section>
+
+
+    <!-- Section Divider -->
     <!-- ______________________________________________________________________________ -->
+    <div class="section-divider-accent"></div>
+    <!-- ______________________________________________________________________________ -->
+
+
+
+    <!-- Additional Experiences (Hidden)-->
+    <section class="experience-extra" id="extra">
+      <h2 class="section-title-sm" style="text-align: center; font-size: 3rem; padding-bottom: 1rem;">Additional Experiences</h2>
+
+      <!-- Prospect Airport Services -->
+      <article class="org-card">
+        <div class="org-header">
+          <img src="assets/prospect.jpeg" class="org-avatar" alt="FIA">
+          <div class="org-meta">
+            <h3>Prospect Airport Services</h3>
+            <p>Employee • July 2025 - August 2025</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Reggio's Pizza -->
+      <article class="org-card">
+        <div class="org-header">
+          <img src="assets/reggiospizza.png" class="org-avatar" alt="FIA">
+          <div class="org-meta">
+            <h3>Reggio's Pizza</h3>
+            <p>Employee • July 2024 - August 2024</p>
+          </div>
+        </div>
+      </article>
+      
+    </section>
+
 
 
     <!-- Section Divider -->
@@ -2711,22 +1245,25 @@
     <!-- ______________________________________________________________________________ -->
     
     
+
     <!-- About Me Section -->
     <!-- ______________________________________________________________________________ -->
     <h2 class="section-title" id="about">About Me</h2>
     <div class="section-divider-title"></div>
     <!-- ______________________________________________________________________________ -->
 
+
+
     <!-- Personal Bio Section -->
     <!-- ______________________________________________________________________________ -->
     <section class="about">
-      <div class="card">
-        <div class="card-head">
+      <div class="bio-card">
+        <div class="bio-card-head">
           <h2>Personal Bio</h2>
           <p>A quick introduction of me. Who am I? What do I love to do?</p>
         </div>
     
-        <div class="card-body bio-edu">
+        <div class="bio-card-body">
           Hello there! My name is Serafin Gargantiel and I am both a young aspiring software engineer and soccer player. Soccer and gaming has been the two
           greatest passions I have in my life and its those very things that motivates me to continue what I do today. I am Computer Science alumni
           at the University of Illinois at Chicago (UIC). I plan to still continue my learning later on with plans to pursue a masters degree. Here at UIC,
@@ -2759,162 +1296,71 @@
     </section>
     <!-- ______________________________________________________________________________ -->
 
-    <!-- Goals Section -->
-    <!-- ______________________________________________________________________________ -->
-    <div class="reels-head"><h2 class="section-title" id="goals">Personal Goals</h2></div>
-    <div class="section-divider-title"></div>
-
-    <section class="goals-section">
-      <div class="goals-grid">
-
-        <!-- Technical -->
-        <div class="goal-card">
-          <div class="goal-card-head">
-            <h3>Technical</h3>
-            <p>Land a software engineering role</p>
-          </div>
-          <p class="goal-desc">
-            Secure a software engineering position after graduating from UIC in May 2026. 
-            Hoping to work with a focus on game development, cybersecurity, or sports analytics in
-            the future.
-          </p>
-        </div>
-
-        <!-- Athletics -->
-        <div class="goal-card">
-          <div class="goal-card-head">
-            <h3>Athletics</h3>
-            <p>Compete in higher levels of soccer</p>
-          </div>
-          <p class="goal-desc">
-            Continue developing as a young soccer player and establish myself beyond UPSL semi-professional 
-            soccer. Aspiring to improved in the game of football and play in more competitive leagues
-            like USL.
-          </p>
-        </div>
-
-        <!-- Education -->
-        <div class="goal-card">
-          <div class="goal-card-head">
-            <h3>Education</h3>
-            <p>Graduate with a strong GPA and future masters</p>
-          </div>
-          <p class="goal-desc">
-            Get a M.S. in Computer Science at UIC, finishing strong academically 
-            while applying my skills through projects, research, and extracurriculars.
-          </p>
-        </div>
-
-        <!-- Personal -->
-        <div class="goal-card">
-          <div class="goal-card-head">
-            <h3>Personal</h3>
-            <p>Continue growing through engineering and competitive soccer</p>
-          </div>
-          <p class="goal-desc">
-            Successfully balancing both soccer and engineering roles is a goal I hope for in the
-            future. I will continue in the best of my ability to learn, grow, and make something
-            out of both those passions.
-          </p>
-        </div>
-
-      </div>
-
-      <!-- Hobbies and Passions -->
-      <div class="goals-long-term">
-        <h4>Hobbies and Passions</h4>
-        <ul>
-          <li>Interests in CS fields like sports analytics, game development, web design, and cybersecurity.</li>
-          <li>Passionate in the game of soccer and continue building to be a better player.</li>
-          <li>Exploring opportunities in cybersecurity, data science, or startup-scale engineering.</li>
-        </ul>
-      </div>
-      
-    </section>
-    <!-- ______________________________________________________________________________ -->
-
-
-    <!-- Videos -->
-    <!-- ______________________________________________________________________________ -->
-    <section class="reels-section">
-      <div class="reels-head"><h2 class="section-title" id="videos">Videos</h2></div>
-      <div class="section-divider-title"></div>
-
-      <!-- Additional Highlights -->
-      <div class="reel-tile video-large">
-        <iframe
-          src="https://www.youtube.com/embed/MQPBhKqTUso?feature=share"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen>
-        </iframe>
-        <div class="reel-overlay">
-          <h3>Playing and Training Highlights</h3>
-          <span></span>
-        </div>
-      </div>
-
-      <!-- Second Chicago Strikers Friendly Game -->
-      <div class="reel-tile video-large">
-        <iframe
-          src="https://www.youtube.com/embed/QsKLGka335c"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen>
-        </iframe>
-        <div class="reel-overlay">
-          <h3>GCSL Major Division Machu Picchu FC vs UPSL Premier Chicago Strikers</h3>
-          <span>Secondly Friendly game against Semi-Pro UPSL First Team, Chicago Strikers</span>
-        </div>
-      </div>
-
-      <!-- Chicago Strikers Friendly Game -->
-      <div class="reel-tile video-large">
-        <iframe
-          src="https://www.youtube.com/embed/kwT84mYAyus
-          "
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen>
-        </iframe>
-        <div class="reel-overlay">
-          <h3>GCSL City Division Machu Picchu FC vs UPSL Premier Chicago Strikers</h3>
-          <span>Friendly game against Semi-Pro UPSL First Team, Chicago Strikers</span>
-        </div>
-      </div>
-
-      <!-- AFC Roscoe Game -->
-      <div class="reel-tile video-large">
-        <iframe
-          src="https://www.youtube.com/embed/0l740y7X-Uk"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen>
-        </iframe>
-        <div class="reel-overlay">
-          <h3>Machu Picchu FC vs AFC Roscoe</h3>
-          <span>Final game of GCSL City Division against AFC Roscoe</span>
-        </div>
-      </div>
-
-      <!-- Juggling Session -->
-      <div class="reel-tile video-large">
-        <iframe
-          src="https://www.youtube.com/embed/Om6slASgiYw?feature=share"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen>
-        </iframe>
-        <div class="reel-overlay">
-          <h3>Juggling Session</h3>
-          <span></span>
-        </div>
-      </div>
-    </section>
-    <!-- ______________________________________________________________________________ -->
-
     
   </main>
+
+  <!-- Experience Modal Layouts for Experience Cards-->
+  <div class="exp-modal-overlay" id="expModal">
+    <div class="exp-modal">
+
+      <!-- Modal's Close Button -->
+      <button class="exp-modal-close" id="expModalClose">✕</button>
+      
+      <!-- Modal's Header: Title and Avatar -->
+      <div class="exp-modal-header">
+        <h2 class="exp-modal-title"></h2>
+        <div class="exp-modal-avatars"></div>
+      </div>
+      
+      <!-- Modal's Badges -->
+      <div class="exp-modal-badges">
+        <div class="exp-modal-badge"></div>
+      </div>
+      
+      <!-- Modal's Meta: Date and Location -->
+      <div class="exp-modal-meta">
+         <div class="exp-modal-dates"></div>
+        <span class="exp-modal-location"></span>
+      </div>
+
+      <!-- Modal's Summary Text -->
+      <p class="exp-modal-summary"></p>
+
+      <!-- Modal's Bulletpoint List -->
+      <ul class="exp-modal-bullets"></ul>
+
+      <!-- Modal's Highlights -->
+      <div class="exp-modal-highlights-group">
+        <span class="exp-modal-highlights-label">Notable Highlights</span>
+        <div class="exp-modal-highlights"></div>
+      </div>
+
+      <!-- Modal's Skills Group -->
+      <div class="skill-group">
+        <span class="exp-modal-skills-label">Skills Used</span>
+        <div class="exp-modal-pills"></div>
+      </div>
+
+      <!-- Modal's Certifications -->
+      <span class="exp-modal-certifications-label">Certifications Earned</span>
+      <div class="exp-modal-certificates"></div>
+
+      <!-- Modal's Project Live Demo Button -->
+      <a href="#" target="_blank" class="exp-modal-demo">View Live Demo →</a>
+
+      <!-- Modal's Pictures, Videos, and PDFs -->
+      <div class="exp-modal-photos"></div>
+      <div class="exp-modal-pdfs"></div>
+      <div class="exp-modal-videos"></div>
+      
+    </div>
+  </div>
+
+
+  <!-- Run the JavaScript files for the modals when clicking an experience card -->
+  <script src="data/experience-modals.js"></script>
+  <script src="data/modal.js"></script>
+
 </body>
 <!-- ______________________________________________________________________________ -->
 </html>
