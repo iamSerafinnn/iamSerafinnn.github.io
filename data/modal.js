@@ -95,7 +95,10 @@ function openModal(card) {
 }
 
 // Calls the openModal() function for each experience card clicked
-document.querySelectorAll('.experience-card, .org-card').forEach(card => {
+document.querySelectorAll('.experience-card').forEach(card => {
+  card.addEventListener('click', () => openModal(card));
+});
+document.querySelectorAll('.org-card').forEach(card => {
   card.addEventListener('click', () => openModal(card));
 });
 
