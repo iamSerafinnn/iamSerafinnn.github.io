@@ -1322,14 +1322,11 @@ html {
   .exp-modal-header { align-items: flex-start; }
   .exp-modal-photos { grid-template-columns: 1fr !important; }
   .exp-modal-pdf-box { height: 220px; }
+  .exp-modal-badge { width: fit-content; }
   .exp-modal-bullets { font-size: 0.82rem; }
   .exp-modal-summary { font-size: 0.85rem; }
   .exp-modal-certificate { white-space: normal; }
-<<<<<<< HEAD
   .exp-modal-highlights .skill-pill, .exp-modal-pills .skill-pill { white-space: normal; text-align: center; }
-=======
-  .exp-modal-badge { width: fit-content; }
->>>>>>> c310f5e24e066c8ba115d7f731f2c0f87cf51e0c
   .exp-modal-close {
     width: 40px;
     height: 40px;
