@@ -63,6 +63,16 @@ function openModal(card) {
   ).join('');
   avatarsBox.style.display = (data.avatars && data.avatars.length) ? 'flex' : 'none';
 
+  // Links: renders additional links as clickable buttons
+  const linksBox = document.querySelector('.exp-modal-links');
+  const linksLabel = document.querySelector('.exp-modal-links-label');
+  linksBox.innerHTML = (data.links || []).map(l => `
+    <a href="${l.url}" target="_blank" class="exp-modal-link">
+      ${l.name} →
+    </a>`).join('');
+  linksBox.style.display = (data.links && data.links.length) ? 'flex' : 'none';
+  linksLabel.style.display = (data.links && data.links.length) ? 'block' : 'none';
+
   // Photos: Maps each elemest as <img src="${p}" alt="" class="exp-modal-photo-img"></img> in html
   const photosBox = document.querySelector('.exp-modal-photos');
   photosBox.innerHTML = data.photos.map(p => `<img src="${p}" alt="" class="exp-modal-photo-img">`).join('');

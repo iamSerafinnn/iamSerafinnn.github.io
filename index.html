@@ -11,7 +11,7 @@
 
 <!-- Tab Image -->
 <!-- ______________________________________________________________________________ -->
- <link rel="icon" type="image/png" href="profile.png">
+ <link rel="icon" type="image/png" href="logo.png">
 <!-- ______________________________________________________________________________ -->
 
 
@@ -41,7 +41,9 @@
   <!-- Navigation Bar -->
   <!-- ______________________________________________________________________________ --> 
   <nav class="navbar">
-    <span class="navbar-label">The Entry Level Portfolio</span>
+    <a href="#hero" class="site-logo">
+      <img src="portfolio-logo.png" alt="Serafin Entry Portfolio">
+    </a>
     <a href="#hero">Home</a>
     <a href="#education">Education</a>
     <a href="#software">Software Engineering</a>
@@ -63,11 +65,19 @@
     <!-- Header Section -->
     <!-- ______________________________________________________________________________ -->
     <header class="hero">
+
+
+
       <!-- Left Side - Text -->
       <div class="hero-text">
         
-        <!-- Profile Picture -->
-        <img class="avatar" src="profile.png" />
+        <!-- Profile Picture + Logo -->
+        <div class="profile-row">
+          <img class="avatar" src="profile.png" />
+          <!-- <a href="#hero" class="hero-logo">
+            <img src="logo.png" alt="Serafin Entry Portfolio">
+          </a> -->
+        </div>
 
         <!-- Profile Name -->
         <div class="profile">
@@ -118,7 +128,7 @@
             Aspiring to building at the intersection of technology, creativity, and sports
           </p>
         </div>
-
+        
         <!-- Website Status -->
         <p class="web-status">Welcome to my portfolio website — more will be added.<br>
                           Last Updated - July 2, 2026</p>
@@ -414,10 +424,10 @@
         <!-- Personal Portfolio Website-->
         <div class="experience-card" data-id="portfolio" style="background-position: left; background-image: url('experiences/application-development/portfolio.png');">
           <span class="card-type-badge">Website Development & Design</span>
-          <img src="profile.png" alt="Portfolio" class="experience-avatar">
+          <img src="logo.png" alt="Portfolio" class="experience-avatar">
           <div class="card-header">
             <div class="card-info">
-              <h3>Personal Portfolio Website</h3>
+              <h3>The Entry Portfolio</h3>
               <div class="experience-badges">
                 <span class="experience-badge">Website Development</span>
                 <span class="experience-badge">HTML + CSS + JavaScript</span>
@@ -1376,6 +1386,10 @@
         <span class="exp-modal-skills-label">Skills Used</span>
         <div class="exp-modal-pills"></div>
       </div>
+
+      <!-- Modal's Additional Links -->
+      <span class="exp-modal-links-label">Additional Links</span>
+      <div class="exp-modal-links"></div>
 
       <!-- Modal's Certifications -->
       <span class="exp-modal-certifications-label">Certifications Earned</span>

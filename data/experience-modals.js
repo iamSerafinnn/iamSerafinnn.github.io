@@ -15,6 +15,7 @@ const experienceData = {
       'Delivered a working prototype within 24 hours, promoting a fast paced iteration under time constraint'
     ],
     skills: ['Python', 'SQL', 'Backend Development', 'Query'],
+    links: [],
     certifications: [],
     photos: ['experiences/groupPhotos/sparkhacks.JPG', 'certificates/sparkhacks.png'],
     pdfs: [],
@@ -35,6 +36,7 @@ const experienceData = {
       'Program focused on early-career professional development and networking'
     ],
     skills: ['Data Analytics', 'Professional Development & Networking'],
+    links: [],
     certifications: [],
     photos: [],
     pdfs: [],
@@ -56,6 +58,7 @@ const experienceData = {
       'Collaborated within interculturally diverse teams on hands-on data challenges'
     ],
     skills: ['SQL', 'MySQL', 'Python', 'Data Analytics', 'Data Wrangling', 'Data Visualization', 'Tableau', 'Jupyter Notebooks'],
+    links: [],
     certifications: [
       { name: 'SQL Specialist', url: 'https://www.credential.net/5f92c1db-8db0-4919-b6ed-9905fb723177' },
       { name: 'Python Specialist', url: 'https://www.credential.net/c76e87d4-2792-417c-878e-8923091c8b5b' },
@@ -82,6 +85,7 @@ const experienceData = {
       'Applied AI engineering workflows and tooling to accelerate development and problem-solving',
       'Customized React components through Docusaurus swizzling to override default theming and layout behavior'
     ],
+    links: [],
     skills: ['AI Engineering', 'GitHub Open Source', 'React', 'Docusaurus'],
     certifications: [],
     photos: [],
@@ -104,6 +108,7 @@ const experienceData = {
       'Implemented defenses against DoS/DDoS attacks using Docker-hosted environments'
     ],
     skills: ['Cybersecurity', 'Splunk & SIEM', 'Wireshark', 'Linux CLI', 'Directory Traversal', 'DoS/DDoS Defense', 'Phishing Detection', 'Docker'],
+    links: [],
     certifications: [
       {name: 'CodePath Intermediate Cybersecurity', url: 'https://drive.google.com/file/d/101mq3jPfxxC90glbfO8eGan_3DThTMfN/view'}
     ],
@@ -141,8 +146,8 @@ const experienceData = {
   // DDoS defense project
 
   'portfolio': {
-    title: 'Personal Portfolio Website',
-    avatars: [],
+    title: 'The Entry Portfolio',
+    avatars: ['logo.png'],
     badge: 'Website Development & Design',
     date: 'December 2025 – Present',
     location: '',
@@ -163,7 +168,7 @@ const experienceData = {
 
   'hertzbeat-refactor': {
     title: 'Apache HertzBeat – Blog UI Refactor',
-    avatars: ['experiences/application-development/react-logo.png'],
+    avatars: ['experiences/application-development/hertzbeat-logo.png'],
     badge: 'Open Source Contribution Web Refactoring',
     date: 'June 2026 - Present',
     location: '',
@@ -385,11 +390,12 @@ const experienceData = {
     'Documented findings across all projects with written reflections, attack breakdowns, and technical explanations aligned with real-world investigation procedures'
   ],
   skills: ['Wireshark', 'PCAP Analysis', 'Phishing Detection', 'Directory Traversal', 'Shell Scripting', 'Splunk', 'Incident Response', 'Linux CLI'],
-  certifications: [
+  links: [
     { name: 'Project 1 – Incident Response', url: 'https://docs.google.com/document/d/16eefDSYBwDiFKuREb3puC9F67QhbhnSlN9QCFQwOPl8/edit' },
     { name: 'Project 3 – Directory Traversal', url: 'https://docs.google.com/document/d/1ufUJ93xJ67YmWGZy4oVYbQwLwIWZhdhi0yxHKSWBVYo/edit' },
     { name: 'Project 4 – DoS/DDoS Defense', url: 'https://docs.google.com/document/d/15XklfkCjoXheQjNj3rokevZoze6llVBqHeXwj0eNbzk/edit' }
   ],
+  certifications: [],
   photos: [],
   pdfs: [],
   videos: [],
