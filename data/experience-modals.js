@@ -163,7 +163,7 @@ const experienceData = {
 
   'hertzbeat-refactor': {
     title: 'Apache HertzBeat – Blog UI Refactor',
-    avatars: ['experiences/application-development/react-logo.png'],
+    avatars: ['experiences/application-development/hertzbeat-logo.png'],
     badge: 'Open Source Contribution Web Refactoring',
     date: 'June 2026 - Present',
     location: '',
