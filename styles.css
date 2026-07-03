@@ -569,10 +569,14 @@ html {
 }
 .tech-skill-card-header h3 {
   color: #fff;
+  background-color: #373232;
   font-size: 20px;
   font-weight: 700;
   margin: 0;
   font-family: 'Syne', sans-serif;
+  width: fit-content;
+  border-radius: 999px;
+  padding: 0.4rem 1rem;
 }
 .tech-skill-card-info {
   display: flex;
@@ -610,6 +614,7 @@ html {
   object-fit: cover;
   border: 1px solid rgba(255, 255, 255, 0.15);
   flex-shrink: 0;
+  background-color: #f3f4f6;
 }
 
 /* Gap between skill cards */
@@ -1131,6 +1136,52 @@ html {
 
 
 
+/* Scrollable Image Slider */
+/*__________________________________________________________________*/
+.slide-media {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  scroll-snap-type: x mandatory;
+}
+.slide-img {
+  flex: 0 0 auto;
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.04);
+  scroll-snap-align: start;
+  transition: border-color 0.2s ease;
+}
+.slide-img:hover {
+  border-color: rgba(255, 255, 255, 0.25);
+}
+.slide-media::-webkit-scrollbar {
+  height: 6px;
+}
+.slide-media::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
+}
+
+/* Mobile Media */
+@media (max-width: 650px) {
+  .slide-img {
+    width: 220px;
+    height: 300px;
+  }
+}
+/*__________________________________________________________________*/
+
+
+
 /* Soccer Playing Reels */
 /*__________________________________________________________________*/
 .reel-scroll-row {
@@ -1300,6 +1351,78 @@ html {
   .org-avatar {
     width: 40px;
     height: 40px;
+  }
+}
+/*__________________________________________________________________*/
+
+
+/* Contact Section */
+/*__________________________________________________________________*/
+.contact-section {
+  margin: 3rem 0;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  max-width: 560px;
+  margin: 0 auto;
+}
+.contact-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.contact-field label {
+  font-size: 0.85rem;
+  color: #94a3b8;
+  letter-spacing: 0.04em;
+}
+.contact-field input,
+.contact-field textarea {
+  background-color: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+  padding: 0.75rem 1rem;
+  color: #e5e7eb;
+  font-size: 0.9rem;
+  font-family: inherit;
+  transition: border-color 0.2s ease;
+  resize: vertical;
+}
+.contact-field input:focus,
+.contact-field textarea:focus {
+  outline: none;
+  border-color: rgba(56, 189, 248, 0.5);
+}
+.contact-field input::placeholder,
+.contact-field textarea::placeholder {
+  color: rgba(148, 163, 184, 0.5);
+}
+.contact-send {
+  align-self: flex-start;
+  background-color: #2563eb;
+  color: #f3f4f6;
+  border: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.7rem 1.5rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+.contact-send:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-2px);
+}
+
+/* Mobile Media */
+@media (max-width: 650px) {
+  .contact-form {
+    max-width: 100%;
+  }
+  .contact-send {
+    width: 100%;
   }
 }
 /*__________________________________________________________________*/

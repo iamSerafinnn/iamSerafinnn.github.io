@@ -450,7 +450,7 @@ const experienceData = {
     ],
     skills: [],
     certifications: [],
-    photos: ['images/image15.JPG', 'images/image13.JPG', 'images/image10.png'],
+    photos: ['images/image15.JPG', 'images/image13.JPG', 'images/image10.png', 'experiences/groupPhotos/berbercityfc1.JPG'],
     pdfs: [],
     videos: [],
     demo: ''
@@ -470,7 +470,7 @@ const experienceData = {
     ],
     skills: [],
     certifications: [],
-    photos: ['experiences/groupPhotos/machupicchufc1.JPG', 'experiences/groupPhotos/machupicchufc2.JPG', 'experiences/groupPhotos/machupicchufc3.JPG'],
+    photos: ['experiences/groupPhotos/machupicchufc1.JPG', 'experiences/groupPhotos/machupicchufc2.JPG', 'experiences/groupPhotos/machupicchufc3.JPG', 'experiences/groupPhotos/machupicchufc5.JPG'],
     pdfs: [],
     videos: [],
     demo: ''
@@ -513,7 +513,8 @@ const experienceData = {
     photos: [
       'experiences/groupPhotos/diversecityfc1.jpg',
       'experiences/groupPhotos/diversecityfc2.JPG',
-      'experiences/groupPhotos/diversecityfc3.JPG'
+      'experiences/groupPhotos/diversecityfc3.JPG',
+      'experiences/groupPhotos/diversecityfc4.HEIC'
     ],
     pdfs: [],
     videos: [],
@@ -537,6 +538,7 @@ const experienceData = {
     photos: [
       'experiences/groupPhotos/uicclubsoccer1.JPG',
       'experiences/groupPhotos/uicclubsoccer2.PNG',
+      'experiences/groupPhotos/uicclubsoccer4.JPG',
       'experiences/groupPhotos/uicclubsoccer5.JPG'
     ],
     pdfs: [],
@@ -594,7 +596,14 @@ const experienceData = {
       'CARA Lakefront 10-Miler Pacer Volunteer (2025)'
     ],
     skills: [],
-    certifications: [],
+    certifications: [
+      { name: 'Chicago 13.1 Half Marathon Finisher (2025)', url: 'https://events.hakuapp.com/?registration_number=30CBC6DF02' },
+      { name: 'Shamrock Shuffle 8K Finisher (2025)', url: 'https://events.hakuapp.com/?registration_number=C2590F2893' },
+      { name: 'Chi-Town Turkey Trot 8K Finisher (2025)', url: 'certificates/ChiTownTurkeyTrotRun2025.pdf' },
+      { name: 'Hot Chocolate Run 15K Finisher (2024)', url: 'certificates/ChicagoHotChocolateRun2024.png' },
+      { name: 'Shamrock Shuffle Certificate (2025)', url: 'certificates/BankofAmericaShamrockShuffle2025.png' },
+      { name: 'Chicago 13.1 Certificate (2025)', url: 'certificates/BankofAmericaChicago13.12025.pdf' }
+    ],
     photos: [
       'experiences/groupPhotos/uicrunningclub1.JPG',
       'experiences/groupPhotos/uicrunningclub2.PNG',
@@ -633,7 +642,8 @@ const experienceData = {
     photos: [
       'experiences/groupPhotos/shpe1.JPG',
       'experiences/groupPhotos/shpe2.JPG',
-      'experiences/groupPhotos/shpe3.JPG'
+      'experiences/groupPhotos/shpe3.JPG',
+      'experiences/groupPhotos/shpe4.HEIC'
     ],
     pdfs: [],
     videos: [],
