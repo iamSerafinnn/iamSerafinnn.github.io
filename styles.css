@@ -1100,6 +1100,8 @@ html {
 }
 .org-card:hover {
   border-color: rgba(56, 189, 248, 0.35);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 .org-header {
   display: flex;
