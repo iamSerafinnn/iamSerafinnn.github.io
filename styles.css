@@ -1253,6 +1253,17 @@ html {
   .exp-modal-bullets { font-size: 0.82rem; }
   .exp-modal-summary { font-size: 0.85rem; }
   .exp-modal-certificate { white-space: normal; }
+  .exp-modal-close {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+    background: rgba(142, 134, 134, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    top: 0.75rem;
+    right: 0.75rem;
+    position: sticky;
+    z-index: 10;
+  }
 
   /* Reels */
   .reel-scroll-row .reel-tile { flex: 0 0 300px; }
