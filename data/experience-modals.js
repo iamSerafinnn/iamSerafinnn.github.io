@@ -203,7 +203,7 @@ const experienceData = {
       'Delivered a full-stack app to production by building a FastAPI backend and React/Vite frontend',
       'Extended an original 3-person, 4-month team project by independently building out a UI frontend'
     ],
-    skills: ['React', 'Python', 'SQL', 'FAISS', 'PostgreSQL', 'FastAPI', 'Visual Studios Code, Git/GitHub'],
+    skills: ['React', 'Python', 'SQL', 'FAISS', 'PostgreSQL', 'FastAPI', 'Visual Studios Code', 'Git/GitHub'],
     links: [
       {name: 'Railway Deployment', url: 'https://railway.com/project/e2016d8d-b860-4a29-ba0b-70f3b312d1e4/service/a127a01f-0e55-4ae0-8f66-4edbd8c37883?environmentId=6119d7cd-0f8c-4d06-a78f-ca1047056053'}
     ],
@@ -717,6 +717,50 @@ const experienceData = {
 
 
 
+  // Additional Experiences
+  // _________________________________________________________________________________
+  'prospect-airport-services': {
+    title: 'Prospect Airport Services - Airport Service Assistant',
+    avatars: [],
+    badge: 'Summer Job',
+    date: 'July 2025 - August 2025',
+    location: 'On Site | O\'Hare International Airport | Chicago, IL',
+    summary: 'Summer position assisting passengers and supporting daily airport operations at O\'Hare.',
+    bullets: [
+      'Assisted passengers requiring mobility support, providing wheelchair transport and escort services throughout the airport',
+      'Managed luggage, airport equipment, and supply handling to support daily operations',
+      'Coordinated with gate agents, airline staff, and team members to ensure timely passenger transfers and smooth workflows'
+    ],
+    skills: ['Customer Service', 'Teamwork', 'Communication'],
+    certifications: [],
+    photos: [],
+    pdfs: [],
+    videos: [],
+    demo: ''
+  },
+  'reggios-pizza': {
+    title: 'Reggio\'s Pizza - Fast Food Crew Member',
+    avatars: [],
+    badge: 'Summer Job',
+    date: 'July 2024 - August 2024',
+    location: 'On Site | O\'Hare International Airport | Chicago, IL',
+    summary: 'Summer crew member position in a fast-paced airport food service environment.',
+    bullets: [
+      'Delivered customer service in a fast-paced airport environment, handling orders, transactions, and food preparation',
+      'Maintained kitchen, equipment, and workstations to meet health and safety standards',
+      'Supported store operations including inventory movement, restocking, and supply transportation across multiple airport locations'
+    ],
+    skills: ['Customer Service', 'Food Service', 'Operations'],
+    certifications: [],
+    photos: [],
+    pdfs: [],
+    videos: [],
+    demo: ''
+  },
+  // _________________________________________________________________________________
+
+
+
   // Stored Data 
   // _________________________________________________________________________________
   'ets-major-field-test': {
@@ -899,44 +943,6 @@ const experienceData = {
       'Maintained a consistent pace and clear communication, providing guidance and motivation throughout the race'
     ],
     skills: [],
-    certifications: [],
-    photos: [],
-    pdfs: [],
-    videos: [],
-    demo: ''
-  },
-  'prospect-airport-services': {
-    title: 'Prospect Airport Services - Airport Service Assistant',
-    avatars: [],
-    badge: 'Summer Job',
-    date: 'July 2025 - August 2025',
-    location: 'On Site | O\'Hare International Airport | Chicago, IL',
-    summary: 'Summer position assisting passengers and supporting daily airport operations at O\'Hare.',
-    bullets: [
-      'Assisted passengers requiring mobility support, providing wheelchair transport and escort services throughout the airport',
-      'Managed luggage, airport equipment, and supply handling to support daily operations',
-      'Coordinated with gate agents, airline staff, and team members to ensure timely passenger transfers and smooth workflows'
-    ],
-    skills: ['Customer Service', 'Teamwork', 'Communication'],
-    certifications: [],
-    photos: [],
-    pdfs: [],
-    videos: [],
-    demo: ''
-  },
-  'reggios-pizza': {
-    title: 'Reggio\'s Pizza - Fast Food Crew Member',
-    avatars: [],
-    badge: 'Summer Job',
-    date: 'July 2024 - August 2024',
-    location: 'On Site | O\'Hare International Airport | Chicago, IL',
-    summary: 'Summer crew member position in a fast-paced airport food service environment.',
-    bullets: [
-      'Delivered customer service in a fast-paced airport environment, handling orders, transactions, and food preparation',
-      'Maintained kitchen, equipment, and workstations to meet health and safety standards',
-      'Supported store operations including inventory movement, restocking, and supply transportation across multiple airport locations'
-    ],
-    skills: ['Customer Service', 'Food Service', 'Operations'],
     certifications: [],
     photos: [],
     pdfs: [],
