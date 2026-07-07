@@ -27,7 +27,7 @@ const experienceData = {
     title: 'COOP Careers Fall 2026 Fellowship, Data Analytics Track',
     avatars: ['experiences/application-development/coopcareers-logo.jpeg'],
     badge: ['Fellowship', 'Upcoming'],
-    date: 'August 2026',
+    date: 'Begins August 12th, 2026',
     location: 'Hybrid / Chicago, IL',
     summary: 'Upcoming fellowship with COOP Careers on the Data Analytics track, focusing on applied data skills and professional development.',
     bullets: [
@@ -77,7 +77,7 @@ const experienceData = {
     title: 'CodePath Applied AI Engineering',
     avatars: ['experiences/application-development/codepath-logo.jpeg'],
     badge: ['Remote Program', 'Active'],
-    date: 'Spring 2026',
+    date: 'June 2026 - Present',
     location: 'Online / Remote',
     summary: 'Currently enrolled in CodePath\'s Applied AI Engineering program focused on AI engineering and GitHub open-source contribution.',
     bullets: [
@@ -122,7 +122,7 @@ const experienceData = {
     title: 'Revature Pre-Training Program',
     avatars: ['experiences/application-development/revature-logo.jpeg'],
     badge: ['Remote Program', 'Active'],
-    date: '2026',
+    date: 'June 2026 - Present',
     location: 'Online / Remote',
     summary: 'Currently enrolled in Revature\'s pre-training program focused on full-stack development and cloud computing fundamentals.',
     bullets: [
@@ -147,7 +147,7 @@ const experienceData = {
 
   'portfolio': {
     title: 'The Entry Portfolio',
-    avatars: ['logo.png'],
+    avatars: ['logo_2.png'],
     badge: 'Website Development & Design',
     date: 'December 2025 – Present',
     location: '',
@@ -161,7 +161,7 @@ const experienceData = {
     skills: ['HTML', 'CSS', 'JavaScript', 'GitHub Pages', 'Git/GitHub', 'Visual Studios Code', 'Web Development', 'UI/UX'],
     certifications: [],
     photos: [],
-    pdfs: [],
+    pdfs: ['experiences/application-development/portfolio.png', 'portfolio-logo.svg'],
     videos: [],
     demo: ''
   },
@@ -169,7 +169,7 @@ const experienceData = {
   'hertzbeat-refactor': {
     title: 'Apache HertzBeat – Blog UI Refactor',
     avatars: ['experiences/application-development/hertzbeat-logo.png'],
-    badge: 'Open Source Contribution Web Refactoring',
+    badge: 'Open Source Contribution',
     date: 'June 2026 - Present',
     location: '',
     summary: 'An independent open-source contribution refactoring the blog UI of Apache HertzBeat\'s Docusaurus documentation site.',
@@ -180,9 +180,12 @@ const experienceData = {
       'Scoped changes for maintainability so the contribution would be mergeable by maintainers who hadn\'t requested it'
     ],
     skills: ['React', 'Docusaurus', 'GitHub Open Source Contribution', 'UI/UX', 'Visual Studios Code'],
+    links: [
+      { name: 'Contribution GitHub', url: 'https://github.com/iamSerafinnn/Summer2026-Codepath-AI301-Contribution/blob/main/contribution_readme.md' },
+    ],
     certifications: [],
     photos: [],
-    pdfs: [],
+    pdfs: ['experiences/application-development/hertzbeat.png'],
     videos: [],
     demo: ''
   },
@@ -201,9 +204,12 @@ const experienceData = {
       'Extended an original 3-person, 4-month team project by independently building out a UI frontend'
     ],
     skills: ['React', 'Python', 'SQL', 'FAISS', 'PostgreSQL', 'FastAPI', 'Visual Studios Code, Git/GitHub'],
+    links: [
+      {name: 'Railway Deployment', url: 'https://railway.com/project/e2016d8d-b860-4a29-ba0b-70f3b312d1e4/service/a127a01f-0e55-4ae0-8f66-4edbd8c37883?environmentId=6119d7cd-0f8c-4d06-a78f-ca1047056053'}
+    ],
     certifications: [],
     photos: [],
-    pdfs: ['projects/480ProjectERD.pdf', 'projects/CS 480 ER Diagram For Amazon Products Project 2.pdf'],
+    pdfs: ['projects/480ProjectERD.pdf', 'projects/CS 480 ER Diagram For Amazon Products Project 2.pdf', 'experiences/application-development/epiccode.png'],
     videos: [],
     demo: 'https://iamserafinnn.github.io/Amazon-Product-Reviews-Database/'
   },
@@ -224,7 +230,7 @@ const experienceData = {
     skills: ['React', 'JavaScript', 'UI/UX Design', 'Human-Computer Interaction', 'Git/GitHub', 'Visual Studios Code', 'CSS Styling'],
     certifications: [],
     photos: [],
-    pdfs: [],
+    pdfs: ['experiences/application-development/crafttracks.png'],
     videos: [],
     demo: 'https://iamserafinnn.github.io/CS422_CraftsProject/'
   },
@@ -400,7 +406,7 @@ const experienceData = {
   pdfs: [],
   videos: [],
   demo: ''
-},
+  },
   // _________________________________________________________________________________
 
 
@@ -685,6 +691,27 @@ const experienceData = {
     pdfs: [],
     videos: [],
     demo: ''
+  },
+  'wtse': {
+    title: 'Wearable Technology & Sensory Enhancement (WTSE)',
+    avatars: ['assets/wtse.png', 'assets/uic.svg'],
+    badge: ['Research Contribution'],
+    date: 'May 2026',
+    location: 'University of Illinois at Chicago | Chicago, IL',
+    summary: 'Student participant supporting data collection for a biomedical wearable device measuring respiratory and physiological output via a respirometer.',
+    bullets: [
+      'Participated as a participant in data collection for a biomedical wearable measuring respiratory and physiological output',
+      'Support the research team by logging and organizing sensor data to contribute to ongoing lab experiments',
+      'Available to assist with frontend development (React.js) as the project\'s UI needs evolve'
+    ],
+    highlights: [],
+    skills: ['Data Collection', 'Research', 'Biomedical Wearables', 'Sensor Data'],
+    links: [],
+    certifications: [],
+    photos: ['experiences/groupPhotos/wtse1.JPG'],
+    pdfs: [],
+    videos: [],
+    demo: '',
   },
   // _________________________________________________________________________________
 
@@ -1031,6 +1058,33 @@ const experienceData = {
     pdfs: [],
     videos: [],
     demo: ''
-  }
+  },
+  // _________________________________________________________________________________
+
+
+  // Template
+  // _________________________________________________________________________________
+  'data_template': {
+  title: 'Data Name',
+  avatars: ['Data Card Avatar Path'],
+  badge: ['Data Card Badge'],
+  date: 'Date Date',
+  location: 'Data Location',
+  summary: 'Data Summary',
+  bullets: [
+    'Data Bulletpoints',
+  ],
+  skills: ['Data Skills'],
+  links: [
+    { name: 'Data Link Name', url: 'Data Link URL' },
+  ],
+  certifications: [
+    { name: 'Data Certification Name', url: 'Data Certification URL' },
+  ],
+  photos: ['Data Photos Paths'],
+  pdfs: ['Data PDFs Paths'],
+  videos: ['Data Videos Paths'],
+  demo: 'Data Demo Link',
+  },
   // _________________________________________________________________________________
 };

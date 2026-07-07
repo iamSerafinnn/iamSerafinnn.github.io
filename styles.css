@@ -1326,7 +1326,12 @@ html {
   .exp-modal-bullets { font-size: 0.82rem; }
   .exp-modal-summary { font-size: 0.85rem; }
   .exp-modal-certificate { white-space: normal; }
-  .exp-modal-highlights .skill-pill, .exp-modal-pills .skill-pill { white-space: normal; text-align: center; }
+  .exp-modal-highlights .skill-pill, .exp-modal-pills .skill-pill { 
+    white-space: normal; text-align: center; 
+    max-width: 100%; 
+    overflow-wrap: break-word;
+    flex-shrink: 1;
+  }
   .exp-modal-close {
     width: 40px;
     height: 40px;
