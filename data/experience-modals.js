@@ -471,7 +471,7 @@ const experienceData = {
   'machu-picchu-fc': {
     title: 'Machu Picchu FC',
     avatars: ['assets/machupicchufc.jpeg', 'assets/gcsl.png'],
-    badge: 'GCSL Major Division Semi-Pro',
+    badge: ['GCSL Major Division Semi-Pro', 'GCSL City Division Semi-Pro'],
     date: ['July 2025 - October 2025', 'March 2026 - Present'],
     location: 'Chicago, IL',
     summary: 'Played at the semi-pro soccer in the GCSL Major Division and City Division.',
