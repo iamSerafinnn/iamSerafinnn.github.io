@@ -321,7 +321,7 @@ const experienceData = {
 
   'javafx-poker': {
     title: 'JavaFX Object-Oriented Poker Game',
-    avatars: [],
+    avatars: ['experiences/application-development/javafxcardgame-logo.png'],
     badge: 'Object Oriented Application',
     date: 'October 2024 – November 2024',
     location: '',
