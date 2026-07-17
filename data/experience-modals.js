@@ -161,7 +161,7 @@ const experienceData = {
     skills: ['HTML', 'CSS', 'JavaScript', 'GitHub Pages', 'Git/GitHub', 'Visual Studios Code', 'Web Development', 'UI/UX'],
     certifications: [],
     photos: [],
-    pdfs: ['experiences/application-development/portfolio.png', 'portfolio-logo.svg'],
+    pdfs: ['experiences/application-development/portfolio.png'],
     videos: [],
     demo: ''
   },
@@ -237,7 +237,7 @@ const experienceData = {
 
   'wildrealms': {
     title: 'Wild Realms - 3D Wildlife Biome Simulator',
-    avatars: [],
+    avatars: ['experiences/application-development/wildrealms-logo.png'],
     badge: 'Computer Graphics',
     date: 'September 2025 - December 2025',
     location: '',
@@ -279,7 +279,7 @@ const experienceData = {
 
   'android-aidl': {
     title: 'Android AIDL Bound Service System',
-    avatars: [],
+    avatars: ['experiences/application-development/androidstudio-logo.png'],
     badge: 'Thread Inter-Communication',
     date: 'April 2026',
     location: '',
@@ -294,13 +294,13 @@ const experienceData = {
     certifications: [],
     photos: [],
     pdfs: [],
-    videos: [],
+    videos: ['https://www.youtube.com/embed/XBKdK35qTxQ'],
     demo: ''
   },
 
   'gopher-hunting': {
-    title: 'Gopher Hunting Game – Multi-Threaded App',
-    avatars: [],
+    title: 'Gopher Hunting Game – Multi-Threaded Android App',
+    avatars: ['experiences/application-development/androidstudio-logo.png'],
     badge: 'Multi-Threaded Android App',
     date: 'March 2026 - April 2026',
     location: '',
@@ -315,24 +315,25 @@ const experienceData = {
     certifications: [],
     photos: [],
     pdfs: [],
-    videos: [],
+    videos: ['https://www.youtube.com/embed/ztUN0i6eqYI'],
     demo: ''
   },
 
   'javafx-poker': {
-    title: 'JavaFX Object-Oriented Poker Game',
+    title: 'JavaFX Poker Game',
     avatars: ['experiences/application-development/javafxcardgame-logo.png'],
-    badge: 'Object Oriented Application',
+    badge: 'Object Oriented Networked Application',
     date: 'October 2024 – November 2024',
     location: '',
-    summary: 'A card poker game built in JavaFX applying object-oriented design principles.',
+    summary: 'A multiplayer card poker game built in JavaFX with a client-server architecture, allowing clients to connect to a central server for live gameplay.',
     bullets: [
-      'Built an object-oriented poker game in Java by designing modular classes for cards, decks, players, and dealers',
-      'Implemented accurate gameplay by developing hand evaluation and game state logic',
-      'Delivered an interactive experience by building a JavaFX interface with input handling',
-      'Applied object oriented principles by structuring reusable, encapsulated game components'
+      'Architected a client-server multiplayer system in Java using socket programming, enabling multiple clients to connect and play against a central server',
+      'Handled concurrent client connections by implementing multithreading on the server, with dedicated threads managing each client session',
+      'Built an object-oriented game engine by designing modular classes for cards, decks, players, and dealers with accurate hand evaluation and game state logic',
+      'Delivered an interactive experience by building JavaFX interfaces for both client and server with real-time game updates and input handling',
+      'Applied object oriented principles by structuring reusable, encapsulated components shared across client and server codebases'
     ],
-    skills: ['Java', 'JavaFX', 'Object Oriented Programming', 'IntelliJ IDEA'],
+    skills: ['Java', 'JavaFX', 'Socket Programming', 'Multithreading', 'Client-Server Architecture', 'Object Oriented Programming', ],
     certifications: [],
     photos: [],
     pdfs: [],
@@ -384,7 +385,7 @@ const experienceData = {
 
   'codepath-cyb-projects': {
   title: 'CodePath CYB102, Three Applied Cybersecurity Projects',
-  avatars: ['assets/codepath.jpeg'],
+  avatars: ['experiences/application-development/codepath-logo.jpeg'],
   badge: ['Cybersecurity Projects'],
   date: 'February 2026 – May 2026',
   location: '',
