@@ -142,9 +142,6 @@ const experienceData = {
 
   // Software Engineering Projects
   // _________________________________________________________________________________
-
-  // DDoS defense project
-
   'portfolio': {
     title: 'The Entry Portfolio',
     avatars: ['logo_2.png'],
@@ -225,7 +222,7 @@ const experienceData = {
       'Built a React inventory platform in a 5-person team by designing a reusable, component-driven UI for crafters',
       'Improved task efficiency by implementing real-time stock tracking with search and filtering',
       'Raised usability in CS 422 by applying UI heuristics and design principles across the full interface',
-      'Delivered a complete crafting inventory app by managing materials and project components end-to-end'
+      'Delivered a prototype crafting inventory app by managing materials and project components end-to-end'
     ],
     skills: ['React', 'JavaScript', 'UI/UX Design', 'Human-Computer Interaction', 'Git/GitHub', 'Visual Studios Code', 'CSS Styling'],
     certifications: [],
@@ -244,9 +241,9 @@ const experienceData = {
     summary: 'A 3D wildlife simulator built with React and Three.js as a 4-team group project for CS 440.',
     bullets: [
       'Developed an interactive 3D wildlife simulator by building real-time WebGL scenes with React and Three.js',
-      'Rendered a navigable desert and tundra environment by optimizing 3D scene and object management',
-      'Delivered a deployed group project to GitHub Pages by coordinating a multi-person team',
-      'Handled complex rendering by managing camera controls, lighting, and 3D models'
+      'Rendered dynamic lighting, camera control, and 3D model integration for immersive navigation',
+      'Solely built the desert and tundra biomes, integrating 3D environments with interactive animal placement and player discovery mechanics across both scenes',
+      'Developed across structured sprint cycles with backlog management, coordinating deliverables across a 4-person team'
     ],
     skills: ['React', 'Three.js', 'JavaScript', 'WebGL', 'Visual Studios Code', 'Git/GitHub'],
     certifications: [],
@@ -258,20 +255,20 @@ const experienceData = {
 
   'make-or-break': {
     title: 'Make or Break – Physics Disaster Simulator',
-    avatars: [],
+    avatars: ['experiences/application-development/make-or-break-logo.png'],
     badge: 'Simulated Physics Environment',
     date: 'January 2026 - May 2026',
     location: '',
-    summary: 'A physics disaster simulation game exploring structural collapse and destruction mechanics.',
+    summary: 'A build your structure prototype where players construct buildings and test them against physics simulated disasters.',
     bullets: [
-      'Built a physics disaster simulator by implementing collision and structural destruction systems in Unity',
-      'Enabled responsive game mechanics by tuning force, gravity, and collision physics',
-      'Delivered a 3D enviroment by developing the full game loop and interaction mechanics in Javascript',
-      'Collaborated in a 3-team group, creating engaging destruction mechanics by simulating structural collapse'
+      'Developed the core building system in Unity, block placement, rotation, and material selection, enabling players to construct custom structures',
+      'Implemented tornado and earthquake disaster simulations that apply physics forces to test player built structures',
+      'Built player navigation and movement controls for exploring and constructing within the 3D environment',
+      'Collaborated across a three-team semester project, integrating the building and disaster systems with teammates\' physics and asset work'
     ],
     skills: ['Unity', 'JavaScript', 'Physics Simulation', 'Game Development', 'Git/GitHub'],
     certifications: [],
-    photos: ['projects/MakeOrBreak.png'],
+    photos: ['experiences/application-development/make_or_break.png'],
     pdfs: [],
     videos: [],
     demo: ''
@@ -280,10 +277,10 @@ const experienceData = {
   'android-aidl': {
     title: 'Android AIDL Bound Service System',
     avatars: ['experiences/application-development/androidstudio-logo.png'],
-    badge: 'Thread Inter-Communication',
+    badge: 'Inter Process Communication',
     date: 'April 2026',
     location: '',
-    summary: 'An Android FunCenter & FunClient system demonstrating interconnected process communication by AIDL.',
+    summary: 'An Android cross-process application where FunClient requests and renders media (images/audio) served by FunCenter via AIDL  bound service interfaces',
     bullets: [
       'Built an Android IPC system by implementing a bound service with AIDL between FunCenter and FunClient',
       'Enabled intercross communication between two different processes using AIDL interfaces for remote method calls',
@@ -307,7 +304,7 @@ const experienceData = {
     summary: 'A multi-threaded Android app where a hidden gopher is spawned randomly in a grid and two AI threads race to find it, one searching randomly, the other sequentially. The first to find it, wins.',
     bullets: [
       'Built a multi-threaded Android app pitting two competing AI search threads against each other',
-      'Prevented UI race conditions by implementing a thread safe updates across worker threads',
+      'Prevented UI race conditions by implementing a thread safe updates in the main thread across worker threads',
       'Delivered a responsive game by coordinating timing logic with the Android UI thread',
       'Reinforced concurrency skills in CS 478 course by handling parallel game state updates'
     ],
@@ -329,9 +326,8 @@ const experienceData = {
     bullets: [
       'Architected a client-server multiplayer system in Java using socket programming, enabling multiple clients to connect and play against a central server',
       'Handled concurrent client connections by implementing multithreading on the server, with dedicated threads managing each client session',
-      'Built an object-oriented game engine by designing modular classes for cards, decks, players, and dealers with accurate hand evaluation and game state logic',
+      'Applied object oriented principles including modular classes for cards, decks, players, and dealers with accurate hand evaluation',
       'Delivered an interactive experience by building JavaFX interfaces for both client and server with real-time game updates and input handling',
-      'Applied object oriented principles by structuring reusable, encapsulated components shared across client and server codebases'
     ],
     skills: ['Java', 'JavaFX', 'Socket Programming', 'Multithreading', 'Client-Server Architecture', 'Object Oriented Programming', ],
     certifications: [],
@@ -343,20 +339,21 @@ const experienceData = {
 
   'priority-queue': {
     title: 'Priority Queue',
-    avatars: [],
+    avatars: ['experiences/application-development/priorityqueue-logo.png'],
     badge: 'Data Structure',
     date: 'November 2023',
     location: '',
-    summary: 'A custom priority queue data structure implemented from scratch in C++.',
+    summary: 'A C++ priority queue built on a binary search tree keyed by priority, where duplicate keys chain into a linked list at the existing node instead of creating new tree nodes.',
     bullets: [
-      'Implemented a priority queue from scratch by building efficient insertion and removal in C++',
-      'Achieved O(log n) operations by structuring the underlying heap correctly',
-      'Ensured correct ordering by managing element priority through custom comparisons',
-      'Reinforced core CS fundamentals by applying data structure and algorithm principles'
+      'Implemented a priority queue in C++ using a binary search tree keyed by priority, chaining duplicate keys into per-node linked lists',
+      'Wrote an O(log n + m) enqueue that traverses the tree to the matching priority node and appends duplicates to its chain',
+      'Implemented an inorder iterator (begin()/next()) that walks the tree and each node\'s duplicate chain in priority order',
+      'Managed memory manually across parent/left/right/link pointers with recursive teardown — no leaks or double frees under testing'
     ],
-    skills: ['C++', 'Data Structures', 'Algorithms', 'Object-Oriented Programming', 'Binary Trees', 'Linked List', 'Complexity Optimization', 'Visual Studios Code'],
+    skills: ['C++', 'Data Structures', 'MakeFile', 'Algorithms', 'Object-Oriented Programming', 'Binary Trees', 'Linked List', 'Complexity Optimization', 'Test Driven Development', 'Visual Studios Code'],
+    links: [],
     certifications: [],
-    photos: [],
+    photos: ['experiences/application-development/priorityqueue.png', 'experiences/application-development/priority-queue-2.png'],
     pdfs: [],
     videos: [],
     demo: ''
@@ -364,7 +361,7 @@ const experienceData = {
 
   'turtle-airhockey': {
     title: 'Turtle Graphics Air Hockey Game',
-    avatars: [],
+    avatars: ['skills/languages/python-logo.png'],
     badge: '2D Game Development',
     date: 'November 2022',
     location: '',
@@ -412,7 +409,7 @@ const experienceData = {
 
 
 
-  // Software Engineering Study Abroad
+  // Software Engineering Study Abroad and Research
   // _________________________________________________________________________________
   'wearable-tech-abroad': {
     title: 'Europe Study Abroad – Entrepreneurship & Wearable Technology',
@@ -442,6 +439,27 @@ const experienceData = {
     pdfs: [],
     videos: [],
     demo: ''
+  },
+  'wtse': {
+    title: 'Wearable Technology & Sensory Enhancement (WTSE)',
+    avatars: ['assets/wtse.png', 'assets/uic.svg'],
+    badge: ['Research Contribution'],
+    date: 'May 2026',
+    location: 'University of Illinois at Chicago | Chicago, IL',
+    summary: 'Student participant supporting data collection for a biomedical wearable device measuring respiratory and physiological output via a respirometer.',
+    bullets: [
+      'Participated as a participant in data collection for a biomedical wearable measuring respiratory and physiological output',
+      'Support the research team by logging and organizing sensor data to contribute to ongoing lab experiments',
+      'Available to assist with frontend development (React.js) as the project\'s UI needs evolve'
+    ],
+    highlights: [],
+    skills: ['Data Collection', 'Research', 'Biomedical Wearables', 'Sensor Data'],
+    links: [],
+    certifications: [],
+    photos: ['experiences/groupPhotos/wtse1.JPG'],
+    pdfs: [],
+    videos: [],
+    demo: '',
   },
   // _________________________________________________________________________________
 
@@ -693,27 +711,6 @@ const experienceData = {
     videos: [],
     demo: ''
   },
-  'wtse': {
-    title: 'Wearable Technology & Sensory Enhancement (WTSE)',
-    avatars: ['assets/wtse.png', 'assets/uic.svg'],
-    badge: ['Research Contribution'],
-    date: 'May 2026',
-    location: 'University of Illinois at Chicago | Chicago, IL',
-    summary: 'Student participant supporting data collection for a biomedical wearable device measuring respiratory and physiological output via a respirometer.',
-    bullets: [
-      'Participated as a participant in data collection for a biomedical wearable measuring respiratory and physiological output',
-      'Support the research team by logging and organizing sensor data to contribute to ongoing lab experiments',
-      'Available to assist with frontend development (React.js) as the project\'s UI needs evolve'
-    ],
-    highlights: [],
-    skills: ['Data Collection', 'Research', 'Biomedical Wearables', 'Sensor Data'],
-    links: [],
-    certifications: [],
-    photos: ['experiences/groupPhotos/wtse1.JPG'],
-    pdfs: [],
-    videos: [],
-    demo: '',
-  },
   // _________________________________________________________________________________
 
 
@@ -764,6 +761,44 @@ const experienceData = {
 
   // Stored Data 
   // _________________________________________________________________________________
+  'tasklists': {
+  title: 'Data Name',
+  avatars: ['Data Card Avatar Path'],
+  badge: ['Data Card Badge'],
+  date: 'Date Date',
+  location: 'Data Location',
+  summary: '',
+  bullets: [],
+  skills: [],
+  links: [],
+  certifications: [],
+  photos: [],
+  pdfs: [],
+  videos: [],
+  demo: '',
+  },
+  'grades-vs-salary': {
+  title: 'Data Name',
+  avatars: ['Data Card Avatar Path'],
+  badge: ['Data Card Badge'],
+  date: 'Date Date',
+  location: 'Data Location',
+  summary: 'Data Summary',
+  bullets: [
+    'Data Bulletpoints',
+  ],
+  skills: ['Data Skills'],
+  links: [
+    { name: 'Data Link Name', url: 'Data Link URL' },
+  ],
+  certifications: [
+    { name: 'Data Certification Name', url: 'Data Certification URL' },
+  ],
+  photos: ['Data Photos Paths'],
+  pdfs: ['Data PDFs Paths'],
+  videos: ['Data Videos Paths'],
+  demo: 'Data Demo Link',
+  },
   'ets-major-field-test': {
     title: 'ETS Computer Science Major Field Test',
     avatars: [],
