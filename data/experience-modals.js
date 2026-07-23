@@ -183,7 +183,7 @@ const experienceData = {
     certifications: [],
     photos: [],
     pdfs: ['experiences/application-development/hertzbeat.png'],
-    videos: [],
+    videos: ['https://www.youtube.com/embed/U_hbOW_SZn8'],
     demo: ''
   },
 
@@ -206,8 +206,8 @@ const experienceData = {
     ],
     certifications: [],
     photos: [],
-    pdfs: ['projects/480ProjectERD.pdf', 'projects/CS 480 ER Diagram For Amazon Products Project 2.pdf', 'experiences/application-development/epiccode.png'],
-    videos: [],
+    pdfs: ['experiences/application-development/epiccode.png', 'projects/480ProjectERD.pdf', 'projects/CS 480 ER Diagram For Amazon Products Project 2.pdf'],
+    videos: ['https://www.youtube.com/embed/flssHliokns'],
     demo: 'https://iamserafinnn.github.io/Amazon-Product-Reviews-Database/'
   },
 
@@ -331,7 +331,7 @@ const experienceData = {
     ],
     skills: ['Java', 'JavaFX', 'Socket Programming', 'Multithreading', 'Client-Server Architecture', 'Object Oriented Programming', ],
     certifications: [],
-    photos: [],
+    photos: ['experiences/application-development/pokergame.png', 'experiences/application-development/pokergameserver.png'],
     pdfs: [],
     videos: ['https://www.youtube.com/embed/Jk-u6NlC850'],
     demo: ''
