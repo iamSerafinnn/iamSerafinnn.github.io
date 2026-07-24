@@ -268,8 +268,8 @@ const experienceData = {
     ],
     skills: ['Unity', 'JavaScript', 'Physics Simulation', 'Game Development', 'Git/GitHub'],
     certifications: [],
-    photos: ['experiences/application-development/make_or_break.png'],
-    pdfs: [],
+    photos: [],
+    pdfs: ['experiences/application-development/make_or_break.png'],
     videos: [],
     demo: ''
   },
@@ -331,8 +331,8 @@ const experienceData = {
     ],
     skills: ['Java', 'JavaFX', 'Socket Programming', 'Multithreading', 'Client-Server Architecture', 'Object Oriented Programming', ],
     certifications: [],
-    photos: ['experiences/application-development/pokergame.png', 'experiences/application-development/pokergameserver.png'],
-    pdfs: [],
+    photos: [],
+    pdfs: ['experiences/application-development/pokergame.png', 'experiences/application-development/pokergameserver.png'],
     videos: ['https://www.youtube.com/embed/Jk-u6NlC850'],
     demo: ''
   },
@@ -353,19 +353,19 @@ const experienceData = {
     skills: ['C++', 'Data Structures', 'MakeFile', 'Algorithms', 'Object-Oriented Programming', 'Binary Trees', 'Linked List', 'Complexity Optimization', 'Test Driven Development', 'Visual Studios Code'],
     links: [],
     certifications: [],
-    photos: ['experiences/application-development/priorityqueue.png', 'experiences/application-development/priority-queue-2.png'],
-    pdfs: [],
+    photos: [],
+    pdfs: ['experiences/application-development/priorityqueue.png', 'experiences/application-development/priority-queue-2.png'],
     videos: [],
     demo: ''
   },
 
   'turtle-airhockey': {
-    title: 'Turtle Graphics Air Hockey Game',
-    avatars: ['skills/languages/python-logo.png'],
+    title: 'Soccer Air Hockey Game',
+    avatars: ['experiences/application-development/soccerponggame-logo.png'],
     badge: '2D Game Development',
     date: 'November 2022',
     location: '',
-    summary: 'A two player 2D air hockey game built with Python\'s Turtle graphics library.',
+    summary: 'A two player 2D soccer air hockey game built with Python\'s Turtle graphics library.',
     bullets: [
       'Built a two player air hockey game by implementing real time collision detection in Python Turtle Graphics',
       'Enabled smooth gameplay by handling continuous puck movement and collision mechanics',
@@ -375,8 +375,8 @@ const experienceData = {
     skills: ['Python', 'Turtle Graphics', '2D Game Development', 'Replit'],
     certifications: [],
     photos: [],
-    pdfs: [],
-    videos: [],
+    pdfs: ['experiences/application-development/soccerponggame2.png', 'experiences/application-development/soccerponggame.png'],
+    videos: ['https://www.youtube.com/embed/j58yWZktmG4'],
     demo: ''
   },
 
