@@ -422,7 +422,7 @@ html {
 }
 .edu-skills-scroll {
   margin-top: 0.5rem;
-  max-height: 200px;
+  max-height: 180px;
   overflow-y: auto;
   padding-right: 0.5rem;
   scrollbar-gutter: stable;
