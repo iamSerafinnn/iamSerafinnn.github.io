@@ -67,8 +67,8 @@ const experienceData = {
       { name: 'Coding for Data Track', url: 'https://www.credential.net/09d1c5ca-2ec4-454c-81aa-bce7080d583b' },
       { name: 'Intel Sustainability Project', url: 'https://www.credential.net/4f133f31-0e82-48e6-813c-616dbfda3c80' }
     ],
-    photos: ['experiences/application-development/globalcareeraccelerator.pdf'],
-    pdfs: [],
+    photos: [],
+    pdfs: ['experiences/application-development/globalcareeraccelerator.pdf'],
     videos: [],
     demo: ''
   },
@@ -142,10 +142,32 @@ const experienceData = {
 
   // Software Engineering Projects
   // _________________________________________________________________________________
+  'blaze-fc-site': {
+  title: 'Chicago Blaze FC Site',
+  avatars: ['assets/chicagoblazefc.JPG'],
+  badge: ['Website Development', 'In-Development'],
+  date: 'July 2026 - Present',
+  location: '',
+  summary: 'Building a website for my soccer club using React.',
+  bullets: [
+    'Building a multi-page site with React and React Router, including services, membership tiers, and program booking pages',
+    'Designed a reusable component pattern for pricing/option cards, reducing duplicate markup across four+ pages',
+    'Implemented a custom CSS design system (shared color variables, responsive grid layouts) for consistent styling site-wide',
+    'Structured client-side routing so each program (Training & Coaching, Tournaments & Events, Camps & Clinics) has its own dedicated page',
+  ],
+  skills: ['Web Development'],
+  links: [],
+  certifications: [],
+  photos: [],
+  pdfs: [],
+  videos: [],
+  demo: '',
+  },
+
   'portfolio': {
     title: 'The Entry Portfolio',
     avatars: ['logo_2.png'],
-    badge: 'Website Development & Design',
+    badge: 'Portfolio Design and Development',
     date: 'December 2025 – Present',
     location: '',
     summary: 'A fully responsive personal portfolio website built from scratch to showcase projects, experience, certifications, and athletics.',
@@ -167,7 +189,7 @@ const experienceData = {
     title: 'Apache HertzBeat – Blog UI Refactor',
     avatars: ['experiences/application-development/hertzbeat-logo.png'],
     badge: 'Open Source Contribution',
-    date: 'June 2026 - Present',
+    date: 'June 2026 - July 2026',
     location: '',
     summary: 'An independent open-source contribution refactoring the blog UI of Apache HertzBeat\'s Docusaurus documentation site.',
     bullets: [
@@ -572,6 +594,24 @@ const experienceData = {
       'experiences/groupPhotos/uicclubsoccer4.JPG',
       'experiences/groupPhotos/uicclubsoccer5.JPG'
     ],
+    pdfs: [],
+    videos: [],
+    demo: ''
+  },
+
+  'chicago-blaze-fc': {
+    title: 'Chicago Blaze FC',
+    avatars: ['assets/chicagoblazefc.png'],
+    badge: 'Club Soccer',
+    date: 'May 2026 - Present',
+    location: 'Chicago, IL',
+    summary: '',
+    bullets: [
+      ''
+    ],
+    skills: [],
+    certifications: [],
+    photos: [],
     pdfs: [],
     videos: [],
     demo: ''
