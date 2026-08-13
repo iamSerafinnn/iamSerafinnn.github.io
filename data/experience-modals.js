@@ -38,7 +38,7 @@ const experienceData = {
     skills: ['Data Analytics', 'Professional Development & Networking'],
     links: [],
     certifications: [],
-    photos: [],
+    photos: ['experiences/application-development/coopcareers.png'],
     pdfs: [],
     videos: [],
     demo: ''
@@ -113,7 +113,7 @@ const experienceData = {
       {name: 'CodePath Intermediate Cybersecurity', url: 'https://drive.google.com/file/d/101mq3jPfxxC90glbfO8eGan_3DThTMfN/view'}
     ],
     photos: [],
-    pdfs: [],
+    pdfs: ['experiences/application-development/codepath2.pdf'],
     videos: [],
     demo: ''
   },
@@ -134,6 +134,30 @@ const experienceData = {
     photos: [],
     pdfs: [],
     videos: [],
+    demo: ''
+  },
+
+  'hertzbeat-refactor': {
+    title: 'Apache HertzBeat – Blog UI Refactor',
+    avatars: ['experiences/application-development/hertzbeat-logo.png'],
+    badge: 'Open Source Contribution',
+    date: 'June 2026 - July 2026',
+    location: '',
+    summary: 'An independent open-source contribution refactoring the blog UI of Apache HertzBeat\'s Docusaurus documentation site.',
+    bullets: [
+      'Identified and proposed a blog UI/UX fix independently through Apache HertzBeat issue #2075',
+      'Redesigned the blog layout and site structure by working within the existing React codebase',
+      'Refactored blog components via React swizzling to override default theming while following project conventions',
+      'Scoped changes for maintainability so the contribution would be mergeable by maintainers who hadn\'t requested it'
+    ],
+    skills: ['React', 'Docusaurus', 'GitHub Open Source Contribution', 'UI/UX', 'Visual Studios Code'],
+    links: [
+      { name: 'Contribution GitHub', url: 'https://github.com/iamSerafinnn/Summer2026-Codepath-AI301-Contribution/blob/main/contribution_readme.md' },
+    ],
+    certifications: [],
+    photos: [],
+    pdfs: ['experiences/application-development/hertzbeat.png'],
+    videos: ['https://www.youtube.com/embed/U_hbOW_SZn8'],
     demo: ''
   },
   // _________________________________________________________________________________
