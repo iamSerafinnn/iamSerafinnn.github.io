@@ -38,7 +38,7 @@ const experienceData = {
     skills: ['Data Analytics', 'Professional Development & Networking'],
     links: [],
     certifications: [],
-    photos: ['experiences/application-development/coopcareers.png'],
+    photos: ['experiences/application-development/COOPCareersAcceptance.gif', ],
     pdfs: [],
     videos: [],
     demo: ''
