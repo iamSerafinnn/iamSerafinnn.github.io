@@ -26,13 +26,13 @@ const experienceData = {
   'coopcareers': {
     title: 'COOP Careers Fall 2026 Fellowship, Data Analytics Track',
     avatars: ['experiences/application-development/coopcareers-logo.jpeg'],
-    badge: ['Fellowship', 'Upcoming'],
-    date: 'Begins August 12th, 2026',
+    badge: ['Fellowship', 'Active'],
+    date: 'August 2026',
     location: 'Hybrid / Chicago, IL',
-    summary: 'Upcoming fellowship with COOP Careers on the Data Analytics track, focusing on applied data skills and professional development.',
+    summary: 'Fellowship with COOP Careers on the Data Analytics track, focusing on applied data skills and professional development.',
     bullets: [
       'Selected for COOP Careers Data Analytics fellowship program',
-      'Will apply data analytics skills in a professional team environment',
+      'Applying data analytics skills in a professional team environment',
       'Program focused on early-career professional development and networking'
     ],
     skills: ['Data Analytics', 'Professional Development & Networking'],
@@ -76,8 +76,8 @@ const experienceData = {
   'codepath-ai': {
     title: 'CodePath Applied AI Engineering',
     avatars: ['experiences/application-development/codepath-logo.jpeg'],
-    badge: ['Remote Program', 'Active'],
-    date: 'June 2026 - Present',
+    badge: ['Remote Program'],
+    date: 'June 2026 - August 2026',
     location: 'Online / Remote',
     summary: 'Currently enrolled in CodePath\'s Applied AI Engineering program focused on AI engineering and GitHub open-source contribution.',
     bullets: [
@@ -602,7 +602,7 @@ const experienceData = {
   'chicago-blaze-fc': {
     title: 'Chicago Blaze FC',
     avatars: ['assets/chicagoblazefc.png'],
-    badge: 'Club Soccer',
+    badge: 'Developmental Soccer Club',
     date: 'May 2026 - Present',
     location: 'Chicago, IL',
     summary: '',
