@@ -516,7 +516,7 @@ const experienceData = {
     badge: 'UPSL Premier Division Semi-Pro',
     date: 'December 2025 - June 2026',
     location: 'Chicago, IL',
-    summary: 'Played at the semi-pro soccer in the UPSL Premier Division.',
+    summary: 'Played at the semi-pro level in the UPSL Premier Division.',
     bullets: [
       'Compete on the roster in the United Premier Soccer League (UPSL) Premier Division',
       'Train and play at a semi-pro competitive level',
@@ -535,7 +535,7 @@ const experienceData = {
     badge: ['GCSL Major Division Semi-Pro', 'GCSL City Division Semi-Pro'],
     date: ['July 2025 - October 2025', 'March 2026 - Present'],
     location: 'Chicago, IL',
-    summary: 'Played at the semi-pro soccer in the GCSL Major Division and City Division.',
+    summary: 'Played at the semi-pro level in the GCSL Major Division and City Division.',
     bullets: [
       'Compete on the roster in the Greater Chicago Soccer League (GCSL) Major Division and City Division',
       'Train and play at a semi-pro competitive level',
