@@ -544,11 +544,9 @@ const experienceData = {
     skills: [],
     certifications: [],
     photos: [
-      'experiences/groupPhotos/machupicchufc1.JPG',
       'experiences/groupPhotos/machupicchufc2.JPG',
       'experiences/groupPhotos/machupicchufc3.JPG',
       'experiences/groupPhotos/machupicchufc5.JPG',
-      'experiences/groupPhotos/machupicchufc4.JPG',
       'experiences/groupPhotos/machupicchufc6.JPG'
     ],
     pdfs: [],
