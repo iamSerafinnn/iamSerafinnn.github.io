@@ -184,7 +184,12 @@ const experienceData = {
     ],
     skills: [],
     certifications: [],
-    photos: ['experiences/groupPhotos/europeStudyAbroad1.JPG', 'experiences/groupPhotos/europeStudyAbroad2.JPG', 'experiences/groupPhotos/europeStudyAbroad3.JPG'],
+    photos: [
+      'experiences/groupPhotos/europeStudyAbroad1.JPG',
+      'experiences/groupPhotos/europeStudyAbroad2.JPG',
+      'experiences/groupPhotos/europeStudyAbroad3.JPG',
+      'experiences/groupPhotos/europeStudyAbroad4.JPG'
+    ],
     pdfs: [],
     videos: [],
     demo: ''
@@ -538,7 +543,14 @@ const experienceData = {
     ],
     skills: [],
     certifications: [],
-    photos: ['experiences/groupPhotos/machupicchufc1.JPG', 'experiences/groupPhotos/machupicchufc2.JPG', 'experiences/groupPhotos/machupicchufc3.JPG', 'experiences/groupPhotos/machupicchufc5.JPG'],
+    photos: [
+      'experiences/groupPhotos/machupicchufc1.JPG',
+      'experiences/groupPhotos/machupicchufc2.JPG',
+      'experiences/groupPhotos/machupicchufc3.JPG',
+      'experiences/groupPhotos/machupicchufc5.JPG',
+      'experiences/groupPhotos/machupicchufc4.JPG',
+      'experiences/groupPhotos/machupicchufc6.JPG'
+    ],
     pdfs: [],
     videos: [],
     demo: ''
@@ -645,7 +657,8 @@ const experienceData = {
     photos: [
       'experiences/groupPhotos/rooseveltsoccer1.JPG',
       'experiences/groupPhotos/rooseveltsoccer2.JPG',
-      'experiences/groupPhotos/rooseveltsoccer3.JPG'
+      'experiences/groupPhotos/rooseveltsoccer3.JPG',
+      'experiences/groupPhotos/rooseveltsoccer4.JPG'
     ],
     pdfs: [],
     videos: [],
@@ -684,7 +697,8 @@ const experienceData = {
     photos: [
       'experiences/groupPhotos/uicrunningclub1.JPG',
       'experiences/groupPhotos/uicrunningclub2.PNG',
-      'experiences/groupPhotos/uicrunningclub3.JPEG'
+      'experiences/groupPhotos/uicrunningclub3.JPEG',
+      'experiences/groupPhotos/uicrunningclub4.JPG'
     ],
     pdfs: [],
     videos: [],
@@ -768,7 +782,8 @@ const experienceData = {
     photos: [
       'experiences/groupPhotos/fia1.JPG',
       'experiences/groupPhotos/fia2.JPG',
-      'experiences/groupPhotos/fia3.JPG'
+      'experiences/groupPhotos/fia3.JPG',
+      'experiences/groupPhotos/fia4.JPG'
     ],
     pdfs: [],
     videos: [],
