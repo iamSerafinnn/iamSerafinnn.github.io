@@ -160,8 +160,57 @@ const experienceData = {
     videos: ['https://www.youtube.com/embed/U_hbOW_SZn8'],
     demo: ''
   },
+  'wearable-tech-abroad': {
+    title: 'Europe Study Abroad – Entrepreneurship & Wearable Technology',
+    avatars: ['experiences/application-development/wtse.png', 'experiences/application-development/uicabroad-logo.jpeg'],
+    badge: 'STEM Study Abroad Program',
+    date: 'July 2025',
+    location: 'London, UK & Milan, Italy',
+    summary: 'A STEM study abroad program in Europe focused on wearable technology, biomedical devices, and entrepreneurship, including attendance at London Tech Week 2025.',
+    bullets: [
+      'Attended London Tech Week 2025, engaging with startups and industry leaders in emerging technology',
+      'Toured 6 wearable tech and biomedical companies: NeuBond, ARxVision, EAVE, Mapei Sport, BTS Engineering, and ComfTech',
+      'Wrote analytical essays on biomedical wearables and sports performance analytics',
+      'Explored the intersection of hardware, software, and entrepreneurship across two European tech hubs'
+    ],
+    highlights: [
+      'London Tech Week Career Convention 2025',
+      'NeuBond Company Visit',
+      'ARxVision Company Visit',
+      'EAVE Company Visit',
+      'Mapei Sport Company Visit',
+      'BTS Engineering Company Visit',
+      'ComfTech Company Visit'
+    ],
+    skills: [],
+    certifications: [],
+    photos: ['experiences/groupPhotos/europeStudyAbroad1.JPG', 'experiences/groupPhotos/europeStudyAbroad2.JPG', 'experiences/groupPhotos/europeStudyAbroad3.JPG'],
+    pdfs: [],
+    videos: [],
+    demo: ''
+  },
+  'wtse': {
+    title: 'Wearable Technology & Sensory Enhancement (WTSE)',
+    avatars: ['assets/wtse.png', 'assets/uic.svg'],
+    badge: ['Research Contribution'],
+    date: 'May 2026',
+    location: 'University of Illinois at Chicago | Chicago, IL',
+    summary: 'Student participant supporting data collection for a biomedical wearable device measuring respiratory and physiological output via a respirometer.',
+    bullets: [
+      'Participated as a participant in data collection for a biomedical wearable measuring respiratory and physiological output',
+      'Support the research team by logging and organizing sensor data to contribute to ongoing lab experiments',
+      'Available to assist with frontend development (React.js) as the project\'s UI needs evolve'
+    ],
+    highlights: [],
+    skills: ['Data Collection', 'Research', 'Biomedical Wearables', 'Sensor Data'],
+    links: [],
+    certifications: [],
+    photos: ['experiences/groupPhotos/wtse1.JPG'],
+    pdfs: [],
+    videos: [],
+    demo: '',
+  },
   // _________________________________________________________________________________
-
 
 
   // Software Engineering Projects
@@ -454,64 +503,7 @@ const experienceData = {
   // _________________________________________________________________________________
 
 
-
-  // Software Engineering Study Abroad and Research
-  // _________________________________________________________________________________
-  'wearable-tech-abroad': {
-    title: 'Europe Study Abroad – Entrepreneurship & Wearable Technology',
-    avatars: ['experiences/application-development/wtse.png', 'experiences/application-development/uicabroad-logo.jpeg'],
-    badge: 'STEM Study Abroad Program',
-    date: 'July 2025',
-    location: 'London, UK & Milan, Italy',
-    summary: 'A STEM study abroad program in Europe focused on wearable technology, biomedical devices, and entrepreneurship, including attendance at London Tech Week 2025.',
-    bullets: [
-      'Attended London Tech Week 2025, engaging with startups and industry leaders in emerging technology',
-      'Toured 6 wearable tech and biomedical companies: NeuBond, ARxVision, EAVE, Mapei Sport, BTS Engineering, and ComfTech',
-      'Wrote analytical essays on biomedical wearables and sports performance analytics',
-      'Explored the intersection of hardware, software, and entrepreneurship across two European tech hubs'
-    ],
-    highlights: [
-      'London Tech Week Career Convention 2025',
-      'NeuBond Company Visit',
-      'ARxVision Company Visit',
-      'EAVE Company Visit',
-      'Mapei Sport Company Visit',
-      'BTS Engineering Company Visit',
-      'ComfTech Company Visit'
-    ],
-    skills: [],
-    certifications: [],
-    photos: ['experiences/groupPhotos/europeStudyAbroad1.JPG', 'experiences/groupPhotos/europeStudyAbroad2.JPG', 'experiences/groupPhotos/europeStudyAbroad3.JPG'],
-    pdfs: [],
-    videos: [],
-    demo: ''
-  },
-  'wtse': {
-    title: 'Wearable Technology & Sensory Enhancement (WTSE)',
-    avatars: ['assets/wtse.png', 'assets/uic.svg'],
-    badge: ['Research Contribution'],
-    date: 'May 2026',
-    location: 'University of Illinois at Chicago | Chicago, IL',
-    summary: 'Student participant supporting data collection for a biomedical wearable device measuring respiratory and physiological output via a respirometer.',
-    bullets: [
-      'Participated as a participant in data collection for a biomedical wearable measuring respiratory and physiological output',
-      'Support the research team by logging and organizing sensor data to contribute to ongoing lab experiments',
-      'Available to assist with frontend development (React.js) as the project\'s UI needs evolve'
-    ],
-    highlights: [],
-    skills: ['Data Collection', 'Research', 'Biomedical Wearables', 'Sensor Data'],
-    links: [],
-    certifications: [],
-    photos: ['experiences/groupPhotos/wtse1.JPG'],
-    pdfs: [],
-    videos: [],
-    demo: '',
-  },
-  // _________________________________________________________________________________
-
-
-
-  // Soccer
+  // Sports & Athletics
   // _________________________________________________________________________________
   'berber-city-fc': {
     title: 'Berber City FC',
@@ -532,7 +524,6 @@ const experienceData = {
     videos: [],
     demo: ''
   },
-
   'machu-picchu-fc': {
     title: 'Machu Picchu FC',
     avatars: ['assets/machupicchufc.jpeg', 'assets/gcsl.png'],
@@ -552,7 +543,6 @@ const experienceData = {
     videos: [],
     demo: ''
   },
-
   'chicago-city-sc': {
     title: 'Chicago City SC',
     avatars: ['assets/chicagocitysc.png', 'assets/msl.jpeg'],
@@ -572,7 +562,6 @@ const experienceData = {
     videos: [],
     demo: ''
   },
-
   'diverse-city-fc': {
     title: 'Diverse City FC',
     avatars: ['assets/diversecityfc.png', 'assets/upsl.jpg'],
@@ -597,7 +586,6 @@ const experienceData = {
     videos: [],
     demo: ''
   },
-
   'uic-club-soccer': {
     title: 'UIC Men\'s Club Soccer',
     avatars: ['assets/uicclubsoccer.jpeg'],
@@ -622,25 +610,24 @@ const experienceData = {
     videos: [],
     demo: ''
   },
-
   'chicago-blaze-fc': {
     title: 'Chicago Blaze FC',
-    avatars: ['assets/chicagoblazefc.png'],
-    badge: 'Developmental Soccer Club',
+    avatars: ['assets/chicagoblazefc.JPG'],
+    badge: 'Community Soccer Club',
     date: 'May 2026 - Present',
     location: 'Chicago, IL',
-    summary: '',
+    summary: 'Train and play with Chicago Blaze FC, a local community soccer club.',
     bullets: [
-      ''
+      'Attend Saturday morning training sessions to stay sharp in the off-season',
+      'Compete in local side games and tournaments alongside fellow club members'
     ],
     skills: [],
     certifications: [],
-    photos: [],
+    photos: ['experiences/groupPhotos/chicagoblazefc1.JPG'],
     pdfs: [],
     videos: [],
     demo: ''
   },
-
   'roosevelt-soccer': {
     title: 'Roosevelt High School Soccer',
     avatars: ['assets/roosevelt.png'],
@@ -664,11 +651,6 @@ const experienceData = {
     videos: [],
     demo: ''
   },
-  // _________________________________________________________________________________
-
-
-  // Running
-  // _________________________________________________________________________________
   'uic-running-club': {
     title: 'UIC Running Club',
     avatars: ['assets/uicrunningclub.jpeg'],
@@ -704,6 +686,24 @@ const experienceData = {
       'experiences/groupPhotos/uicrunningclub2.PNG',
       'experiences/groupPhotos/uicrunningclub3.JPEG'
     ],
+    pdfs: [],
+    videos: [],
+    demo: ''
+  },
+  'roosevelt-track': {
+    title: 'Roosevelt High School Track & Field',
+    avatars: ['assets/roosevelt.png'],
+    badge: 'Highschool Athletics',
+    date: 'December 2019 - March 2022',
+    location: 'Chicago, IL',
+    summary: 'Competed in track and field events representing Roosevelt High School.',
+    bullets: [
+      'Competed in track and field events representing Roosevelt High School against schools across the Chicago area',
+      'Balanced high-level academic coursework with the demands of competitive athletic training and meets'
+    ],
+    skills: [],
+    certifications: [],
+    photos: [],
     pdfs: [],
     videos: [],
     demo: ''
@@ -744,7 +744,6 @@ const experienceData = {
     videos: [],
     demo: ''
   },
-
   'fia': {
     title: 'Filipinos in Alliance (FIA)',
     avatars: ['assets/fia.png'],
@@ -775,12 +774,6 @@ const experienceData = {
     videos: [],
     demo: ''
   },
-  // _________________________________________________________________________________
-
-
-
-  // Additional Experiences
-  // _________________________________________________________________________________
   'prospect-airport-services': {
     title: 'Prospect Airport Services - Airport Service Assistant',
     avatars: [],
@@ -813,6 +806,25 @@ const experienceData = {
       'Supported store operations including inventory movement, restocking, and supply transportation across multiple airport locations'
     ],
     skills: ['Customer Service', 'Food Service', 'Operations'],
+    certifications: [],
+    photos: [],
+    pdfs: [],
+    videos: [],
+    demo: ''
+  },
+   'roosevelt-jrotc': {
+    title: 'Roosevelt High School JROTC',
+    avatars: ['assets/jrotc-logo.webp', 'assets/roosevelt.png'],
+    badge: 'Highschool Program',
+    date: 'August 2018 - June 2019',
+    location: 'Chicago, IL',
+    summary: 'Participated in Roosevelt High School\'s JROTC program, developing leadership and discipline through structured training.',
+    bullets: [
+      'Participated in Roosevelt High School JROTC, developing leadership, discipline, and accountability through structured military-style training',
+      'Trained in marching drills, formations, and command response, strengthening teamwork, coordination, and leadership under instruction',
+      'Represented the program at school and community events, including specialized activities such as archery and skills-based training'
+    ],
+    skills: ['Leadership', 'Discipline', 'Teamwork'],
     certifications: [],
     photos: [],
     pdfs: [],
@@ -1059,43 +1071,6 @@ const experienceData = {
     bullets: [
       'Participated in weekly cycling, swimming, and running training sessions as part of the UIC Triathlon Club',
       'Competed in triathlon events representing UIC, building cross-discipline endurance and athletic versatility'
-    ],
-    skills: [],
-    certifications: [],
-    photos: [],
-    pdfs: [],
-    videos: [],
-    demo: ''
-  },
-  'roosevelt-jrotc': {
-    title: 'Roosevelt High School JROTC',
-    avatars: ['assets/roosevelt.png'],
-    badge: 'Highschool Program',
-    date: 'August 2018 - June 2019',
-    location: 'Chicago, IL',
-    summary: 'Participated in Roosevelt High School\'s JROTC program, developing leadership and discipline through structured training.',
-    bullets: [
-      'Participated in Roosevelt High School JROTC, developing leadership, discipline, and accountability through structured military-style training',
-      'Trained in marching drills, formations, and command response, strengthening teamwork, coordination, and leadership under instruction',
-      'Represented the program at school and community events, including specialized activities such as archery and skills-based training'
-    ],
-    skills: ['Leadership', 'Discipline', 'Teamwork'],
-    certifications: [],
-    photos: [],
-    pdfs: [],
-    videos: [],
-    demo: ''
-  },
-  'roosevelt-track': {
-    title: 'Roosevelt High School Track & Field',
-    avatars: ['assets/roosevelt.png'],
-    badge: 'Highschool Athletics',
-    date: 'December 2019 - March 2022',
-    location: 'Chicago, IL',
-    summary: 'Competed in track and field events representing Roosevelt High School.',
-    bullets: [
-      'Competed in track and field events representing Roosevelt High School against schools across the Chicago area',
-      'Balanced high-level academic coursework with the demands of competitive athletic training and meets'
     ],
     skills: [],
     certifications: [],
