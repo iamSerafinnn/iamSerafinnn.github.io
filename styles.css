@@ -464,7 +464,6 @@ html {
 .technical-skills details summary {
   cursor: pointer;
   list-style: none;
-  user-select: none;
 }
 .technical-skills details summary.skill-title:hover {
   color: #899eca;
@@ -617,7 +616,7 @@ html {
 }
 .experience-extra .section-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 1.5rem;
 }
 

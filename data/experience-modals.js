@@ -1,6 +1,37 @@
 const experienceData = {
   // Software Engineering Experiences
   // _________________________________________________________________________________
+  'shpe': {
+    title: 'Society of Hispanic Professional Engineers (SHPE)',
+    avatars: ['assets/shpe.jpeg'],
+    badge: 'STEM Nonprofit Organization',
+    date: 'Joined August 2024',
+    location: 'SHPE Region 6 | Chicago, IL',
+    summary: 'Active member of SHPE at UIC, engaging in professional development, networking, and community.',
+    bullets: [
+      'Participated in SHPE professional development, networking, and community events',
+      'Connected with industry professionals and fellow engineering students',
+      'Engaged with the broader Hispanic engineering community'
+    ],
+    highlights: [
+      'SHPE National Convention 2025',
+      'SHPE Region 6 STEM Summit Conference 2025',
+      'United Airlines Company Visit',
+      'Epsilon Company Visit',
+      'Dia De Ciencias Volunteer'
+    ],
+    skills: ['Professional Development', 'Networking'],
+    certifications: [],
+    photos: [
+      'experiences/groupPhotos/shpe1.JPG',
+      'experiences/groupPhotos/shpe2.JPG',
+      'experiences/groupPhotos/shpe3.JPG',
+      'experiences/groupPhotos/shpe4.HEIC'
+    ],
+    pdfs: [],
+    videos: [],
+    demo: ''
+  },
   'ibm-skillsbuild-august': {
     title: 'IBM SkillsBuild August Challenge',
     avatars: ['experiences/application-development/ibm-logo.png'],
@@ -739,37 +770,6 @@ const experienceData = {
 
   // Organizations
   // _________________________________________________________________________________
-  'shpe': {
-    title: 'Society of Hispanic Professional Engineers (SHPE)',
-    avatars: ['assets/shpe.jpeg'],
-    badge: 'Hispanic STEM Nonprofit Organization',
-    date: 'Joined August 2024',
-    location: 'SHPE Region 6 | Chicago, IL',
-    summary: 'Active member of SHPE at UIC, engaging in professional development, networking, and community.',
-    bullets: [
-      'Participated in SHPE professional development, networking, and community events',
-      'Connected with industry professionals and fellow engineering students',
-      'Engaged with the broader Hispanic engineering community'
-    ],
-    highlights: [
-      'SHPE National Convention 2025',
-      'SHPE Region 6 STEM Summit Conference 2025',
-      'United Airlines Company Visit',
-      'Epsilon Company Visit',
-      'Dia De Ciencias Volunteer'
-    ],
-    skills: ['Professional Development', 'Networking'],
-    certifications: [],
-    photos: [
-      'experiences/groupPhotos/shpe1.JPG',
-      'experiences/groupPhotos/shpe2.JPG',
-      'experiences/groupPhotos/shpe3.JPG',
-      'experiences/groupPhotos/shpe4.HEIC'
-    ],
-    pdfs: [],
-    videos: [],
-    demo: ''
-  },
   'fia': {
     title: 'Filipinos in Alliance (FIA)',
     avatars: ['assets/fia.png'],
