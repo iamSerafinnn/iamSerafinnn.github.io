@@ -39,7 +39,7 @@ const experienceData = {
     links: [],
     certifications: [],
     photos: ['experiences/application-development/COOPCareersAcceptance.gif', ],
-    pdfs: [],
+    pdfs: ['experiences/application-development/COOPCareersDataAnlytics.png'],
     videos: [],
     demo: ''
   },
@@ -89,7 +89,7 @@ const experienceData = {
     skills: ['AI Engineering', 'GitHub Open Source', 'React', 'Docusaurus'],
     certifications: [],
     photos: [],
-    pdfs: [],
+    pdfs: ['experiences/application-development/AppliedAIEngineering.pdf'],
     videos: [],
     demo: ''
   },
@@ -121,8 +121,8 @@ const experienceData = {
   'revature-pre': {
     title: 'Revature Pre-Training Program',
     avatars: ['experiences/application-development/revature-logo.jpeg'],
-    badge: ['Remote Program', 'Active'],
-    date: 'June 2026 - Present',
+    badge: ['Remote Program'],
+    date: 'June 2026 - August 2026',
     location: 'Online / Remote',
     summary: 'Currently enrolled in Revature\'s pre-training program focused on full-stack development and cloud computing fundamentals.',
     bullets: [
@@ -514,7 +514,7 @@ const experienceData = {
     title: 'Berber City FC',
     avatars: ['assets/berbercityfc.png', 'assets/upsl.jpg'],
     badge: 'UPSL Premier Division Semi-Pro',
-    date: 'December 2025 - June 2026',
+    date: ['December 2025 - June 2026', 'August 2026 - Present'],
     location: 'Chicago, IL',
     summary: 'Played at the semi-pro level in the UPSL Premier Division.',
     bullets: [
