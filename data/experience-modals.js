@@ -1,6 +1,25 @@
 const experienceData = {
   // Software Engineering Experiences
   // _________________________________________________________________________________
+  'ibm-skillsbuild-august': {
+    title: 'IBM SkillsBuild August Challenge',
+    avatars: ['experiences/application-development/ibm-logo.png'],
+    badge: ['Hackathon', 'Active'],
+    date: 'August 2026 - Present',
+    location: 'Remote',
+    summary: 'Currently building a satellite focused program for the IBM SkillsBuild August Challenge, aimed at creating a tool that benefits space research.',
+    bullets: [
+      'Participating in IBM SkillsBuild August Challenge, tasked with building a space-related program to benefit space research',
+      'Collaborating with a team to scope and design a satellite program concept using IBM\'s AI framework, Bob',
+    ],
+    skills: ['IBM Bob'],
+    links: [],
+    certifications: [],
+    photos: [],
+    pdfs: [],
+    videos: [],
+    demo: ''
+  },
   'sparkhacks': {
     title: 'UIC SparkHacks Hackathon',
     avatars: ['experiences/application-development/sparkhacks-logo.png', 'assets/uic.svg'],
@@ -22,7 +41,6 @@ const experienceData = {
     videos: [],
     demo: ''
   },
-
   'coopcareers': {
     title: 'COOP Careers Fall 2026 Fellowship, Data Analytics Track',
     avatars: ['experiences/application-development/coopcareers-logo.jpeg'],
@@ -43,7 +61,6 @@ const experienceData = {
     videos: [],
     demo: ''
   },
-
   'globalcareeraccelerator': {
     title: 'Global Career Accelerator',
     avatars: ['experiences/application-development/globalcareeraccelerator-logo.jpeg', 'assets/uic.svg'],
@@ -72,7 +89,6 @@ const experienceData = {
     videos: [],
     demo: ''
   },
-
   'codepath-ai': {
     title: 'CodePath Applied AI Engineering',
     avatars: ['experiences/application-development/codepath-logo.jpeg'],
@@ -93,7 +109,6 @@ const experienceData = {
     videos: [],
     demo: ''
   },
-
   'codepath-cybersecurity': {
     title: 'CodePath Intermediate Cybersecurity',
     avatars: ['experiences/application-development/codepath-logo.jpeg'],
@@ -117,7 +132,6 @@ const experienceData = {
     videos: [],
     demo: ''
   },
-
   'revature-pre': {
     title: 'Revature Pre-Training Program',
     avatars: ['experiences/application-development/revature-logo.jpeg'],
@@ -783,6 +797,21 @@ const experienceData = {
       'experiences/groupPhotos/fia3.JPG',
       'experiences/groupPhotos/fia4.JPG'
     ],
+    pdfs: [],
+    videos: [],
+    demo: ''
+  },
+  'toca-football': {
+    title: 'TOCA Football - Soccer Trainer',
+    avatars: [],
+    badge: 'Soccer Trainer',
+    date: 'August 2026 - Present',
+    location: 'Evanston, IL',
+    summary: 'Working as a soccer trainer for TOCA\'s training services.',
+    bullets: [],
+    skills: [],
+    certifications: [],
+    photos: [],
     pdfs: [],
     videos: [],
     demo: ''
