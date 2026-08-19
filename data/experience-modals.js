@@ -26,7 +26,7 @@ const experienceData = {
       'experiences/groupPhotos/shpe1.JPG',
       'experiences/groupPhotos/shpe2.JPG',
       'experiences/groupPhotos/shpe3.JPG',
-      'experiences/groupPhotos/shpe4.HEIC'
+      'experiences/groupPhotos/shpe4.JPG'
     ],
     pdfs: [],
     videos: [],
