@@ -126,7 +126,7 @@ const experienceData = {
     badge: ['Remote Program'],
     date: 'June 2026 - August 2026',
     location: 'Online / Remote',
-    summary: 'Currently enrolled in CodePath\'s Applied AI Engineering program focused on AI engineering and GitHub open-source contribution.',
+    summary: 'Completed CodePath\'s Applied AI Engineering program focused on AI engineering and GitHub open-source contribution.',
     bullets: [
       'Refactored a Docusaurus-based HertzBeat documentation site into a modern, responsive web layout as an open-source contribution',
       'Applied AI engineering workflows and tooling to accelerate development and problem-solving',
@@ -169,19 +169,18 @@ const experienceData = {
     badge: ['Remote Program'],
     date: 'June 2026 - August 2026',
     location: 'Online / Remote',
-    summary: 'Currently enrolled in Revature\'s pre-training program focused on full-stack development and cloud computing fundamentals.',
+    summary: 'Completed Revature\'s pre-training program focused on full-stack development, cloud computing fundamentals, and data engineering.',
     bullets: [
       'Accepted into a structured full-stack development training program',
-      'Will cover cloud computing concepts and hands-on practices',
-      'Designed to prepare participants for professional software engineering environments through applied, project-based training'
+      'Covering cloud computing and data concepts with hands-on practices',
+      'Designed to prepare participants for professional software engineering environments through applied, project and lab based training'
     ],
-    skills: ['Full-Stack Development', 'Cloud Computing'],
+    skills: ['Full-Stack Development', 'Cloud Computing', 'PySpark & Hadoop', 'Python & SQL', 'RDDs, DataFrames, & Datasets'],
     photos: [],
     pdfs: [],
     videos: [],
     demo: ''
   },
-
   'hertzbeat-refactor': {
     title: 'Apache HertzBeat – Blog UI Refactor',
     avatars: ['experiences/application-development/hertzbeat-logo.png'],
