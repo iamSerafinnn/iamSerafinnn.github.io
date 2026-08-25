@@ -132,7 +132,9 @@ const experienceData = {
       'Applied AI engineering workflows and tooling to accelerate development and problem-solving',
       'Customized React components through Docusaurus swizzling to override default theming and layout behavior'
     ],
-    links: [],
+    links: [
+      {name: 'CodePath Intermediate Cybersecurity', url: 'https://certificates.codepath.org/6a43a0e8-5fc9-4da2-9245-374fd218e9f7.pdf'}
+    ],
     skills: ['AI Engineering', 'GitHub Open Source', 'React', 'Docusaurus'],
     certifications: [],
     photos: [],
