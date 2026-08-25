@@ -133,7 +133,7 @@ const experienceData = {
       'Customized React components through Docusaurus swizzling to override default theming and layout behavior'
     ],
     links: [
-      {name: 'CodePath Intermediate Cybersecurity', url: 'https://certificates.codepath.org/6a43a0e8-5fc9-4da2-9245-374fd218e9f7.pdf'}
+      {name: 'CodePath AI Open Source Capstone', url: 'https://certificates.codepath.org/6a43a0e8-5fc9-4da2-9245-374fd218e9f7.pdf'}
     ],
     skills: ['AI Engineering', 'GitHub Open Source', 'React', 'Docusaurus'],
     certifications: [],
