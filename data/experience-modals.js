@@ -269,6 +269,24 @@ const experienceData = {
     videos: [],
     demo: '',
   },
+  'claude-certifications': {
+    title: 'Claude AI (Anthropic)',
+    avatars: ['experiences/application-development/claude-logo.jpeg'],
+    badge: 'Claude AI Certifications',
+    date: '',
+    location: '',
+    summary: 'Completed Anthropic Education courses on using Claude effectively and understanding AI fluency fundamentals.',
+    bullets: [],
+    skills: [],
+    certifications: [
+      { name: 'Claude 101', url: 'https://verify.skilljar.com/c/eom2vhnc7ig8' },
+      { name: 'AI Fluency: Framework & Foundations', url: 'https://verify.skilljar.com/c/322p4uqmw9e3' },
+    ],
+    photos: [],
+    pdfs: [],
+    videos: [],
+    demo: ''
+  },
   // _________________________________________________________________________________
 
 
@@ -295,7 +313,6 @@ const experienceData = {
   videos: [],
   demo: '',
   },
-
   'portfolio': {
     title: 'The Entry Portfolio',
     avatars: ['logo_2.png'],
@@ -316,7 +333,6 @@ const experienceData = {
     videos: [],
     demo: ''
   },
-
   'hertzbeat-refactor': {
     title: 'Apache HertzBeat – Blog UI Refactor',
     avatars: ['experiences/application-development/hertzbeat-logo.png'],
@@ -340,7 +356,6 @@ const experienceData = {
     videos: ['https://www.youtube.com/embed/U_hbOW_SZn8'],
     demo: ''
   },
-
   'amazon-reviews': {
     title: 'Amazon Product Reviews Search',
     avatars: ['experiences/application-development/epiccode-logo.png'],
@@ -364,7 +379,6 @@ const experienceData = {
     videos: ['https://www.youtube.com/embed/flssHliokns'],
     demo: 'https://iamserafinnn.github.io/Amazon-Product-Reviews-Database/'
   },
-
   'crafttracks': {
     title: 'CraftTracks - Inventory Management for Crafters',
     avatars: ['experiences/application-development/crafttracks-logo.png'],
@@ -385,7 +399,6 @@ const experienceData = {
     videos: [],
     demo: 'https://iamserafinnn.github.io/CS422_CraftsProject/'
   },
-
   'wildrealms': {
     title: 'Wild Realms - 3D Wildlife Biome Simulator',
     avatars: ['experiences/application-development/wildrealms-logo.png'],
@@ -406,7 +419,6 @@ const experienceData = {
     videos: ['https://www.youtube.com/embed/LtZUJS0SFOU', 'https://www.youtube.com/embed/rsEznuca4DE'],
     demo: 'https://iamserafinnn.github.io/WildRealms_Biome_Simulator/'
   },
-
   'make-or-break': {
     title: 'Make or Break – Physics Disaster Simulator',
     avatars: ['experiences/application-development/make-or-break-logo.png'],
@@ -427,7 +439,6 @@ const experienceData = {
     videos: [],
     demo: ''
   },
-
   'android-aidl': {
     title: 'Android AIDL Bound Service System',
     avatars: ['experiences/application-development/androidstudio-logo.png'],
@@ -448,7 +459,6 @@ const experienceData = {
     videos: ['https://www.youtube.com/embed/XBKdK35qTxQ'],
     demo: ''
   },
-
   'gopher-hunting': {
     title: 'Gopher Hunting Game – Multi-Threaded Android App',
     avatars: ['experiences/application-development/androidstudio-logo.png'],
@@ -469,7 +479,6 @@ const experienceData = {
     videos: ['https://www.youtube.com/embed/ztUN0i6eqYI'],
     demo: ''
   },
-
   'javafx-poker': {
     title: 'JavaFX Poker Game',
     avatars: ['experiences/application-development/javafxcardgame-logo.png'],
@@ -490,7 +499,6 @@ const experienceData = {
     videos: ['https://www.youtube.com/embed/Jk-u6NlC850'],
     demo: ''
   },
-
   'priority-queue': {
     title: 'Priority Queue',
     avatars: ['experiences/application-development/priorityqueue-logo.png'],
@@ -512,7 +520,6 @@ const experienceData = {
     videos: [],
     demo: ''
   },
-
   'turtle-airhockey': {
     title: 'Soccer Air Hockey Game',
     avatars: ['experiences/application-development/soccerponggame-logo.png'],
@@ -533,7 +540,6 @@ const experienceData = {
     videos: ['https://www.youtube.com/embed/j58yWZktmG4'],
     demo: ''
   },
-
   'codepath-cyb-projects': {
   title: 'CodePath CYB102, Three Applied Cybersecurity Projects',
   avatars: ['experiences/application-development/codepath-logo.jpeg'],
@@ -816,9 +822,13 @@ const experienceData = {
     badge: 'Soccer Trainer',
     date: 'August 2026 - Present',
     location: 'Evanston, IL',
-    summary: 'Working as a soccer trainer for TOCA\'s training services.',
-    bullets: [],
-    skills: [],
+    summary: 'Working part time as a soccer trainer for TOCA\'s training services',
+    bullets: [
+      'Trained players through tech-enabled sessions ranging from youth to adult players, consisting of high-repetition drills and real-time feedback for playing improvements',
+      'Managing relationships with players, parents, and coaches as a technical contact, supporting post training session follow-up and retention for recurring clients',
+      'Partnering with the training manager to track player progress, analyze session performance data, and adjust training methods to hit individual development goals',
+    ],
+    skills: ['Soccer', 'Coaching', 'Client Services', 'Performance Analysis, Communication'],
     certifications: [],
     photos: [],
     pdfs: [],
