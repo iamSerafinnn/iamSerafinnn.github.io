@@ -917,8 +917,10 @@ html {
   border: 1px solid rgba(140, 194, 255, 0.3);
   border-radius: 8px;
   width: fit-content;
+  max-width: 100%;
   flex: 0 0 auto;
-  white-space: nowrap;
+  white-space: normal;
+  overflow-wrap: break-word;
   transition: background 0.2s ease;
 }
 .exp-modal-certificate:hover {

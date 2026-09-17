@@ -35,20 +35,25 @@ const experienceData = {
   'ibm-skillsbuild-august': {
     title: 'IBM SkillsBuild August Challenge',
     avatars: ['experiences/application-development/ibm-logo.png'],
-    badge: ['Hackathon', 'Active'],
+    badge: ['Hackathon'],
     date: 'August 2026 - Present',
     location: 'Remote',
-    summary: 'Currently building a satellite focused program for the IBM SkillsBuild August Challenge, aimed at creating a tool that benefits space research.',
+    summary: 'Assisted in building a satellite focused program for the IBM SkillsBuild August Challenge, aimed at creating a tool that benefits space research.',
     bullets: [
-      'Participating in IBM SkillsBuild August Challenge, tasked with building a space-related program to benefit space research',
-      'Collaborating with a team to scope and design a satellite program concept using IBM\'s AI framework, Bob',
+      'Assisted in engineering a network of satellites to communicate orbitally in Python modeling store-and-forward packet routing between satellites, storage capacity, and transmission scheduling across 50-satellite constellations',
+      'Implemented configurable route selection strategies using BFS shortest-hop, greedy distance, and least congested enabling controlled comparison of delivery efficiency across satellite configurations',
+      'Contributed to a 5-person team building two competing constellation optimizers with shared baseline tooling, JSON replay, and automated video rendering of network state over simulated orbital periods'
     ],
-    skills: ['IBM Bob'],
+    skills: ['IBM Bob', 'Python', 'Search Algorithms', 'Satellite Network', 'Object Oriented Programming'],
     links: [],
-    certifications: [],
+    certifications: [
+      {name: 'AI Builders Challenge by IBM SkillsBuild: Advance Space Exploration with AI — Certificate of Participation', url: 'https://skills.yourlearning.ibm.com/certificate/URL-1BA67FDB0254'},
+      {name: 'How IBM Bob and AI Tools Are Changing the Way Solutions Are Built', url: 'https://skills.yourlearning.ibm.com/certificate/ALM-COURSE_4076311'},
+      {name: 'Getting Started with Generative AI Badge', url: 'https://www.credly.com/earner/earned/badge/df00afaf-87d9-4218-8170-a4c2464b6204'},
+    ],
     photos: [],
     pdfs: [],
-    videos: [],
+    videos: ['https://www.youtube.com/embed/0SYbhTsiMxQ'],
     demo: ''
   },
   'sparkhacks': {
@@ -80,14 +85,17 @@ const experienceData = {
     location: 'Hybrid / Chicago, IL',
     summary: 'Fellowship with COOP Careers on the Data Analytics track, focusing on applied data skills and professional development.',
     bullets: [
-      'Selected for COOP Careers Data Analytics fellowship program',
-      'Applying data analytics skills in a professional team environment',
-      'Program focused on early-career professional development and networking'
+      'Selected for a competitive 16-week data analytics fellowship, developing advanced skills in SQL, Tableau, Excel, and digital analytics through peer-led cohort training',
+      'Collaborating in a structured cohort on hands-on data projects, technical workshops, and career development alongside industry-experienced captains',
+      'Consists 200 hours of instruction spanning data tooling, professional communication, networking, and live client work with COOP’s partner companies'
     ],
-    skills: ['Data Analytics', 'Professional Development & Networking'],
+    skills: ['Data Analytics', 'Professional Development & Networking', 'Excel Formulas & Pivot Tables'],
     links: [],
-    certifications: [],
-    photos: ['experiences/application-development/COOPCareersAcceptance.gif', ],
+    certifications: [
+      {name: 'Goolge Coursera AI for Brainstorming and Planning', url: 'https://www.coursera.org/account/accomplishments/verify/DGJQ3GRJW2TU'},
+      {name: 'Google Coursera AI Fundamentals', url: 'https://www.coursera.org/account/accomplishments/verify/RWESZ21C3FRW'},
+    ],
+    photos: ['experiences/groupPhotos/coop1.JPG', 'experiences/groupPhotos/coop2.JPG', 'experiences/groupPhotos/coop3.JPG', 'experiences/application-development/COOPCareersAcceptance.gif'],
     pdfs: ['experiences/application-development/COOPCareersDataAnlytics.png'],
     videos: [],
     demo: ''
@@ -135,7 +143,7 @@ const experienceData = {
     links: [
       {name: 'CodePath AI Open Source Capstone', url: 'https://certificates.codepath.org/6a43a0e8-5fc9-4da2-9245-374fd218e9f7.pdf'}
     ],
-    skills: ['AI Engineering', 'GitHub Open Source', 'React', 'Docusaurus'],
+    skills: ['AI Engineering', 'GitHub Open Source', 'React', 'Docusaurus', 'VS Code + Claude Code'],
     certifications: [],
     photos: [],
     pdfs: ['experiences/application-development/AppliedAIEngineering.pdf'],
@@ -173,11 +181,11 @@ const experienceData = {
     location: 'Online / Remote',
     summary: 'Completed Revature\'s pre-training program focused on full-stack development, cloud computing fundamentals, and data engineering.',
     bullets: [
-      'Accepted into a structured full-stack development training program',
-      'Covering cloud computing and data concepts with hands-on practices',
-      'Designed to prepare participants for professional software engineering environments through applied, project and lab based training'
+      'Completed an 8-week intensive pre-training program covering big data fundamentals, Python, and SQL',
+      'Built distributed data processing jobs using PySpark, applying Hadoop and Spark concepts (RDDs, transformations, caching) to large-scale datasets',
+      'Wrote data transformation workflows in Python and SQL across 8+ hands-on exercises, applying ETL concepts to structured datasets',
     ],
-    skills: ['Full-Stack Development', 'Cloud Computing', 'PySpark & Hadoop', 'Python & SQL', 'RDDs, DataFrames, & Datasets'],
+    skills: ['Full-Stack Development', 'Cloud Computing', 'PySpark & Hadoop', 'Python & SQL', 'Python Fundamentals', 'RDDs, DataFrames, & Datasets'],
     photos: [],
     pdfs: [],
     videos: [],
@@ -269,7 +277,7 @@ const experienceData = {
   'blaze-fc-site': {
   title: 'Chicago Blaze FC Site',
   avatars: ['assets/chicagoblazefc.JPG'],
-  badge: ['Website Development', 'In-Development'],
+  badge: ['Website Development'],
   date: 'July 2026 - Present',
   location: '',
   summary: 'Building a website for my soccer club using React.',
@@ -590,7 +598,7 @@ const experienceData = {
     skills: [],
     certifications: [],
     photos: [
-      'experiences/groupPhotos/machupicchufc2.JPG',
+      'experiences/groupPhotos/machupicchufc7.JPEG',
       'experiences/groupPhotos/machupicchufc3.JPG',
       'experiences/groupPhotos/machupicchufc5.JPG',
       'experiences/groupPhotos/machupicchufc6.JPG'
@@ -636,7 +644,7 @@ const experienceData = {
       'experiences/groupPhotos/diversecityfc1.jpg',
       'experiences/groupPhotos/diversecityfc2.JPG',
       'experiences/groupPhotos/diversecityfc3.JPG',
-      'experiences/groupPhotos/diversecityfc4.HEIC'
+      'experiences/groupPhotos/diversecityfc4.JPG'
     ],
     pdfs: [],
     videos: [],
@@ -679,7 +687,7 @@ const experienceData = {
     ],
     skills: [],
     certifications: [],
-    photos: ['experiences/groupPhotos/chicagoblazefc1.JPG'],
+    photos: ['experiences/groupPhotos/chicagoblazefc1.JPG', 'experiences/groupPhotos/chicagoblazefc2.JPG'],
     pdfs: [],
     videos: [],
     demo: ''
