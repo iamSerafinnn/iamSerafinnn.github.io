@@ -103,7 +103,7 @@ const experienceData = {
   'globalcareeraccelerator': {
     title: 'Global Career Accelerator',
     avatars: ['experiences/application-development/globalcareeraccelerator-logo.jpeg', 'assets/uic.svg'],
-    badge: 'Remote Program',
+    badge: 'Technical Training',
     date: 'August 2024 – November 2024',
     location: 'Online / Remote',
     summary: 'Completed an advanced data wrangling and analytics program focused on SQL, MySQL, Python, and end-to-end data analytics workflows.',
@@ -131,7 +131,7 @@ const experienceData = {
   'codepath-ai': {
     title: 'CodePath Applied AI Engineering',
     avatars: ['experiences/application-development/codepath-logo.jpeg'],
-    badge: ['Remote Program'],
+    badge: ['Technical Training'],
     date: 'June 2026 - August 2026',
     location: 'Online / Remote',
     summary: 'Completed CodePath\'s Applied AI Engineering program focused on AI engineering and GitHub open-source contribution.',
@@ -153,7 +153,7 @@ const experienceData = {
   'codepath-cybersecurity': {
     title: 'CodePath Intermediate Cybersecurity',
     avatars: ['experiences/application-development/codepath-logo.jpeg'],
-    badge: 'Remote Program',
+    badge: 'Technical Training',
     date: 'February 2026 – May 2026',
     location: 'Online / Remote',
     summary: 'Completed CodePath\'s CYB102 cybersecurity program with hands-on labs covering incident response, threat detection, and defensive security.',
@@ -176,7 +176,7 @@ const experienceData = {
   'revature-pre': {
     title: 'Revature Pre-Training Program',
     avatars: ['experiences/application-development/revature-logo.jpeg'],
-    badge: ['Remote Program'],
+    badge: ['Technical Training'],
     date: 'June 2026 - August 2026',
     location: 'Online / Remote',
     summary: 'Completed Revature\'s pre-training program focused on full-stack development, cloud computing fundamentals, and data engineering.',
