@@ -87,12 +87,12 @@ const experienceData = {
     bullets: [
       'Selected for a competitive 16-week data analytics fellowship, developing advanced skills in SQL, Tableau, Excel, and digital analytics through peer-led cohort training',
       'Collaborating in a structured cohort on hands-on data projects, technical workshops, and career development alongside industry-experienced captains',
-      'Consists 200 hours of instruction spanning data tooling, professional communication, networking, and live client work with COOP’s partner companies'
+      'Consisting of 200 hours of instruction spanning data tooling, professional communication, networking, and live client work with COOP’s partner companies'
     ],
     skills: ['Data Analytics', 'Professional Development & Networking', 'Excel Formulas & Pivot Tables'],
     links: [],
     certifications: [
-      {name: 'Goolge Coursera AI for Brainstorming and Planning', url: 'https://www.coursera.org/account/accomplishments/verify/DGJQ3GRJW2TU'},
+      {name: 'Google Coursera AI for Brainstorming and Planning', url: 'https://www.coursera.org/account/accomplishments/verify/DGJQ3GRJW2TU'},
       {name: 'Google Coursera AI Fundamentals', url: 'https://www.coursera.org/account/accomplishments/verify/RWESZ21C3FRW'},
     ],
     photos: ['experiences/groupPhotos/coop1.JPG', 'experiences/groupPhotos/coop2.JPG', 'experiences/groupPhotos/coop3.JPG', 'experiences/application-development/COOPCareersAcceptance.gif'],
