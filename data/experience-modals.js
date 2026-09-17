@@ -80,7 +80,7 @@ const experienceData = {
   'coopcareers': {
     title: 'COOP Careers Fall 2026 Fellowship, Data Analytics Track',
     avatars: ['experiences/application-development/coopcareers-logo.jpeg'],
-    badge: ['Fellowship', 'Active'],
+    badge: ['Fellowship'],
     date: 'August 2026',
     location: 'Hybrid / Chicago, IL',
     summary: 'Fellowship with COOP Careers on the Data Analytics track, focusing on applied data skills and professional development.',
