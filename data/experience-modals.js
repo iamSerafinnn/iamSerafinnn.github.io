@@ -123,7 +123,7 @@ const experienceData = {
     title: 'V-SWEP Mentorship',
     avatars: ['experiences/application-development/codepath-logo.jpeg'],
     badge: ['Mentorship Program', 'Upcoming'],
-    date: 'August 2026 - Present',
+    date: 'September 2026 - Present',
     location: 'Online / Remote',
     summary: 'Selected for the competitive CodePath V-SWEP Mentorship Program designed to bridge academic computer science and industry-level software engineering.',
     bullets: [
@@ -167,7 +167,7 @@ const experienceData = {
     title: 'Paid Training Program',
     avatars: ['experiences/application-development/revature-logo.jpeg'],
     badge: ['Technical Training', ' Waitlisted'],
-    date: 'August 2026 - Present',
+    date: 'September 2026 - Present',
     location: 'Hybrid',
     summary: 'Currently waitlisted for an active training cohort and upcoming corporate client placement.',
     bullets: [
