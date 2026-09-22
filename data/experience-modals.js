@@ -267,7 +267,7 @@ const experienceData = {
     location: 'University of Illinois at Chicago | Chicago, IL',
     summary: 'Student participant supporting data collection for a biomedical wearable device measuring respiratory and physiological output via a respirometer.',
     bullets: [
-      'Participated as a participant in data collection for a biomedical wearable measuring respiratory and physiological output',
+      'Participated in data collection for a biomedical wearable measuring respiratory and physiological output',
       'Supported the research team by logging and organizing sensor data to contribute to ongoing lab experiments',
       'Available to assist with frontend development (React.js) as the project\'s UI needs evolve'
     ],
@@ -342,29 +342,6 @@ const experienceData = {
     photos: [],
     pdfs: ['experiences/application-development/portfolio.png'],
     videos: [],
-    demo: ''
-  },
-  'hertzbeat-refactor': {
-    title: 'Apache HertzBeat – Blog UI Refactor',
-    avatars: ['experiences/application-development/hertzbeat-logo.png'],
-    badge: 'Open Source Contribution',
-    date: 'June 2026 - July 2026',
-    location: '',
-    summary: 'An independent open-source contribution refactoring the blog UI of Apache HertzBeat\'s Docusaurus documentation site.',
-    bullets: [
-      'Identified and proposed a blog UI/UX fix independently through Apache HertzBeat issue #2075',
-      'Redesigned the blog layout and site structure by working within the existing React codebase',
-      'Refactored blog components via React swizzling to override default theming while following project conventions',
-      'Scoped changes for maintainability so the contribution would be mergeable by maintainers who hadn\'t requested it'
-    ],
-    skills: ['React', 'Docusaurus', 'GitHub Open Source Contribution', 'UI/UX', 'Visual Studios Code'],
-    links: [
-      { name: 'Contribution GitHub', url: 'https://github.com/iamSerafinnn/Summer2026-Codepath-AI301-Contribution/blob/main/contribution_readme.md' },
-    ],
-    certifications: [],
-    photos: [],
-    pdfs: ['experiences/application-development/hertzbeat.png'],
-    videos: ['https://www.youtube.com/embed/U_hbOW_SZn8'],
     demo: ''
   },
   'amazon-reviews': {
@@ -459,7 +436,7 @@ const experienceData = {
     summary: 'An Android cross-process application where FunClient requests and renders media (images/audio) served by FunCenter via AIDL  bound service interfaces',
     bullets: [
       'Built an Android IPC system by implementing a bound service with AIDL between FunCenter and FunClient',
-      'Enabled intercross communication between two different processes using AIDL interfaces for remote method calls',
+      'Enabled inter-process communication between two different processes using AIDL interfaces for remote method calls',
       'Managed service reliability by handling binding and lifecycle across processes',
       'Delivered a working client-server for my CS 478 course through applied Android development'
     ],
@@ -859,7 +836,7 @@ const experienceData = {
     demo: ''
   },
   'toca-football': {
-    title: 'TOCA Soccer',
+    title: 'TOCA Football',
     avatars: [],
     badge: ['Soccer Trainer', 'Active'],
     date: 'August 2026 - Present',
