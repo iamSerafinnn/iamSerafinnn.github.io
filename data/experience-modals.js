@@ -1,37 +1,6 @@
 const experienceData = {
   // Software Engineering Experiences
   // _________________________________________________________________________________
-  'shpe': {
-    title: 'Society of Hispanic Professional Engineers (SHPE)',
-    avatars: ['assets/shpe.jpeg'],
-    badge: 'STEM Nonprofit Organization',
-    date: 'Joined August 2024',
-    location: 'SHPE Region 6 | Chicago, IL',
-    summary: 'Active member of SHPE at UIC, engaging in professional development, networking, and community.',
-    bullets: [
-      'Participated in SHPE professional development, networking, and community events',
-      'Connected with industry professionals and fellow engineering students',
-      'Engaged with the broader Hispanic engineering community'
-    ],
-    highlights: [
-      'SHPE National Convention 2025',
-      'SHPE Region 6 STEM Summit Conference 2025',
-      'United Airlines Company Visit',
-      'Epsilon Company Visit',
-      'Dia De Ciencias Volunteer'
-    ],
-    skills: ['Professional Development', 'Networking'],
-    certifications: [],
-    photos: [
-      'experiences/groupPhotos/shpe1.JPG',
-      'experiences/groupPhotos/shpe2.JPG',
-      'experiences/groupPhotos/shpe3.JPG',
-      'experiences/groupPhotos/shpe4.JPG'
-    ],
-    pdfs: [],
-    videos: [],
-    demo: ''
-  },
   'ibm-skillsbuild-august': {
     title: 'IBM SkillsBuild August Challenge',
     avatars: ['experiences/application-development/ibm-logo.png'],
@@ -80,7 +49,7 @@ const experienceData = {
   'coopcareers': {
     title: 'COOP Careers Fall 2026 Fellowship, Data Analytics Track',
     avatars: ['experiences/application-development/coopcareers-logo.jpeg'],
-    badge: ['Fellowship'],
+    badge: ['Fellowship', "Active"],
     date: 'August 2026',
     location: 'Hybrid / Chicago, IL',
     summary: 'Fellowship with COOP Careers on the Data Analytics track, focusing on applied data skills and professional development.',
@@ -150,6 +119,27 @@ const experienceData = {
     videos: [],
     demo: ''
   },
+  'codepath-swep': {
+    title: 'V-SWEP Mentorship',
+    avatars: ['experiences/application-development/codepath-logo.jpeg'],
+    badge: ['Mentorship Program', 'Upcoming'],
+    date: 'August 2026 - Present',
+    location: 'Online / Remote',
+    summary: 'Selected for the competitive CodePath V-SWEP Mentorship Program designed to bridge academic computer science and industry-level software engineering.',
+    bullets: [
+      'Paired with an industry mentor in 1:1 sessions to master advanced problem-solving frameworks and engineering workflows',
+      'Cleared a selective screening and application process to secure placement in the upcoming mentorship cohort for professional development',
+      'Focusing on rigorous technical interview preparation, software architecture patterns, and industry best practices',
+      'Collaborating within the CodePath network to develop production-ready engineering skills and accelerate career technical readiness'
+    ],
+    skills: [],
+    links: [],
+    certifications: [],
+    photos: [],
+    pdfs: [],
+    videos: [],
+    demo: ''
+  },
   'codepath-cybersecurity': {
     title: 'CodePath Intermediate Cybersecurity',
     avatars: ['experiences/application-development/codepath-logo.jpeg'],
@@ -170,6 +160,27 @@ const experienceData = {
     ],
     photos: [],
     pdfs: ['experiences/application-development/codepath2.pdf'],
+    videos: [],
+    demo: ''
+  },
+  'revature-training': {
+    title: 'Paid Training Program',
+    avatars: ['experiences/application-development/revature-logo.jpeg'],
+    badge: ['Technical Training', ' Waitlisted'],
+    date: 'August 2026 - Present',
+    location: 'Hybrid',
+    summary: 'Currently waitlisted for an active training cohort and upcoming corporate client placement.',
+    bullets: [
+      'Accepted into Revature’s rigorous software engineering training program after successfully clearing the technical interview and pre-assessment process',
+      'Successfully completed and passed Revature’s pre-training program for admission into the paid training pipeline',
+      'Secured a position on the waitlist for onboarding into an upcoming enterprise-level technical training cohort',
+      'Preparing to undergo intensive training in modern full-stack development stacks and Agile methodologies prior to client deployment'
+    ],
+    skills: [],
+    links: [],
+    certifications: [],
+    photos: [],
+    pdfs: [],
     videos: [],
     demo: ''
   },
@@ -257,7 +268,7 @@ const experienceData = {
     summary: 'Student participant supporting data collection for a biomedical wearable device measuring respiratory and physiological output via a respirometer.',
     bullets: [
       'Participated as a participant in data collection for a biomedical wearable measuring respiratory and physiological output',
-      'Support the research team by logging and organizing sensor data to contribute to ongoing lab experiments',
+      'Supported the research team by logging and organizing sensor data to contribute to ongoing lab experiments',
       'Available to assist with frontend development (React.js) as the project\'s UI needs evolve'
     ],
     highlights: [],
@@ -573,7 +584,7 @@ const experienceData = {
   'berber-city-fc': {
     title: 'Berber City FC',
     avatars: ['assets/berbercityfc.png', 'assets/upsl.jpg'],
-    badge: 'UPSL Premier Division Semi-Pro',
+    badge: ['UPSL Premier Division Semi-Pro', 'Active'],
     date: ['December 2025 - June 2026', 'August 2026 - Present'],
     location: 'Chicago, IL',
     summary: 'Played at the semi-pro level in the UPSL Premier Division.',
@@ -584,7 +595,7 @@ const experienceData = {
     ],
     skills: [],
     certifications: [],
-    photos: ['images/image15.JPG', 'images/image13.JPG', 'images/image10.png', 'experiences/groupPhotos/berbercityfc1.JPG'],
+    photos: ['images/image15.JPG', 'images/image13.JPG', 'images/image10.png', 'experiences/groupPhotos/berbercityfc1.JPG', 'experiences/groupPhotos/berbercityfc2.JPG'],
     pdfs: [],
     videos: [],
     demo: ''
@@ -592,7 +603,7 @@ const experienceData = {
   'machu-picchu-fc': {
     title: 'Machu Picchu FC',
     avatars: ['assets/machupicchufc.jpeg', 'assets/gcsl.png'],
-    badge: ['GCSL Major Division Semi-Pro', 'GCSL City Division Semi-Pro'],
+    badge: ['GCSL Major Division & City Division Semi-Pro', 'Active'],
     date: ['July 2025 - October 2025', 'March 2026 - Present'],
     location: 'Chicago, IL',
     summary: 'Played at the semi-pro level in the GCSL Major Division and City Division.',
@@ -617,7 +628,7 @@ const experienceData = {
     title: 'Chicago City SC',
     avatars: ['assets/chicagocitysc.png', 'assets/msl.jpeg'],
     badge: 'Midway Soccer League Team',
-    date: 'November 2025 - Febraury 2026',
+    date: 'November 2025 - February 2026',
     location: 'Bridgeview, IL',
     summary: 'Competed with Chicago City SC in the Midway Soccer League, playing organized competitive soccer.',
     bullets: [
@@ -785,11 +796,42 @@ const experienceData = {
 
   // Organizations
   // _________________________________________________________________________________
+  'shpe': {
+    title: 'Society of Hispanic Professional Engineers (SHPE)',
+    avatars: ['assets/shpe.jpeg'],
+    badge: ['Organization Member', 'STEM Nonprofit Organization'],
+    date: 'August 2024 - May 2026',
+    location: 'SHPE Region 6 | Chicago, IL',
+    summary: 'Active member of SHPE at UIC, engaging in professional development, networking, and community.',
+    bullets: [
+      'Participated in SHPE professional development, networking, and community events',
+      'Connected with industry professionals and fellow engineering students',
+      'Engaged with the broader Hispanic engineering community'
+    ],
+    highlights: [
+      'SHPE National Convention 2025',
+      'SHPE Region 6 STEM Summit Conference 2025',
+      'United Airlines Company Visit',
+      'Epsilon Company Visit',
+      'Dia De Ciencias Volunteer'
+    ],
+    skills: ['Professional Development', 'Networking'],
+    certifications: [],
+    photos: [
+      'experiences/groupPhotos/shpe1.JPG',
+      'experiences/groupPhotos/shpe2.JPG',
+      'experiences/groupPhotos/shpe3.JPG',
+      'experiences/groupPhotos/shpe4.JPG'
+    ],
+    pdfs: [],
+    videos: [],
+    demo: ''
+  },
   'fia': {
     title: 'Filipinos in Alliance (FIA)',
     avatars: ['assets/fia.png'],
-    badge: 'Filipino Student Organization',
-    date: 'Joined March 2024',
+    badge: ['Organization Member', 'Filipino Student Organization'],
+    date: 'March 2024 - May 2026',
     location: 'University of Illinois at Chicago | Chicago, IL',
     summary: 'Member of Filipinos in Alliance, UIC\'s Filipino cultural student organization.',
     bullets: [
@@ -817,9 +859,9 @@ const experienceData = {
     demo: ''
   },
   'toca-football': {
-    title: 'TOCA Football - Soccer Trainer',
+    title: 'TOCA Soccer',
     avatars: [],
-    badge: 'Soccer Trainer',
+    badge: ['Soccer Trainer', 'Active'],
     date: 'August 2026 - Present',
     location: 'Evanston, IL',
     summary: 'Working part time as a soccer trainer for TOCA\'s training services',
@@ -828,17 +870,17 @@ const experienceData = {
       'Managing relationships with players, parents, and coaches as a technical contact, supporting post training session follow-up and retention for recurring clients',
       'Partnering with the training manager to track player progress, analyze session performance data, and adjust training methods to hit individual development goals',
     ],
-    skills: ['Soccer', 'Coaching', 'Client Services', 'Performance Analysis, Communication'],
+    skills: ['Soccer', 'Coaching', 'Client Services', 'Performance Analysis', 'Communication'],
     certifications: [],
-    photos: [],
+    photos: ['experiences/work/toca1.jpg'],
     pdfs: [],
     videos: [],
     demo: ''
   },
   'prospect-airport-services': {
-    title: 'Prospect Airport Services - Airport Service Assistant',
+    title: 'Prospect Airport Services',
     avatars: [],
-    badge: 'Summer Job',
+    badge: ['Airport Service Assistant', 'Summer Job'],
     date: 'July 2025 - August 2025',
     location: 'On Site | O\'Hare International Airport | Chicago, IL',
     summary: 'Summer position assisting passengers and supporting daily airport operations at O\'Hare.',
@@ -849,15 +891,15 @@ const experienceData = {
     ],
     skills: ['Customer Service', 'Teamwork', 'Communication'],
     certifications: [],
-    photos: [],
+    photos: ['experiences/work/prospect1.jpg'],
     pdfs: [],
     videos: [],
     demo: ''
   },
   'reggios-pizza': {
-    title: 'Reggio\'s Pizza - Fast Food Crew Member',
+    title: 'Reggio\'s Pizza',
     avatars: [],
-    badge: 'Summer Job',
+    badge: ['Fast Food Crew Member', 'Summer Job'],
     date: 'July 2024 - August 2024',
     location: 'On Site | O\'Hare International Airport | Chicago, IL',
     summary: 'Summer crew member position in a fast-paced airport food service environment.',
@@ -876,7 +918,7 @@ const experienceData = {
    'roosevelt-jrotc': {
     title: 'Roosevelt High School JROTC',
     avatars: ['assets/jrotc-logo.webp', 'assets/roosevelt.png'],
-    badge: 'Highschool Program',
+    badge: ['Highschool Recruit', 'Highschool Program'],
     date: 'August 2018 - June 2019',
     location: 'Chicago, IL',
     summary: 'Participated in Roosevelt High School\'s JROTC program, developing leadership and discipline through structured training.',
