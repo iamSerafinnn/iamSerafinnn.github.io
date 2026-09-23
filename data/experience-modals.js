@@ -120,9 +120,9 @@ const experienceData = {
     demo: ''
   },
   'codepath-swep': {
-    title: 'V-SWEP Mentorship',
+    title: 'CodePath\'s V-SWEP Software Engineer Mentorship',
     avatars: ['experiences/application-development/codepath-logo.jpeg'],
-    badge: ['Mentorship Program', 'Upcoming'],
+    badge: ['Fellowship', 'Upcoming'],
     date: 'September 2026 - Present',
     location: 'Online / Remote',
     summary: 'Selected for the competitive CodePath V-SWEP Mentorship Program designed to bridge academic computer science and industry-level software engineering.',
@@ -164,7 +164,7 @@ const experienceData = {
     demo: ''
   },
   'revature-training': {
-    title: 'Paid Training Program',
+    title: 'Revature Software Engineer Client Training',
     avatars: ['experiences/application-development/revature-logo.jpeg'],
     badge: ['Technical Training', ' Waitlisted'],
     date: 'September 2026 - Present',
@@ -185,7 +185,7 @@ const experienceData = {
     demo: ''
   },
   'revature-pre': {
-    title: 'Revature Pre-Training Program',
+    title: 'Revature Data Engineer Pre-Training',
     avatars: ['experiences/application-development/revature-logo.jpeg'],
     badge: ['Technical Training'],
     date: 'June 2026 - August 2026',
@@ -226,9 +226,9 @@ const experienceData = {
     demo: ''
   },
   'wearable-tech-abroad': {
-    title: 'Europe Study Abroad – Entrepreneurship & Wearable Technology',
+    title: 'Entrepreneurship in Augmentative, Medical, Smart Sensing, and Wearable Technology in Europe',
     avatars: ['experiences/application-development/wtse.png', 'experiences/application-development/uicabroad-logo.jpeg'],
-    badge: 'STEM Study Abroad Program',
+    badge: 'Study Abroad',
     date: 'July 2025',
     location: 'London, UK & Milan, Italy',
     summary: 'A STEM study abroad program in Europe focused on wearable technology, biomedical devices, and entrepreneurship, including attendance at London Tech Week 2025.',
