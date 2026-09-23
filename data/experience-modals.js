@@ -2,7 +2,7 @@ const experienceData = {
   // Software Engineering Experiences
   // _________________________________________________________________________________
   'ibm-skillsbuild-august': {
-    title: 'IBM SkillsBuild August Challenge',
+    title: 'IBM SkillsBuild August Challenge AI Hackathon for Space Exploration',
     avatars: ['experiences/application-development/ibm-logo.png'],
     badge: ['Hackathon'],
     date: 'August 2026 - Present',
@@ -26,7 +26,7 @@ const experienceData = {
     demo: ''
   },
   'sparkhacks': {
-    title: 'UIC SparkHacks Hackathon',
+    title: 'UIC SparkHacks Hackathon 2025',
     avatars: ['experiences/application-development/sparkhacks-logo.png', 'assets/uic.svg'],
     badge: 'Hackathon',
     date: 'February 2025',
@@ -70,7 +70,7 @@ const experienceData = {
     demo: ''
   },
   'globalcareeraccelerator': {
-    title: 'Global Career Accelerator',
+    title: 'Global Career Accelerator\'s Data Analytics and Wrangling Program',
     avatars: ['experiences/application-development/globalcareeraccelerator-logo.jpeg', 'assets/uic.svg'],
     badge: 'Technical Training',
     date: 'August 2024 – November 2024',
@@ -98,7 +98,7 @@ const experienceData = {
     demo: ''
   },
   'codepath-ai': {
-    title: 'CodePath Applied AI Engineering',
+    title: 'CodePath Applied AI Engineering: AI Open Source Capstone',
     avatars: ['experiences/application-development/codepath-logo.jpeg'],
     badge: ['Technical Training'],
     date: 'June 2026 - August 2026',
@@ -203,7 +203,7 @@ const experienceData = {
     demo: ''
   },
   'hertzbeat-refactor': {
-    title: 'Apache HertzBeat – Blog UI Refactor',
+    title: 'Apache HertzBeat: Blog UI Refactor',
     avatars: ['experiences/application-development/hertzbeat-logo.png'],
     badge: 'Open Source Contribution',
     date: 'June 2026 - July 2026',
