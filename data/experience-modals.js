@@ -260,7 +260,7 @@ const experienceData = {
     demo: ''
   },
   'wtse': {
-    title: 'Wearable Technology & Sensory Enhancement (WTSE)',
+    title: 'Wearable Technology & Sensory Enhancement Laboratory (WTSE)',
     avatars: ['assets/wtse.png', 'assets/uic.svg'],
     badge: ['Research Contribution'],
     date: 'May 2026',
