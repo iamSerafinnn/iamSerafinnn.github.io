@@ -58,7 +58,7 @@ const experienceData = {
       'Collaborating in a structured cohort on hands-on data projects, technical workshops, and career development alongside industry-experienced captains',
       'Consisting of 200 hours of instruction spanning data tooling, professional communication, networking, and live client work with COOP’s partner companies'
     ],
-    skills: ['Data Analytics', 'Professional Development & Networking', 'Excel Formulas & Pivot Tables'],
+    skills: ['Data Analytics', 'Professional Development & Networking', 'Excel Formulas & Pivot Tables', 'Tableau', 'Google AI Gemini'],
     links: [],
     certifications: [
       {name: 'Google Coursera AI for Brainstorming and Planning', url: 'https://www.coursera.org/account/accomplishments/verify/DGJQ3GRJW2TU'},
