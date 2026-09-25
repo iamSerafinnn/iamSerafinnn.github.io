@@ -937,6 +937,12 @@ html {
 .exp-modal-cert-badge:hover {
   transform: scale(1.3);
 }
+.exp-modal-cert-badge-img {
+  display: block;
+  height: 88px;
+  width: auto;
+  object-fit: contain;
+}
 .exp-modal-certificate:hover {
   background: rgba(140, 194, 255, 0.1);
 }

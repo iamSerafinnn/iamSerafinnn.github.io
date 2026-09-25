@@ -61,7 +61,7 @@ function openModal(card) {
   const certBadges = data.certBadges || [];
   certBadgesBox.innerHTML = certBadges.map(p => `
     <a href="${p}" target="_blank" rel="noopener" class="exp-modal-cert-badge">
-      <img src="${p}" alt="Certification badge" class="edu-avatar">
+      <img src="${p}" alt="Certification badge" class="exp-modal-cert-badge-img">
     </a>`).join('');
   certBadgesBox.style.display = certBadges.length ? 'flex' : 'none';
 
