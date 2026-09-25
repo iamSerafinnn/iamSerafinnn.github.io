@@ -56,6 +56,15 @@ function openModal(card) {
   certificationBox.style.display = (data.certifications && data.certifications.length) ? 'flex' : 'none';
   certificationLabel.style.display = (data.certifications && data.certifications.length) ? 'block' : 'none';
 
+  // Certification Badges: Maps each elemest as <img src="${p}" alt="" class="exp-modal-cert-badge"></img> in html
+  const certBadgesBox = document.querySelector('.exp-modal-cert-badges');
+  const certBadges = data.certBadges || [];
+  certBadgesBox.innerHTML = certBadges.map(p => `
+    <a href="${p}" target="_blank" rel="noopener" class="exp-modal-cert-badge">
+      <img src="${p}" alt="Certification badge" class="edu-avatar">
+    </a>`).join('');
+  certBadgesBox.style.display = certBadges.length ? 'flex' : 'none';
+
   // Avatars: Maps each elemest as <img src="${a}" alt="" class="exp-modal-avatar-img"></img> in html
   const avatarsBox = document.querySelector('.exp-modal-avatars');
   avatarsBox.innerHTML = (data.avatars || []).map(a =>
