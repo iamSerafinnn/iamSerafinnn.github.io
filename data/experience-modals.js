@@ -66,8 +66,9 @@ const experienceData = {
       {name: 'Google Coursera AI for Brainstorming and Planning', url: 'https://www.coursera.org/account/accomplishments/verify/DGJQ3GRJW2TU'},
       {name: 'Google Coursera AI Fundamentals', url: 'https://www.coursera.org/account/accomplishments/verify/RWESZ21C3FRW'},
       {name: 'Google Coursera AI for Research and Insights', url:'https://www.coursera.org/account/accomplishments/verify/13P8G3RNKBHF'},
+      {name: 'Google Coursera AI for Data Analysis', url: 'https://www.coursera.org/account/accomplishments/verify/M5SIKLI7T3UP'}
     ],
-    certBadges: ['experiences/badges/Google_Coursera_AI_for_Brainstorming_and_Planning.png', 'experiences/badges/Google_Coursera_AI_Fundamentals.png', 'experiences/badges/Google_Coursera_AI_for_Research_and_Analysis.png'],
+    certBadges: ['experiences/badges/Google_Coursera_AI_for_Brainstorming_and_Planning.png', 'experiences/badges/Google_Coursera_AI_Fundamentals.png', 'experiences/badges/Google_Coursera_AI_for_Research_and_Analysis.png', 'experiences/badges/Google_Coursera_AI_for_Data_Analysis.png'],
     photos: ['experiences/groupPhotos/coop1.JPG', 'experiences/groupPhotos/coop2.JPG', 'experiences/groupPhotos/coop3.JPG', 'experiences/application-development/COOPCareersAcceptance.gif'],
     pdfs: ['experiences/application-development/COOPCareersDataAnlytics.png'],
     videos: [],
