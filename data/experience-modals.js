@@ -5,7 +5,7 @@ const experienceData = {
     title: 'IBM SkillsBuild August Challenge AI Hackathon for Space Exploration',
     avatars: ['experiences/application-development/ibm-logo.png'],
     badge: ['Hackathon'],
-    date: 'August 2026 - Present',
+    date: 'August 2026',
     location: 'Remote',
     summary: 'Assisted in building a satellite focused program for the IBM SkillsBuild August Challenge, aimed at creating a tool that benefits space research.',
     bullets: [
@@ -131,7 +131,7 @@ const experienceData = {
   'codepath-swep': {
     title: 'CodePath\'s V-SWEP Software Engineer Mentorship',
     avatars: ['experiences/application-development/codepath-logo.jpeg'],
-    badge: ['Fellowship', 'Upcoming'],
+    badge: ['Fellowship', 'Active'],
     date: 'September 2026 - Present',
     location: 'Online / Remote',
     summary: 'Selected for the competitive CodePath V-SWEP Mentorship Program designed to bridge academic computer science and industry-level software engineering.',
@@ -141,7 +141,7 @@ const experienceData = {
       'Focusing on rigorous technical interview preparation, software architecture patterns, and industry best practices',
       'Collaborating within the CodePath network to develop production-ready engineering skills and accelerate career technical readiness'
     ],
-    skills: [],
+    skills: ['C++ and C Programming', 'Visual Studios Code'],
     links: [],
     certifications: [],
     certBadges: [],
@@ -243,7 +243,7 @@ const experienceData = {
     title: 'Entrepreneurship in Augmentative, Medical, Smart Sensing, and Wearable Technology in Europe',
     avatars: ['experiences/application-development/wtse.png', 'experiences/application-development/uicabroad-logo.jpeg'],
     badge: 'Study Abroad',
-    date: 'July 2025',
+    date: 'June 2025',
     location: 'London, UK & Milan, Italy',
     summary: 'A STEM study abroad program in Europe focused on wearable technology, biomedical devices, and entrepreneurship, including attendance at London Tech Week 2025.',
     bullets: [
@@ -324,7 +324,7 @@ const experienceData = {
   title: 'Chicago Blaze FC Site',
   avatars: ['assets/chicagoblazefc.JPG'],
   badge: ['Website Development'],
-  date: 'July 2026 - Present',
+  date: 'July 2026 - August 2026',
   location: '',
   summary: 'Building a website for my soccer club using React.',
   bullets: [
@@ -706,7 +706,7 @@ const experienceData = {
     title: 'Chicago Blaze FC',
     avatars: ['assets/chicagoblazefc.JPG'],
     badge: 'Community Soccer Club',
-    date: 'May 2026 - Present',
+    date: 'May 2026 - August 2026',
     location: 'Chicago, IL',
     summary: 'Train and play with Chicago Blaze FC, a local community soccer club.',
     bullets: [
