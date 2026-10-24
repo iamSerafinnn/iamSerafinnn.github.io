@@ -63,6 +63,7 @@ const experienceData = {
     skills: ['Data Analytics', 'Professional Development & Networking', 'Excel Formulas & Pivot Tables', 'Tableau', 'SQL', 'Google AI Gemini', 'Pomelli AI', 'Google AI Studio'],
     links: [],
     certifications: [
+      {name: 'Google Coursera AI Professional Certificate', url: 'https://www.coursera.org/account/accomplishments/specialization/MSQNSDX3S5RH'},
       {name: 'Google Coursera AI for Brainstorming and Planning', url: 'https://www.coursera.org/account/accomplishments/verify/DGJQ3GRJW2TU'},
       {name: 'Google Coursera AI Fundamentals', url: 'https://www.coursera.org/account/accomplishments/verify/RWESZ21C3FRW'},
       {name: 'Google Coursera AI for Research and Insights', url:'https://www.coursera.org/account/accomplishments/verify/13P8G3RNKBHF'},
