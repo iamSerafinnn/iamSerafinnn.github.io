@@ -60,7 +60,7 @@ const experienceData = {
       'Collaborating in a structured cohort on hands-on data projects, technical workshops, and career development alongside industry-experienced captains',
       'Consisting of 200 hours of instruction spanning data tooling, professional communication, networking, and live client work with COOP’s partner companies'
     ],
-    skills: ['Data Analytics', 'Professional Development & Networking', 'Excel Formulas & Pivot Tables', 'Tableau', 'SQL', 'Google AI Gemini'],
+    skills: ['Data Analytics', 'Professional Development & Networking', 'Excel Formulas & Pivot Tables', 'Tableau', 'SQL', 'Google AI Gemini', 'Pomelli AI', 'Google AI Studio'],
     links: [],
     certifications: [
       {name: 'Google Coursera AI for Brainstorming and Planning', url: 'https://www.coursera.org/account/accomplishments/verify/DGJQ3GRJW2TU'},
@@ -69,6 +69,8 @@ const experienceData = {
       {name: 'Google Coursera AI for Data Analysis', url: 'https://www.coursera.org/account/accomplishments/verify/M5SIKLI7T3UP'},
       {name: 'Google Coursera AI for Content Creation', url: 'https://www.coursera.org/account/accomplishments/verify/H07NHCMIXPHE'},
       {name: 'Google Coursera AI for Writing and Communicating', url: 'https://www.coursera.org/account/accomplishments/verify/IHO1CAENPVUQ'},
+      {name: 'Google Coursera AI for App Building', url:'https://www.coursera.org/account/accomplishments/verify/8NZ97R5PHV1I'},
+      {name: 'Google Coursera AI for App Deployment', url:'https://www.coursera.org/account/accomplishments/verify/FS7HPL9QEOHK'}
     ],
     certBadges: ['experiences/badges/Google_Coursera_AI_for_Brainstorming_and_Planning.png', 'experiences/badges/Google_Coursera_AI_Fundamentals.png', 'experiences/badges/Google_Coursera_AI_for_Research_and_Analysis.png', 'experiences/badges/Google_Coursera_AI_for_Content_Creation.png', 'experiences/badges/Google_Coursera_AI_for_Data_Analysis.png', 'experiences/badges/Google_Coursera_AI_for_Writing_and_Communicating.png'],
     photos: ['experiences/groupPhotos/coop1.JPG', 'experiences/groupPhotos/coop2.JPG', 'experiences/groupPhotos/coop3.JPG', 'experiences/application-development/COOPCareersAcceptance.gif'],
