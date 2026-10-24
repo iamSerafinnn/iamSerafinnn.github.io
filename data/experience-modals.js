@@ -73,7 +73,7 @@ const experienceData = {
       {name: 'Google Coursera AI for App Building', url:'https://www.coursera.org/account/accomplishments/verify/8NZ97R5PHV1I'},
       {name: 'Google Coursera AI for App Deployment', url:'https://www.coursera.org/account/accomplishments/verify/FS7HPL9QEOHK'}
     ],
-    certBadges: ['experiences/badges/Google_Coursera_AI_for_Brainstorming_and_Planning.png', 'experiences/badges/Google_Coursera_AI_Fundamentals.png', 'experiences/badges/Google_Coursera_AI_for_Research_and_Analysis.png', 'experiences/badges/Google_Coursera_AI_for_Content_Creation.png', 'experiences/badges/Google_Coursera_AI_for_Data_Analysis.png', 'experiences/badges/Google_Coursera_AI_for_Writing_and_Communicating.png'],
+    certBadges: ['experiences/badges/Google_Coursera_AI_Professional_Certificate.png', 'experiences/badges/Google_Coursera_AI_for_Brainstorming_and_Planning.png', 'experiences/badges/Google_Coursera_AI_Fundamentals.png', 'experiences/badges/Google_Coursera_AI_for_Research_and_Analysis.png', 'experiences/badges/Google_Coursera_AI_for_Content_Creation.png', 'experiences/badges/Google_Coursera_AI_for_Data_Analysis.png', 'experiences/badges/Google_Coursera_AI_for_Writing_and_Communicating.png', 'experiences/badges/Google_Coursera_AI_for_App_Building.png', 'experiences/badges/Google_Coursera_AI_for_App_Deployment.png'],
     photos: ['experiences/groupPhotos/coop1.JPG', 'experiences/groupPhotos/coop2.JPG', 'experiences/groupPhotos/coop3.JPG', 'experiences/application-development/COOPCareersAcceptance.gif'],
     pdfs: ['experiences/application-development/COOPCareersDataAnlytics.png'],
     videos: [],
